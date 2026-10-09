@@ -954,8 +954,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI043",
-    "code": "ANI043",
+    "irdi": "ANI042",
+    "code": "ANI042",
     "preferred_name": "Female Dancer",
     "preferred_name_ml": {
       "en": "Female Dancer"
@@ -966,7 +966,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI043",
+      "MDC_P001_5": "ANI042",
       "MDC_P004.en": "Female Dancer",
       "MDC_P006.en": "Figure; Earthenware with slip and pigment; 2nd century BCE; The Metropolitan Museum of Art, 1992",
       "MDC_P010": "ANA101",
@@ -987,8 +987,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI044",
-    "code": "ANI044",
+    "irdi": "ANI043",
+    "code": "ANI043",
     "preferred_name": "Vase",
     "preferred_name_ml": {
       "en": "Vase"
@@ -999,7 +999,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI044",
+      "MDC_P001_5": "ANI043",
       "MDC_P004.en": "Vase",
       "MDC_P006.en": "Vase; Porcelain with peach-bloom glaze (Jingdezhen ware); 1713–22; The Metropolitan Museum of Art, 1914",
       "MDC_P010": "ANA101",
@@ -1020,8 +1020,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI045",
-    "code": "ANI045",
+    "irdi": "ANI044",
+    "code": "ANI044",
     "preferred_name": "Covered box decorated with chrysanthemums and waterfowl among lotus",
     "preferred_name_ml": {
       "en": "Covered box decorated with chrysanthemums and waterfowl among lotus"
@@ -1032,7 +1032,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI045",
+      "MDC_P001_5": "ANI044",
       "MDC_P004.en": "Covered box decorated with chrysanthemums and waterfowl among lotus",
       "MDC_P006.en": "Covered box; Stoneware with inlaid design under celadon glaze; 13th century; The Metropolitan Museum of Art, 1911",
       "MDC_P010": "ANA101",
@@ -1053,8 +1053,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI046",
-    "code": "ANI046",
+    "irdi": "ANI045",
+    "code": "ANI045",
     "preferred_name": "Maebyeong (plum bottle) decorated with cranes and clouds",
     "preferred_name_ml": {
       "en": "Maebyeong (plum bottle) decorated with cranes and clouds"
@@ -1065,7 +1065,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI046",
+      "MDC_P001_5": "ANI045",
       "MDC_P004.en": "Maebyeong (plum bottle) decorated with cranes and clouds",
       "MDC_P006.en": "Vase; Stoneware with inlaid decoration under celadon glaze; second half 12th century; The Metropolitan Museum of Art, 1911",
       "MDC_P010": "ANA101",
@@ -1086,8 +1086,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI047",
-    "code": "ANI047",
+    "irdi": "ANI046",
+    "code": "ANI046",
     "preferred_name": "Flask-shaped bottle decorated with peonies",
     "preferred_name_ml": {
       "en": "Flask-shaped bottle decorated with peonies"
@@ -1098,7 +1098,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI047",
+      "MDC_P001_5": "ANI046",
       "MDC_P004.en": "Flask-shaped bottle decorated with peonies",
       "MDC_P006.en": "Bottle; Buncheong ware with incised and sgraffito design; late 15th century; The Metropolitan Museum of Art, 1986",
       "MDC_P010": "ANA101",
@@ -1119,8 +1119,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI051",
-    "code": "ANI051",
+    "irdi": "ANI050",
+    "code": "ANI050",
     "preferred_name": "Arhat (Luohan)",
     "preferred_name_ml": {
       "en": "Arhat (Luohan)"
@@ -1131,7 +1131,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI051",
+      "MDC_P001_5": "ANI050",
       "MDC_P004.en": "Arhat (Luohan)",
       "MDC_P006.en": "Figure; Stoneware with three-color glaze; ca. 1000; The Metropolitan Museum of Art, 1921",
       "MDC_P010": "ANA101",
@@ -1151,8 +1151,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI060",
-    "code": "ANI060",
+    "irdi": "ANI059",
+    "code": "ANI059",
     "preferred_name": "Small Dish (Kozara) with Three Jars",
     "preferred_name_ml": {
       "en": "Small Dish (Kozara) with Three Jars"
@@ -1163,7 +1163,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI060",
+      "MDC_P001_5": "ANI059",
       "MDC_P004.en": "Small Dish (Kozara) with Three Jars",
       "MDC_P006.en": "Dish; Porcelain with cobalt blue under transparent glaze and polychrome enamels over the glaze (Hizen ware, Nabeshima type); 1680–90s; The Metropolitan Museum of Art, 1975",
       "MDC_P010": "ANA101",
@@ -1184,8 +1184,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI061",
-    "code": "ANI061",
+    "irdi": "ANI060",
+    "code": "ANI060",
     "preferred_name": "Wine Ewer with Chrysanthemums and Lotus Flowers",
     "preferred_name_ml": {
       "en": "Wine Ewer with Chrysanthemums and Lotus Flowers"
@@ -1196,7 +1196,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI061",
+      "MDC_P001_5": "ANI060",
       "MDC_P004.en": "Wine Ewer with Chrysanthemums and Lotus Flowers",
       "MDC_P006.en": "Ewer; Stoneware with inlaid decoration under celadon glaze; first half of the 13th century; The Metropolitan Museum of Art, 1913",
       "MDC_P010": "ANA101",
@@ -1217,8 +1217,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI070",
-    "code": "ANI070",
+    "irdi": "ANI068",
+    "code": "ANI068",
     "preferred_name": "Bowl with inscription and chrysanthemums and tortoiseshell decoration",
     "preferred_name_ml": {
       "en": "Bowl with inscription and chrysanthemums and tortoiseshell decoration"
@@ -1229,7 +1229,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI070",
+      "MDC_P001_5": "ANI068",
       "MDC_P004.en": "Bowl with inscription and chrysanthemums and tortoiseshell decoration",
       "MDC_P006.en": "Bowl; Buncheong ware with stamped design; mid-15th century; The Metropolitan Museum of Art, 2003",
       "MDC_P010": "ANA101",
@@ -1250,8 +1250,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI075",
-    "code": "ANI075",
+    "irdi": "ANI073",
+    "code": "ANI073",
     "preferred_name": "Dragon jar",
     "preferred_name_ml": {
       "en": "Dragon jar"
@@ -1262,7 +1262,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI075",
+      "MDC_P001_5": "ANI073",
       "MDC_P004.en": "Dragon jar",
       "MDC_P006.en": "Jar; Porcelain with underglaze cobalt-blue design; second half 18th century; The Metropolitan Museum of Art, 2010",
       "MDC_P010": "ANA101",
@@ -1283,8 +1283,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI078",
-    "code": "ANI078",
+    "irdi": "ANI076",
+    "code": "ANI076",
     "preferred_name": "Sitting boy",
     "preferred_name_ml": {
       "en": "Sitting boy"
@@ -1295,7 +1295,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI078",
+      "MDC_P001_5": "ANI076",
       "MDC_P004.en": "Sitting boy",
       "MDC_P006.en": "Figure; Earthenware with slip; 12th century; The Metropolitan Museum of Art, 2024",
       "MDC_P010": "ANA101",
@@ -1316,8 +1316,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI085",
-    "code": "ANI085",
+    "irdi": "ANI083",
+    "code": "ANI083",
     "preferred_name": "Tripod incense burner with archaistic patterns",
     "preferred_name_ml": {
       "en": "Tripod incense burner with archaistic patterns"
@@ -1328,7 +1328,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI085",
+      "MDC_P001_5": "ANI083",
       "MDC_P004.en": "Tripod incense burner with archaistic patterns",
       "MDC_P006.en": "Incense burner; Stoneware with molded decoration under celadon glaze (Yaozhou ware); 12th century; The Metropolitan Museum of Art, 2024",
       "MDC_P010": "ANA101",
@@ -1348,8 +1348,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI086",
-    "code": "ANI086",
+    "irdi": "ANI084",
+    "code": "ANI084",
     "preferred_name": "Covered Vessel (Futamono) with Plum Tree",
     "preferred_name_ml": {
       "en": "Covered Vessel (Futamono) with Plum Tree"
@@ -1360,7 +1360,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI086",
+      "MDC_P001_5": "ANI084",
       "MDC_P004.en": "Covered Vessel (Futamono) with Plum Tree",
       "MDC_P006.en": "Vessel; Stoneware with iron brown under transparent glaze and copper-green glaze (Mino ware, Oribe type); early 17th century; The Metropolitan Museum of Art, 2023",
       "MDC_P010": "ANA101",
@@ -1380,8 +1380,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI088",
-    "code": "ANI088",
+    "irdi": "ANI086",
+    "code": "ANI086",
     "preferred_name": "Openwork jar with peonies",
     "preferred_name_ml": {
       "en": "Openwork jar with peonies"
@@ -1392,7 +1392,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI088",
+      "MDC_P001_5": "ANI086",
       "MDC_P004.en": "Openwork jar with peonies",
       "MDC_P006.en": "Jar; Porcelain; late 18th–early 19th century; The Metropolitan Museum of Art, 2024",
       "MDC_P010": "ANA101",
@@ -1526,8 +1526,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI059",
-    "code": "ANI059",
+    "irdi": "ANI058",
+    "code": "ANI058",
     "preferred_name": "Rafter finial in the shape of a dragon’s head and wind chime",
     "preferred_name_ml": {
       "en": "Rafter finial in the shape of a dragon’s head and wind chime"
@@ -1538,7 +1538,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI059",
+      "MDC_P001_5": "ANI058",
       "MDC_P004.en": "Rafter finial in the shape of a dragon’s head and wind chime",
       "MDC_P006.en": "Finial and chime; Gilt bronze; 10th century; The Metropolitan Museum of Art, 1999",
       "MDC_P010": "ANA102",
@@ -1559,8 +1559,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI063",
-    "code": "ANI063",
+    "irdi": "ANI061",
+    "code": "ANI061",
     "preferred_name": "Mirror decorated with figures in a landscape",
     "preferred_name_ml": {
       "en": "Mirror decorated with figures in a landscape"
@@ -1571,7 +1571,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI063",
+      "MDC_P001_5": "ANI061",
       "MDC_P004.en": "Mirror decorated with figures in a landscape",
       "MDC_P006.en": "Mirror; Bronze; The Metropolitan Museum of Art, 1925",
       "MDC_P010": "ANA102",
@@ -1592,8 +1592,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI076",
-    "code": "ANI076",
+    "irdi": "ANI074",
+    "code": "ANI074",
     "preferred_name": "Ritual Altar Set",
     "preferred_name_ml": {
       "en": "Ritual Altar Set"
@@ -1604,7 +1604,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI076",
+      "MDC_P001_5": "ANI074",
       "MDC_P004.en": "Ritual Altar Set",
       "MDC_P006.en": "Altar set; Bronze; late 11th century BCE; The Metropolitan Museum of Art, 1924",
       "MDC_P010": "ANA102",
@@ -1625,8 +1625,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI080",
-    "code": "ANI080",
+    "irdi": "ANI078",
+    "code": "ANI078",
     "preferred_name": "Cosmetic Box (Tebako) with Chrysanthemum Flowers",
     "preferred_name_ml": {
       "en": "Cosmetic Box (Tebako) with Chrysanthemum Flowers"
@@ -1637,7 +1637,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI080",
+      "MDC_P001_5": "ANI078",
       "MDC_P004.en": "Cosmetic Box (Tebako) with Chrysanthemum Flowers",
       "MDC_P006.en": "Cosmetic box; Lacquered wood with gold, silver takamaki-e, hiramaki-e, gold, silver foil application on nashiji ground; gilt bronze fittings; first half of the 15th century; The Metropolitan Museum of Art, 2019",
       "MDC_P010": "ANA102",
@@ -1657,8 +1657,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI087",
-    "code": "ANI087",
+    "irdi": "ANI085",
+    "code": "ANI085",
     "preferred_name": "Sutra Box (Kyōbako) with Sun and Clouds",
     "preferred_name_ml": {
       "en": "Sutra Box (Kyōbako) with Sun and Clouds"
@@ -1669,7 +1669,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI087",
+      "MDC_P001_5": "ANI085",
       "MDC_P004.en": "Sutra Box (Kyōbako) with Sun and Clouds",
       "MDC_P006.en": "Sutra box; Lacquered wood with gold hiramaki-e; gilt bronze fittings; late 14th–early 15th century; The Metropolitan Museum of Art, 2024",
       "MDC_P010": "ANA102",
@@ -2410,8 +2410,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI050",
-    "code": "ANI050",
+    "irdi": "ANI049",
+    "code": "ANI049",
     "preferred_name": "Gibbons in a Landscape",
     "preferred_name_ml": {
       "en": "Gibbons in a Landscape"
@@ -2422,7 +2422,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI050",
+      "MDC_P001_5": "ANI049",
       "MDC_P004.en": "Gibbons in a Landscape",
       "MDC_P006.en": "Screen; Pair of six-panel screens; ink on paper; ca. 1570; The Metropolitan Museum of Art, 1992",
       "MDC_P010": "ANA104",
@@ -2442,8 +2442,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI053",
-    "code": "ANI053",
+    "irdi": "ANI052",
+    "code": "ANI052",
     "preferred_name": "Rough Waves",
     "preferred_name_ml": {
       "en": "Rough Waves"
@@ -2454,7 +2454,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI053",
+      "MDC_P001_5": "ANI052",
       "MDC_P004.en": "Rough Waves",
       "MDC_P006.en": "Screen; Two-panel folding screen; ink, color, and gold leaf on paper; ca. 1704–9; The Metropolitan Museum of Art, 1926",
       "MDC_P010": "ANA104",
@@ -2475,8 +2475,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI055",
-    "code": "ANI055",
+    "irdi": "ANI054",
+    "code": "ANI054",
     "preferred_name": "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)",
     "preferred_name_ml": {
       "en": "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)"
@@ -2487,7 +2487,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI055",
+      "MDC_P001_5": "ANI054",
       "MDC_P004.en": "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)",
       "MDC_P006.en": "Handscrolls; Set of five handscrolls; ink, color, and cut gold leaf (kirikane) on paper; late 13th century; The Metropolitan Museum of Art, 1925",
       "MDC_P010": "ANA104",
@@ -2507,8 +2507,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI056",
-    "code": "ANI056",
+    "irdi": "ANI055",
+    "code": "ANI055",
     "preferred_name": "Woods and Valleys of Mount Yu",
     "preferred_name_ml": {
       "en": "Woods and Valleys of Mount Yu"
@@ -2519,7 +2519,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI056",
+      "MDC_P001_5": "ANI055",
       "MDC_P004.en": "Woods and Valleys of Mount Yu",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on paper; dated 1372; The Metropolitan Museum of Art, 1973",
       "MDC_P010": "ANA104",
@@ -2540,8 +2540,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI057",
-    "code": "ANI057",
+    "irdi": "ANI056",
+    "code": "ANI056",
     "preferred_name": "The Sixteen Luohans",
     "preferred_name_ml": {
       "en": "The Sixteen Luohans"
@@ -2552,7 +2552,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI057",
+      "MDC_P001_5": "ANI056",
       "MDC_P004.en": "The Sixteen Luohans",
       "MDC_P006.en": "Handscroll; Handscroll; ink and color on paper; dated 1591; The Metropolitan Museum of Art, 1986",
       "MDC_P010": "ANA104",
@@ -2573,8 +2573,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI058",
-    "code": "ANI058",
+    "irdi": "ANI057",
+    "code": "ANI057",
     "preferred_name": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai",
     "preferred_name_ml": {
       "en": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai"
@@ -2585,7 +2585,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI058",
+      "MDC_P001_5": "ANI057",
       "MDC_P004.en": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai",
       "MDC_P006.en": "Handscroll; Handscroll; ink and color on silk; datable to 1698; The Metropolitan Museum of Art, 1979",
       "MDC_P010": "ANA104",
@@ -2608,39 +2608,6 @@
   {
     "irdi": "ANI062",
     "code": "ANI062",
-    "preferred_name": "Water-Moon Avalokiteshvara",
-    "preferred_name_ml": {
-      "en": "Water-Moon Avalokiteshvara"
-    },
-    "definition": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929",
-    "definition_ml": {
-      "en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929"
-    },
-    "synonyms": [],
-    "raw_properties": {
-      "MDC_P001_5": "ANI062",
-      "MDC_P004.en": "Water-Moon Avalokiteshvara",
-      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929",
-      "MDC_P010": "ANA104",
-      "MDC_P011": "ITEM_CLASS",
-      "category": "PaintingCalligraphy",
-      "culture": "Korea",
-      "period": "Goryeo"
-    },
-    "is_case_of": [],
-    "applicable_properties": [],
-    "imported_properties": [],
-    "sub_class_selection": [],
-    "applicable_documents": [],
-    "imported_documents": [],
-    "class_type": "ITEM_CLASS",
-    "superclass": "ANA104",
-    "superclass_type_property": "ANA104",
-    "type": "class"
-  },
-  {
-    "irdi": "ANI064",
-    "code": "ANI064",
     "preferred_name": "Bamboo in the Wind",
     "preferred_name_ml": {
       "en": "Bamboo in the Wind"
@@ -2651,7 +2618,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI064",
+      "MDC_P001_5": "ANI062",
       "MDC_P004.en": "Bamboo in the Wind",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on silk with gold on colophon; early 17th century; The Metropolitan Museum of Art, 2015",
       "MDC_P010": "ANA104",
@@ -2672,8 +2639,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI065",
-    "code": "ANI065",
+    "irdi": "ANI063",
+    "code": "ANI063",
     "preferred_name": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)",
     "preferred_name_ml": {
       "en": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)"
@@ -2684,7 +2651,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI065",
+      "MDC_P001_5": "ANI063",
       "MDC_P004.en": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)",
       "MDC_P006.en": "Hanging scrolls; Pair of hanging scrolls; ink on silk; ca. 1450–1500; The Metropolitan Museum of Art, 1987",
       "MDC_P010": "ANA104",
@@ -2705,8 +2672,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI067",
-    "code": "ANI067",
+    "irdi": "ANI065",
+    "code": "ANI065",
     "preferred_name": "Portrait of Shun'oku Myōha",
     "preferred_name_ml": {
       "en": "Portrait of Shun'oku Myōha"
@@ -2717,7 +2684,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI067",
+      "MDC_P001_5": "ANI065",
       "MDC_P004.en": "Portrait of Shun'oku Myōha",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; ca. 1383; The Metropolitan Museum of Art, 2007",
       "MDC_P010": "ANA104",
@@ -2737,8 +2704,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI072",
-    "code": "ANI072",
+    "irdi": "ANI070",
+    "code": "ANI070",
     "preferred_name": "Gathering of government officials",
     "preferred_name_ml": {
       "en": "Gathering of government officials"
@@ -2749,7 +2716,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI072",
+      "MDC_P001_5": "ANI070",
       "MDC_P004.en": "Gathering of government officials",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1551; The Metropolitan Museum of Art, 2008",
       "MDC_P010": "ANA104",
@@ -2770,8 +2737,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI073",
-    "code": "ANI073",
+    "irdi": "ANI071",
+    "code": "ANI071",
     "preferred_name": "Shakyamuni triad",
     "preferred_name_ml": {
       "en": "Shakyamuni triad"
@@ -2782,7 +2749,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI073",
+      "MDC_P001_5": "ANI071",
       "MDC_P004.en": "Shakyamuni triad",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; color and gold on silk; 1565; The Metropolitan Museum of Art, 2015",
       "MDC_P010": "ANA104",
@@ -2803,8 +2770,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI077",
-    "code": "ANI077",
+    "irdi": "ANI075",
+    "code": "ANI075",
     "preferred_name": "Portrait of Yun Dongseom (1710–1795)",
     "preferred_name_ml": {
       "en": "Portrait of Yun Dongseom (1710–1795)"
@@ -2815,7 +2782,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI077",
+      "MDC_P001_5": "ANI075",
       "MDC_P004.en": "Portrait of Yun Dongseom (1710–1795)",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1790–1805; The Metropolitan Museum of Art, 2014",
       "MDC_P010": "ANA104",
@@ -2836,8 +2803,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI079",
-    "code": "ANI079",
+    "irdi": "ANI077",
+    "code": "ANI077",
     "preferred_name": "”Abiding nowhere, the awakened mind arises”",
     "preferred_name_ml": {
       "en": "”Abiding nowhere, the awakened mind arises”"
@@ -2848,7 +2815,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI079",
+      "MDC_P001_5": "ANI077",
       "MDC_P004.en": "”Abiding nowhere, the awakened mind arises”",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on paper; early to mid-14th century; The Metropolitan Museum of Art, 2018",
       "MDC_P010": "ANA104",
@@ -2868,8 +2835,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI081",
-    "code": "ANI081",
+    "irdi": "ANI079",
+    "code": "ANI079",
     "preferred_name": "Daoist Master Fei Zhangfang",
     "preferred_name_ml": {
       "en": "Daoist Master Fei Zhangfang"
@@ -2880,7 +2847,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI081",
+      "MDC_P001_5": "ANI079",
       "MDC_P004.en": "Daoist Master Fei Zhangfang",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on paper; ca. 1555–61; The Metropolitan Museum of Art, 2022",
       "MDC_P010": "ANA104",
@@ -2900,8 +2867,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI083",
-    "code": "ANI083",
+    "irdi": "ANI081",
+    "code": "ANI081",
     "preferred_name": "Streams and Mountains without End",
     "preferred_name_ml": {
       "en": "Streams and Mountains without End"
@@ -2912,7 +2879,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI083",
+      "MDC_P001_5": "ANI081",
       "MDC_P004.en": "Streams and Mountains without End",
       "MDC_P006.en": "Handscroll; Handscroll; ink on paper; ca. 1710; The Metropolitan Museum of Art, 2022",
       "MDC_P010": "ANA104",
@@ -2933,8 +2900,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI084",
-    "code": "ANI084",
+    "irdi": "ANI082",
+    "code": "ANI082",
     "preferred_name": "Hawk at Sunrise",
     "preferred_name_ml": {
       "en": "Hawk at Sunrise"
@@ -2945,7 +2912,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI084",
+      "MDC_P001_5": "ANI082",
       "MDC_P004.en": "Hawk at Sunrise",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; second half 18th century–first half 19th century; The Metropolitan Museum of Art, 2022",
       "MDC_P010": "ANA104",
@@ -2966,8 +2933,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI089",
-    "code": "ANI089",
+    "irdi": "ANI087",
+    "code": "ANI087",
     "preferred_name": "Woman at her dressing table",
     "preferred_name_ml": {
       "en": "Woman at her dressing table"
@@ -2978,7 +2945,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI089",
+      "MDC_P001_5": "ANI087",
       "MDC_P004.en": "Woman at her dressing table",
       "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; early 18th century; The Metropolitan Museum of Art, 2024",
       "MDC_P010": "ANA104",
@@ -2999,8 +2966,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI090",
-    "code": "ANI090",
+    "irdi": "ANI088",
+    "code": "ANI088",
     "preferred_name": "The Thirty-Six Poetic Immortals",
     "preferred_name_ml": {
       "en": "The Thirty-Six Poetic Immortals"
@@ -3011,7 +2978,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI090",
+      "MDC_P001_5": "ANI088",
       "MDC_P004.en": "The Thirty-Six Poetic Immortals",
       "MDC_P006.en": "Folding screens; Pair of six-panel folding screens; ink, color, gold, and silver on paper; early 17th century; The Metropolitan Museum of Art, 2024",
       "MDC_P010": "ANA104",
@@ -3288,39 +3255,6 @@
   {
     "irdi": "ANI039",
     "code": "ANI039",
-    "preferred_name": "Stationery box decorated with peony scrolls",
-    "preferred_name_ml": {
-      "en": "Stationery box decorated with peony scrolls"
-    },
-    "definition": "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015",
-    "definition_ml": {
-      "en": "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015"
-    },
-    "synonyms": [],
-    "raw_properties": {
-      "MDC_P001_5": "ANI039",
-      "MDC_P004.en": "Stationery box decorated with peony scrolls",
-      "MDC_P006.en": "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015",
-      "MDC_P010": "ANA106",
-      "MDC_P011": "ITEM_CLASS",
-      "category": "Lacquer",
-      "culture": "Korea",
-      "period": "Joseon"
-    },
-    "is_case_of": [],
-    "applicable_properties": [],
-    "imported_properties": [],
-    "sub_class_selection": [],
-    "applicable_documents": [],
-    "imported_documents": [],
-    "class_type": "ITEM_CLASS",
-    "superclass": "ANA106",
-    "superclass_type_property": "ANA106",
-    "type": "class"
-  },
-  {
-    "irdi": "ANI040",
-    "code": "ANI040",
     "preferred_name": "Clothing box decorated with dragons",
     "preferred_name_ml": {
       "en": "Clothing box decorated with dragons"
@@ -3331,7 +3265,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI040",
+      "MDC_P001_5": "ANI039",
       "MDC_P004.en": "Clothing box decorated with dragons",
       "MDC_P006.en": "Clothing box; Lacquer inlaid with mother-of-pearl, tortoiseshell, and ray skin; 19th century; The Metropolitan Museum of Art, 2015",
       "MDC_P010": "ANA106",
@@ -3352,8 +3286,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI052",
-    "code": "ANI052",
+    "irdi": "ANI051",
+    "code": "ANI051",
     "preferred_name": "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields",
     "preferred_name_ml": {
       "en": "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields"
@@ -3364,7 +3298,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI052",
+      "MDC_P001_5": "ANI051",
       "MDC_P004.en": "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields",
       "MDC_P006.en": "Wine ewer; Lacquered wood with gold hiramaki-e and e-nashiji (“pear-skin picture”) on black ground; early 17th century; The Metropolitan Museum of Art, 1980",
       "MDC_P010": "ANA106",
@@ -3384,8 +3318,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI054",
-    "code": "ANI054",
+    "irdi": "ANI053",
+    "code": "ANI053",
     "preferred_name": "Box decorated with auspicious symbols",
     "preferred_name_ml": {
       "en": "Box decorated with auspicious symbols"
@@ -3396,7 +3330,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI054",
+      "MDC_P001_5": "ANI053",
       "MDC_P004.en": "Box decorated with auspicious symbols",
       "MDC_P006.en": "Box; Lacquered wood inlaid with flattened and painted ox horn; 19th century; The Metropolitan Museum of Art, 2015",
       "MDC_P010": "ANA106",
@@ -3417,8 +3351,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI066",
-    "code": "ANI066",
+    "irdi": "ANI064",
+    "code": "ANI064",
     "preferred_name": "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)",
     "preferred_name_ml": {
       "en": "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)"
@@ -3429,7 +3363,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI066",
+      "MDC_P001_5": "ANI064",
       "MDC_P004.en": "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)",
       "MDC_P006.en": "Figure; Japanese cypress with lacquer, color, gold, cut gold leaf (kirikane), and inlaid crystal eyes; early 13th century; The Metropolitan Museum of Art, 2015",
       "MDC_P010": "ANA106",
@@ -3449,8 +3383,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI068",
-    "code": "ANI068",
+    "irdi": "ANI066",
+    "code": "ANI066",
     "preferred_name": "Sutra box with dragons amid clouds",
     "preferred_name_ml": {
       "en": "Sutra box with dragons amid clouds"
@@ -3461,7 +3395,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI068",
+      "MDC_P001_5": "ANI066",
       "MDC_P004.en": "Sutra box with dragons amid clouds",
       "MDC_P006.en": "Sutra box; Red lacquer, incised decoration, gold inlay, damascened brass lock and key; The Metropolitan Museum of Art, 2001",
       "MDC_P010": "ANA106",
@@ -3559,8 +3493,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI082",
-    "code": "ANI082",
+    "irdi": "ANI080",
+    "code": "ANI080",
     "preferred_name": "Table screen with landscape",
     "preferred_name_ml": {
       "en": "Table screen with landscape"
@@ -3571,7 +3505,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI082",
+      "MDC_P001_5": "ANI080",
       "MDC_P004.en": "Table screen with landscape",
       "MDC_P006.en": "Table screen; Cloisonné enamel on copper alloy, wood frame and stand; second half 15th century; The Metropolitan Museum of Art, 2022",
       "MDC_P010": "ANA107",
@@ -3669,8 +3603,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI041",
-    "code": "ANI041",
+    "irdi": "ANI040",
+    "code": "ANI040",
     "preferred_name": "Buddha Maitreya (Mile) Altarpiece",
     "preferred_name_ml": {
       "en": "Buddha Maitreya (Mile) Altarpiece"
@@ -3681,7 +3615,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI041",
+      "MDC_P001_5": "ANI040",
       "MDC_P004.en": "Buddha Maitreya (Mile) Altarpiece",
       "MDC_P006.en": "Altarpiece; Gilt bronze; dated 524 (5th year of Zhengguang reign); The Metropolitan Museum of Art, 1938",
       "MDC_P010": "ANA108",
@@ -3701,8 +3635,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI042",
-    "code": "ANI042",
+    "irdi": "ANI041",
+    "code": "ANI041",
     "preferred_name": "Buddha, probably Amitabha",
     "preferred_name_ml": {
       "en": "Buddha, probably Amitabha"
@@ -3713,7 +3647,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI042",
+      "MDC_P001_5": "ANI041",
       "MDC_P004.en": "Buddha, probably Amitabha",
       "MDC_P006.en": "Figure; Dry lacquer with polychrome pigment and gilding; early 7th century; The Metropolitan Museum of Art, 1919",
       "MDC_P010": "ANA108",
@@ -3734,8 +3668,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI048",
-    "code": "ANI048",
+    "irdi": "ANI047",
+    "code": "ANI047",
     "preferred_name": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)",
     "preferred_name_ml": {
       "en": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)"
@@ -3746,7 +3680,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI048",
+      "MDC_P001_5": "ANI047",
       "MDC_P004.en": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)",
       "MDC_P006.en": "Wall painting; Water-based pigment over foundation of clay mixed with straw; ca. 1319; The Metropolitan Museum of Art, 1965",
       "MDC_P010": "ANA108",
@@ -3767,8 +3701,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI049",
-    "code": "ANI049",
+    "irdi": "ANI048",
+    "code": "ANI048",
     "preferred_name": "Buddha Maitreya (Mile)",
     "preferred_name_ml": {
       "en": "Buddha Maitreya (Mile)"
@@ -3779,7 +3713,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI049",
+      "MDC_P001_5": "ANI048",
       "MDC_P004.en": "Buddha Maitreya (Mile)",
       "MDC_P006.en": "Figure; Gilt bronze with traces of pigment; piece-mold cast; dated 486 (10th year of Taihe reign); The Metropolitan Museum of Art, 1926",
       "MDC_P010": "ANA108",
@@ -3799,8 +3733,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI069",
-    "code": "ANI069",
+    "irdi": "ANI067",
+    "code": "ANI067",
     "preferred_name": "Pensive bodhisattva",
     "preferred_name_ml": {
       "en": "Pensive bodhisattva"
@@ -3811,7 +3745,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI069",
+      "MDC_P001_5": "ANI067",
       "MDC_P004.en": "Pensive bodhisattva",
       "MDC_P006.en": "Figure; Gilt bronze; mid-7th century; The Metropolitan Museum of Art, 2003",
       "MDC_P010": "ANA108",
@@ -3831,8 +3765,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI071",
-    "code": "ANI071",
+    "irdi": "ANI069",
+    "code": "ANI069",
     "preferred_name": "Seated bodhisattva (left attendant of a triad)",
     "preferred_name_ml": {
       "en": "Seated bodhisattva (left attendant of a triad)"
@@ -3843,7 +3777,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI071",
+      "MDC_P001_5": "ANI069",
       "MDC_P004.en": "Seated bodhisattva (left attendant of a triad)",
       "MDC_P006.en": "Statue; Gilt wood; ca. mid-17th century; The Metropolitan Museum of Art, 2015",
       "MDC_P010": "ANA108",
@@ -3864,8 +3798,8 @@
     "type": "class"
   },
   {
-    "irdi": "ANI074",
-    "code": "ANI074",
+    "irdi": "ANI072",
+    "code": "ANI072",
     "preferred_name": "The Bodhisattva Jizō",
     "preferred_name_ml": {
       "en": "The Bodhisattva Jizō"
@@ -3876,7 +3810,7 @@
     },
     "synonyms": [],
     "raw_properties": {
-      "MDC_P001_5": "ANI074",
+      "MDC_P001_5": "ANI072",
       "MDC_P004.en": "The Bodhisattva Jizō",
       "MDC_P006.en": "Statue; Japanese cypress wood (hinoki) with polychrome pigments, gold paint (kindei), cut gold leaf (kirikane), and rock-crystal eyes; 1291; The Metropolitan Museum of Art, 2023",
       "MDC_P010": "ANA108",

@@ -912,7 +912,7 @@ instance CarvedLacquerBox < MDC_C002 {
 #
 # Registered individuals - The Metropolitan Museum of Art, Open Access (CC0)
 #
-# Highlighted objects from the Asian Art department, retrieved 2026-10-08.
+# Highlighted objects from the Asian Art department, retrieved 2026-10-10.
 # Every field is taken verbatim from the Met Collection API (the
 # primary source): culture, period/objectDate, medium, and cm
 # measurements. Objects outside the corpus's cultural spheres or
@@ -1206,19 +1206,8 @@ instance Met40524 < MDC_C002 {
   period: Joseon
 }
 
-instance Met40527 < MDC_C002 {
-  code: ANI039
-  preferred_name.en: "Stationery box decorated with peony scrolls"
-  definition.en: "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015"
-  superclass: Lacquer
-  class_type: ITEM_CLASS
-  category: Lacquer
-  culture: Korea
-  period: Joseon
-}
-
 instance Met40528 < MDC_C002 {
-  code: ANI040
+  code: ANI039
   preferred_name.en: "Clothing box decorated with dragons"
   definition.en: "Clothing box; Lacquer inlaid with mother-of-pearl, tortoiseshell, and ray skin; 19th century; The Metropolitan Museum of Art, 2015"
   superclass: Lacquer
@@ -1229,7 +1218,7 @@ instance Met40528 < MDC_C002 {
 }
 
 instance Met42162 < MDC_C002 {
-  code: ANI041
+  code: ANI040
   preferred_name.en: "Buddha Maitreya (Mile) Altarpiece"
   definition.en: "Altarpiece; Gilt bronze; dated 524 (5th year of Zhengguang reign); The Metropolitan Museum of Art, 1938"
   superclass: BuddhistSculpture
@@ -1239,7 +1228,7 @@ instance Met42162 < MDC_C002 {
 }
 
 instance Met42163 < MDC_C002 {
-  code: ANI042
+  code: ANI041
   preferred_name.en: "Buddha, probably Amitabha"
   definition.en: "Figure; Dry lacquer with polychrome pigment and gilding; early 7th century; The Metropolitan Museum of Art, 1919"
   superclass: BuddhistSculpture
@@ -1250,7 +1239,7 @@ instance Met42163 < MDC_C002 {
 }
 
 instance Met42178 < MDC_C002 {
-  code: ANI043
+  code: ANI042
   preferred_name.en: "Female Dancer"
   definition.en: "Figure; Earthenware with slip and pigment; 2nd century BCE; The Metropolitan Museum of Art, 1992"
   superclass: Ceramics
@@ -1261,7 +1250,7 @@ instance Met42178 < MDC_C002 {
 }
 
 instance Met42229 < MDC_C002 {
-  code: ANI044
+  code: ANI043
   preferred_name.en: "Vase"
   definition.en: "Vase; Porcelain with peach-bloom glaze (Jingdezhen ware); 1713–22; The Metropolitan Museum of Art, 1914"
   superclass: Ceramics
@@ -1272,7 +1261,7 @@ instance Met42229 < MDC_C002 {
 }
 
 instance Met42298 < MDC_C002 {
-  code: ANI045
+  code: ANI044
   preferred_name.en: "Covered box decorated with chrysanthemums and waterfowl among lotus"
   definition.en: "Covered box; Stoneware with inlaid design under celadon glaze; 13th century; The Metropolitan Museum of Art, 1911"
   superclass: Ceramics
@@ -1283,7 +1272,7 @@ instance Met42298 < MDC_C002 {
 }
 
 instance Met42301 < MDC_C002 {
-  code: ANI046
+  code: ANI045
   preferred_name.en: "Maebyeong (plum bottle) decorated with cranes and clouds"
   definition.en: "Vase; Stoneware with inlaid decoration under celadon glaze; second half 12th century; The Metropolitan Museum of Art, 1911"
   superclass: Ceramics
@@ -1294,7 +1283,7 @@ instance Met42301 < MDC_C002 {
 }
 
 instance Met42308 < MDC_C002 {
-  code: ANI047
+  code: ANI046
   preferred_name.en: "Flask-shaped bottle decorated with peonies"
   definition.en: "Bottle; Buncheong ware with incised and sgraffito design; late 15th century; The Metropolitan Museum of Art, 1986"
   superclass: Ceramics
@@ -1305,7 +1294,7 @@ instance Met42308 < MDC_C002 {
 }
 
 instance Met42716 < MDC_C002 {
-  code: ANI048
+  code: ANI047
   preferred_name.en: "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)"
   definition.en: "Wall painting; Water-based pigment over foundation of clay mixed with straw; ca. 1319; The Metropolitan Museum of Art, 1965"
   superclass: BuddhistSculpture
@@ -1316,7 +1305,7 @@ instance Met42716 < MDC_C002 {
 }
 
 instance Met42733 < MDC_C002 {
-  code: ANI049
+  code: ANI048
   preferred_name.en: "Buddha Maitreya (Mile)"
   definition.en: "Figure; Gilt bronze with traces of pigment; piece-mold cast; dated 486 (10th year of Taihe reign); The Metropolitan Museum of Art, 1926"
   superclass: BuddhistSculpture
@@ -1326,7 +1315,7 @@ instance Met42733 < MDC_C002 {
 }
 
 instance Met44696 < MDC_C002 {
-  code: ANI050
+  code: ANI049
   preferred_name.en: "Gibbons in a Landscape"
   definition.en: "Screen; Pair of six-panel screens; ink on paper; ca. 1570; The Metropolitan Museum of Art, 1992"
   superclass: PaintingCalligraphy
@@ -1336,7 +1325,7 @@ instance Met44696 < MDC_C002 {
 }
 
 instance Met44799 < MDC_C002 {
-  code: ANI051
+  code: ANI050
   preferred_name.en: "Arhat (Luohan)"
   definition.en: "Figure; Stoneware with three-color glaze; ca. 1000; The Metropolitan Museum of Art, 1921"
   superclass: Ceramics
@@ -1346,7 +1335,7 @@ instance Met44799 < MDC_C002 {
 }
 
 instance Met44859 < MDC_C002 {
-  code: ANI052
+  code: ANI051
   preferred_name.en: "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields"
   definition.en: "Wine ewer; Lacquered wood with gold hiramaki-e and e-nashiji (“pear-skin picture”) on black ground; early 17th century; The Metropolitan Museum of Art, 1980"
   superclass: Lacquer
@@ -1356,7 +1345,7 @@ instance Met44859 < MDC_C002 {
 }
 
 instance Met44918 < MDC_C002 {
-  code: ANI053
+  code: ANI052
   preferred_name.en: "Rough Waves"
   definition.en: "Screen; Two-panel folding screen; ink, color, and gold leaf on paper; ca. 1704–9; The Metropolitan Museum of Art, 1926"
   superclass: PaintingCalligraphy
@@ -1367,7 +1356,7 @@ instance Met44918 < MDC_C002 {
 }
 
 instance Met44987 < MDC_C002 {
-  code: ANI054
+  code: ANI053
   preferred_name.en: "Box decorated with auspicious symbols"
   definition.en: "Box; Lacquered wood inlaid with flattened and painted ox horn; 19th century; The Metropolitan Museum of Art, 2015"
   superclass: Lacquer
@@ -1378,7 +1367,7 @@ instance Met44987 < MDC_C002 {
 }
 
 instance Met45428 < MDC_C002 {
-  code: ANI055
+  code: ANI054
   preferred_name.en: "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)"
   definition.en: "Handscrolls; Set of five handscrolls; ink, color, and cut gold leaf (kirikane) on paper; late 13th century; The Metropolitan Museum of Art, 1925"
   superclass: PaintingCalligraphy
@@ -1388,7 +1377,7 @@ instance Met45428 < MDC_C002 {
 }
 
 instance Met45636 < MDC_C002 {
-  code: ANI056
+  code: ANI055
   preferred_name.en: "Woods and Valleys of Mount Yu"
   definition.en: "Hanging scroll; Hanging scroll; ink on paper; dated 1372; The Metropolitan Museum of Art, 1973"
   superclass: PaintingCalligraphy
@@ -1399,7 +1388,7 @@ instance Met45636 < MDC_C002 {
 }
 
 instance Met48948 < MDC_C002 {
-  code: ANI057
+  code: ANI056
   preferred_name.en: "The Sixteen Luohans"
   definition.en: "Handscroll; Handscroll; ink and color on paper; dated 1591; The Metropolitan Museum of Art, 1986"
   superclass: PaintingCalligraphy
@@ -1410,7 +1399,7 @@ instance Met48948 < MDC_C002 {
 }
 
 instance Met49156 < MDC_C002 {
-  code: ANI058
+  code: ANI057
   preferred_name.en: "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai"
   definition.en: "Handscroll; Handscroll; ink and color on silk; datable to 1698; The Metropolitan Museum of Art, 1979"
   superclass: PaintingCalligraphy
@@ -1421,7 +1410,7 @@ instance Met49156 < MDC_C002 {
 }
 
 instance Met50325 < MDC_C002 {
-  code: ANI059
+  code: ANI058
   preferred_name.en: "Rafter finial in the shape of a dragon’s head and wind chime"
   definition.en: "Finial and chime; Gilt bronze; 10th century; The Metropolitan Museum of Art, 1999"
   superclass: Bronze
@@ -1432,7 +1421,7 @@ instance Met50325 < MDC_C002 {
 }
 
 instance Met50342 < MDC_C002 {
-  code: ANI060
+  code: ANI059
   preferred_name.en: "Small Dish (Kozara) with Three Jars"
   definition.en: "Dish; Porcelain with cobalt blue under transparent glaze and polychrome enamels over the glaze (Hizen ware, Nabeshima type); 1680–90s; The Metropolitan Museum of Art, 1975"
   superclass: Ceramics
@@ -1443,7 +1432,7 @@ instance Met50342 < MDC_C002 {
 }
 
 instance Met50356 < MDC_C002 {
-  code: ANI061
+  code: ANI060
   preferred_name.en: "Wine Ewer with Chrysanthemums and Lotus Flowers"
   definition.en: "Ewer; Stoneware with inlaid decoration under celadon glaze; first half of the 13th century; The Metropolitan Museum of Art, 1913"
   superclass: Ceramics
@@ -1453,19 +1442,8 @@ instance Met50356 < MDC_C002 {
   period: Goryeo
 }
 
-instance Met50360 < MDC_C002 {
-  code: ANI062
-  preferred_name.en: "Water-Moon Avalokiteshvara"
-  definition.en: "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929"
-  superclass: PaintingCalligraphy
-  class_type: ITEM_CLASS
-  category: PaintingCalligraphy
-  culture: Korea
-  period: Goryeo
-}
-
 instance Met50444 < MDC_C002 {
-  code: ANI063
+  code: ANI061
   preferred_name.en: "Mirror decorated with figures in a landscape"
   definition.en: "Mirror; Bronze; The Metropolitan Museum of Art, 1925"
   superclass: Bronze
@@ -1476,7 +1454,7 @@ instance Met50444 < MDC_C002 {
 }
 
 instance Met50486 < MDC_C002 {
-  code: ANI064
+  code: ANI062
   preferred_name.en: "Bamboo in the Wind"
   definition.en: "Hanging scroll; Hanging scroll; ink on silk with gold on colophon; early 17th century; The Metropolitan Museum of Art, 2015"
   superclass: PaintingCalligraphy
@@ -1487,7 +1465,7 @@ instance Met50486 < MDC_C002 {
 }
 
 instance Met50897 < MDC_C002 {
-  code: ANI065
+  code: ANI063
   preferred_name.en: "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)"
   definition.en: "Hanging scrolls; Pair of hanging scrolls; ink on silk; ca. 1450–1500; The Metropolitan Museum of Art, 1987"
   superclass: PaintingCalligraphy
@@ -1498,7 +1476,7 @@ instance Met50897 < MDC_C002 {
 }
 
 instance Met53176 < MDC_C002 {
-  code: ANI066
+  code: ANI064
   preferred_name.en: "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)"
   definition.en: "Figure; Japanese cypress with lacquer, color, gold, cut gold leaf (kirikane), and inlaid crystal eyes; early 13th century; The Metropolitan Museum of Art, 2015"
   superclass: Lacquer
@@ -1508,7 +1486,7 @@ instance Met53176 < MDC_C002 {
 }
 
 instance Met59669 < MDC_C002 {
-  code: ANI067
+  code: ANI065
   preferred_name.en: "Portrait of Shun'oku Myōha"
   definition.en: "Hanging scroll; Hanging scroll; ink, color, and gold on silk; ca. 1383; The Metropolitan Museum of Art, 2007"
   superclass: PaintingCalligraphy
@@ -1518,7 +1496,7 @@ instance Met59669 < MDC_C002 {
 }
 
 instance Met60870 < MDC_C002 {
-  code: ANI068
+  code: ANI066
   preferred_name.en: "Sutra box with dragons amid clouds"
   definition.en: "Sutra box; Red lacquer, incised decoration, gold inlay, damascened brass lock and key; The Metropolitan Museum of Art, 2001"
   superclass: Lacquer
@@ -1529,7 +1507,7 @@ instance Met60870 < MDC_C002 {
 }
 
 instance Met65397 < MDC_C002 {
-  code: ANI069
+  code: ANI067
   preferred_name.en: "Pensive bodhisattva"
   definition.en: "Figure; Gilt bronze; mid-7th century; The Metropolitan Museum of Art, 2003"
   superclass: BuddhistSculpture
@@ -1539,7 +1517,7 @@ instance Met65397 < MDC_C002 {
 }
 
 instance Met72307 < MDC_C002 {
-  code: ANI070
+  code: ANI068
   preferred_name.en: "Bowl with inscription and chrysanthemums and tortoiseshell decoration"
   definition.en: "Bowl; Buncheong ware with stamped design; mid-15th century; The Metropolitan Museum of Art, 2003"
   superclass: Ceramics
@@ -1550,7 +1528,7 @@ instance Met72307 < MDC_C002 {
 }
 
 instance Met72485 < MDC_C002 {
-  code: ANI071
+  code: ANI069
   preferred_name.en: "Seated bodhisattva (left attendant of a triad)"
   definition.en: "Statue; Gilt wood; ca. mid-17th century; The Metropolitan Museum of Art, 2015"
   superclass: BuddhistSculpture
@@ -1561,7 +1539,7 @@ instance Met72485 < MDC_C002 {
 }
 
 instance Met74448 < MDC_C002 {
-  code: ANI072
+  code: ANI070
   preferred_name.en: "Gathering of government officials"
   definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1551; The Metropolitan Museum of Art, 2008"
   superclass: PaintingCalligraphy
@@ -1572,7 +1550,7 @@ instance Met74448 < MDC_C002 {
 }
 
 instance Met74813 < MDC_C002 {
-  code: ANI073
+  code: ANI071
   preferred_name.en: "Shakyamuni triad"
   definition.en: "Hanging scroll; Hanging scroll; color and gold on silk; 1565; The Metropolitan Museum of Art, 2015"
   superclass: PaintingCalligraphy
@@ -1583,7 +1561,7 @@ instance Met74813 < MDC_C002 {
 }
 
 instance Met76084 < MDC_C002 {
-  code: ANI074
+  code: ANI072
   preferred_name.en: "The Bodhisattva Jizō"
   definition.en: "Statue; Japanese cypress wood (hinoki) with polychrome pigments, gold paint (kindei), cut gold leaf (kirikane), and rock-crystal eyes; 1291; The Metropolitan Museum of Art, 2023"
   superclass: BuddhistSculpture
@@ -1593,7 +1571,7 @@ instance Met76084 < MDC_C002 {
 }
 
 instance Met76114 < MDC_C002 {
-  code: ANI075
+  code: ANI073
   preferred_name.en: "Dragon jar"
   definition.en: "Jar; Porcelain with underglaze cobalt-blue design; second half 18th century; The Metropolitan Museum of Art, 2010"
   superclass: Ceramics
@@ -1604,7 +1582,7 @@ instance Met76114 < MDC_C002 {
 }
 
 instance Met76974 < MDC_C002 {
-  code: ANI076
+  code: ANI074
   preferred_name.en: "Ritual Altar Set"
   definition.en: "Altar set; Bronze; late 11th century BCE; The Metropolitan Museum of Art, 1924"
   superclass: Bronze
@@ -1615,7 +1593,7 @@ instance Met76974 < MDC_C002 {
 }
 
 instance Met656430 < MDC_C002 {
-  code: ANI077
+  code: ANI075
   preferred_name.en: "Portrait of Yun Dongseom (1710–1795)"
   definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1790–1805; The Metropolitan Museum of Art, 2014"
   superclass: PaintingCalligraphy
@@ -1626,7 +1604,7 @@ instance Met656430 < MDC_C002 {
 }
 
 instance Met775525 < MDC_C002 {
-  code: ANI078
+  code: ANI076
   preferred_name.en: "Sitting boy"
   definition.en: "Figure; Earthenware with slip; 12th century; The Metropolitan Museum of Art, 2024"
   superclass: Ceramics
@@ -1637,7 +1615,7 @@ instance Met775525 < MDC_C002 {
 }
 
 instance Met816189 < MDC_C002 {
-  code: ANI079
+  code: ANI077
   preferred_name.en: "”Abiding nowhere, the awakened mind arises”"
   definition.en: "Hanging scroll; Hanging scroll; ink on paper; early to mid-14th century; The Metropolitan Museum of Art, 2018"
   superclass: PaintingCalligraphy
@@ -1647,7 +1625,7 @@ instance Met816189 < MDC_C002 {
 }
 
 instance Met828680 < MDC_C002 {
-  code: ANI080
+  code: ANI078
   preferred_name.en: "Cosmetic Box (Tebako) with Chrysanthemum Flowers"
   definition.en: "Cosmetic box; Lacquered wood with gold, silver takamaki-e, hiramaki-e, gold, silver foil application on nashiji ground; gilt bronze fittings; first half of the 15th century; The Metropolitan Museum of Art, 2019"
   superclass: Bronze
@@ -1657,7 +1635,7 @@ instance Met828680 < MDC_C002 {
 }
 
 instance Met853194 < MDC_C002 {
-  code: ANI081
+  code: ANI079
   preferred_name.en: "Daoist Master Fei Zhangfang"
   definition.en: "Hanging scroll; Hanging scroll; ink on paper; ca. 1555–61; The Metropolitan Museum of Art, 2022"
   superclass: PaintingCalligraphy
@@ -1667,7 +1645,7 @@ instance Met853194 < MDC_C002 {
 }
 
 instance Met856282 < MDC_C002 {
-  code: ANI082
+  code: ANI080
   preferred_name.en: "Table screen with landscape"
   definition.en: "Table screen; Cloisonné enamel on copper alloy, wood frame and stand; second half 15th century; The Metropolitan Museum of Art, 2022"
   superclass: CloisonneEnamel
@@ -1678,7 +1656,7 @@ instance Met856282 < MDC_C002 {
 }
 
 instance Met857205 < MDC_C002 {
-  code: ANI083
+  code: ANI081
   preferred_name.en: "Streams and Mountains without End"
   definition.en: "Handscroll; Handscroll; ink on paper; ca. 1710; The Metropolitan Museum of Art, 2022"
   superclass: PaintingCalligraphy
@@ -1689,7 +1667,7 @@ instance Met857205 < MDC_C002 {
 }
 
 instance Met860960 < MDC_C002 {
-  code: ANI084
+  code: ANI082
   preferred_name.en: "Hawk at Sunrise"
   definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; second half 18th century–first half 19th century; The Metropolitan Museum of Art, 2022"
   superclass: PaintingCalligraphy
@@ -1700,7 +1678,7 @@ instance Met860960 < MDC_C002 {
 }
 
 instance Met897883 < MDC_C002 {
-  code: ANI085
+  code: ANI083
   preferred_name.en: "Tripod incense burner with archaistic patterns"
   definition.en: "Incense burner; Stoneware with molded decoration under celadon glaze (Yaozhou ware); 12th century; The Metropolitan Museum of Art, 2024"
   superclass: Ceramics
@@ -1710,7 +1688,7 @@ instance Met897883 < MDC_C002 {
 }
 
 instance Met901857 < MDC_C002 {
-  code: ANI086
+  code: ANI084
   preferred_name.en: "Covered Vessel (Futamono) with Plum Tree"
   definition.en: "Vessel; Stoneware with iron brown under transparent glaze and copper-green glaze (Mino ware, Oribe type); early 17th century; The Metropolitan Museum of Art, 2023"
   superclass: Ceramics
@@ -1720,7 +1698,7 @@ instance Met901857 < MDC_C002 {
 }
 
 instance Met903396 < MDC_C002 {
-  code: ANI087
+  code: ANI085
   preferred_name.en: "Sutra Box (Kyōbako) with Sun and Clouds"
   definition.en: "Sutra box; Lacquered wood with gold hiramaki-e; gilt bronze fittings; late 14th–early 15th century; The Metropolitan Museum of Art, 2024"
   superclass: Bronze
@@ -1730,7 +1708,7 @@ instance Met903396 < MDC_C002 {
 }
 
 instance Met910524 < MDC_C002 {
-  code: ANI088
+  code: ANI086
   preferred_name.en: "Openwork jar with peonies"
   definition.en: "Jar; Porcelain; late 18th–early 19th century; The Metropolitan Museum of Art, 2024"
   superclass: Ceramics
@@ -1741,7 +1719,7 @@ instance Met910524 < MDC_C002 {
 }
 
 instance Met910543 < MDC_C002 {
-  code: ANI089
+  code: ANI087
   preferred_name.en: "Woman at her dressing table"
   definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; early 18th century; The Metropolitan Museum of Art, 2024"
   superclass: PaintingCalligraphy
@@ -1752,7 +1730,7 @@ instance Met910543 < MDC_C002 {
 }
 
 instance Met910555 < MDC_C002 {
-  code: ANI090
+  code: ANI088
   preferred_name.en: "The Thirty-Six Poetic Immortals"
   definition.en: "Folding screens; Pair of six-panel folding screens; ink, color, gold, and silver on paper; early 17th century; The Metropolitan Museum of Art, 2024"
   superclass: PaintingCalligraphy
