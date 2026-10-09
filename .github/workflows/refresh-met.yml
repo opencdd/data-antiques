@@ -1,0 +1,46 @@
+# Quarterly refresh of the Met Museum registry section. Runs the Met
+# harvest (primary source, CC0) and opens a PR with the regenerated
+# fixture and data.
+name: Refresh Met registry
+
+on:
+  schedule:
+    - cron: "0 6 2 1,4,7,10 *" # 06:00 UTC on Jan 2, Apr 2, Jul 2, Oct 2
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: data-antiques
+      - uses: actions/checkout@v4
+        with:
+          repository: opencdd/opencdd-ruby
+          path: opencdd-ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          working-directory: data-antiques
+          bundler-cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run the Met harvest
+        working-directory: data-antiques
+        run: bundle exec rake browser:harvest_met
+      - name: Open data PR
+        working-directory: data-antiques
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "openCDD pipeline"
+          git config user.email "pipeline@opencdd.invalid"
+          git diff --exit-code -- data/ reference-docs/examples/ && echo "no changes" && exit 0
+          BR=met-refresh/$(date +%Y-%m-%d)
+          git checkout -b "$BR"
+          git add data/antiques data/index.json reference-docs/examples/antiques.cddal
+          git commit -m "Quarterly Met registry refresh (generated)"
+          git push origin "$BR"
+          printf 'Automated quarterly refresh of the Met Open Access registry section.\n' > /tmp/body.md
+          gh pr create --title "Quarterly Met registry refresh $(date +%Y-%m-%d)" --body-file /tmp/body.md
