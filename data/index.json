@@ -1,0 +1,25 @@
+{
+  "dictionaries": [
+    {
+      "slug": "antiques",
+      "parcelId": "ANTIQUES",
+      "title": "East Asian Antiques 東方古董 (demonstration)",
+      "sourceLanguage": "en",
+      "translationLanguages": [
+        "zh-TW",
+        "ja",
+        "ko"
+      ],
+      "counts": {
+        "class": 121,
+        "property": 20,
+        "value_list": 7,
+        "value_term": 0,
+        "unit": 0,
+        "relation": 0,
+        "view_control": 0
+      },
+      "metaClassIrdis": []
+    }
+  ]
+}

@@ -1,0 +1,4905 @@
+[
+  {
+    "irdi": "ANA001",
+    "code": "ANA001",
+    "preferred_name": "Antique",
+    "preferred_name_ml": {
+      "en": "Antique",
+      "zh-TW": "古董",
+      "ja": "骨董",
+      "ko": "골동품"
+    },
+    "definition": "object of art or craftsmanship from a past period, valued for its age, beauty, rarity, or provenance",
+    "definition_ml": {
+      "en": "object of art or craftsmanship from a past period, valued for its age, beauty, rarity, or provenance"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA001",
+      "MDC_P004.en": "Antique",
+      "MDC_P004.zh-TW": "古董",
+      "MDC_P004.ja": "骨董",
+      "MDC_P004.ko": "골동품",
+      "MDC_P006.en": "object of art or craftsmanship from a past period, valued for its age, beauty, rarity, or provenance",
+      "MDC_P010": "UNIVERSE",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB001,ANB002,ANB003,ANB004,ANB005,ANB006}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB001",
+      "ANB002",
+      "ANB003",
+      "ANB004",
+      "ANB005",
+      "ANB006"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "UNIVERSE",
+    "superclass_type_property": "UNIVERSE",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA010",
+    "code": "ANA010",
+    "preferred_name": "Culture",
+    "preferred_name_ml": {
+      "en": "Culture",
+      "zh-TW": "文化"
+    },
+    "definition": "cultural sphere of origin of an antique",
+    "definition_ml": {
+      "en": "cultural sphere of origin of an antique"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA010",
+      "MDC_P004.en": "Culture",
+      "MDC_P004.zh-TW": "文化",
+      "MDC_P006.en": "cultural sphere of origin of an antique",
+      "MDC_P010": "ANA001",
+      "MDC_P011": "CATEGORICAL_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "CATEGORICAL_CLASS",
+    "superclass": "ANA001",
+    "superclass_type_property": "ANA001",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA011",
+    "code": "ANA011",
+    "preferred_name": "China",
+    "preferred_name_ml": {
+      "en": "China",
+      "zh-TW": "中國"
+    },
+    "definition": "Chinese cultural sphere of origin",
+    "definition_ml": {
+      "en": "Chinese cultural sphere of origin"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA011",
+      "MDC_P004.en": "China",
+      "MDC_P004.zh-TW": "中國",
+      "MDC_P006.en": "Chinese cultural sphere of origin",
+      "MDC_P010": "ANA010",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA010",
+    "superclass_type_property": "ANA010",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA012",
+    "code": "ANA012",
+    "preferred_name": "Japan",
+    "preferred_name_ml": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "definition": "Japanese cultural sphere of origin",
+    "definition_ml": {
+      "en": "Japanese cultural sphere of origin"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA012",
+      "MDC_P004.en": "Japan",
+      "MDC_P004.ja": "日本",
+      "MDC_P006.en": "Japanese cultural sphere of origin",
+      "MDC_P010": "ANA010",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA010",
+    "superclass_type_property": "ANA010",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA013",
+    "code": "ANA013",
+    "preferred_name": "Korea",
+    "preferred_name_ml": {
+      "en": "Korea",
+      "ko": "한국"
+    },
+    "definition": "Korean cultural sphere of origin",
+    "definition_ml": {
+      "en": "Korean cultural sphere of origin"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA013",
+      "MDC_P004.en": "Korea",
+      "MDC_P004.ko": "한국",
+      "MDC_P006.en": "Korean cultural sphere of origin",
+      "MDC_P010": "ANA010",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA010",
+    "superclass_type_property": "ANA010",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA020",
+    "code": "ANA020",
+    "preferred_name": "Period",
+    "preferred_name_ml": {
+      "en": "Period",
+      "zh-TW": "朝代時期"
+    },
+    "definition": "categorical class whose members enumerate the dynasties and eras of East Asian art history",
+    "definition_ml": {
+      "en": "categorical class whose members enumerate the dynasties and eras of East Asian art history"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA020",
+      "MDC_P004.en": "Period",
+      "MDC_P004.zh-TW": "朝代時期",
+      "MDC_P006.en": "categorical class whose members enumerate the dynasties and eras of East Asian art history",
+      "MDC_P010": "ANA001",
+      "MDC_P011": "CATEGORICAL_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "CATEGORICAL_CLASS",
+    "superclass": "ANA001",
+    "superclass_type_property": "ANA001",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA021",
+    "code": "ANA021",
+    "preferred_name": "Shang",
+    "preferred_name_ml": {
+      "en": "Shang",
+      "zh-TW": "商"
+    },
+    "definition": "Chinese dynasty of the Bronze Age, c. 1600–1046 BC",
+    "definition_ml": {
+      "en": "Chinese dynasty of the Bronze Age, c. 1600–1046 BC"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA021",
+      "MDC_P004.en": "Shang",
+      "MDC_P004.zh-TW": "商",
+      "MDC_P006.en": "Chinese dynasty of the Bronze Age, c. 1600–1046 BC",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA022",
+    "code": "ANA022",
+    "preferred_name": "Zhou",
+    "preferred_name_ml": {
+      "en": "Zhou",
+      "zh-TW": "周"
+    },
+    "definition": "Chinese dynasty, 1046–256 BC, including the Western and Eastern Zhou",
+    "definition_ml": {
+      "en": "Chinese dynasty, 1046–256 BC, including the Western and Eastern Zhou"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA022",
+      "MDC_P004.en": "Zhou",
+      "MDC_P004.zh-TW": "周",
+      "MDC_P006.en": "Chinese dynasty, 1046–256 BC, including the Western and Eastern Zhou",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA023",
+    "code": "ANA023",
+    "preferred_name": "Han",
+    "preferred_name_ml": {
+      "en": "Han",
+      "zh-TW": "漢"
+    },
+    "definition": "Chinese dynasty, 206 BC–AD 220",
+    "definition_ml": {
+      "en": "Chinese dynasty, 206 BC–AD 220"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA023",
+      "MDC_P004.en": "Han",
+      "MDC_P004.zh-TW": "漢",
+      "MDC_P006.en": "Chinese dynasty, 206 BC–AD 220",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA024",
+    "code": "ANA024",
+    "preferred_name": "Tang",
+    "preferred_name_ml": {
+      "en": "Tang",
+      "zh-TW": "唐"
+    },
+    "definition": "Chinese dynasty, 618–907",
+    "definition_ml": {
+      "en": "Chinese dynasty, 618–907"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA024",
+      "MDC_P004.en": "Tang",
+      "MDC_P004.zh-TW": "唐",
+      "MDC_P006.en": "Chinese dynasty, 618–907",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA025",
+    "code": "ANA025",
+    "preferred_name": "Song",
+    "preferred_name_ml": {
+      "en": "Song",
+      "zh-TW": "宋"
+    },
+    "definition": "Chinese dynasty, 960–1279, including Northern and Southern Song",
+    "definition_ml": {
+      "en": "Chinese dynasty, 960–1279, including Northern and Southern Song"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA025",
+      "MDC_P004.en": "Song",
+      "MDC_P004.zh-TW": "宋",
+      "MDC_P006.en": "Chinese dynasty, 960–1279, including Northern and Southern Song",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA026",
+    "code": "ANA026",
+    "preferred_name": "Yuan",
+    "preferred_name_ml": {
+      "en": "Yuan",
+      "zh-TW": "元"
+    },
+    "definition": "Chinese dynasty, 1271–1368",
+    "definition_ml": {
+      "en": "Chinese dynasty, 1271–1368"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA026",
+      "MDC_P004.en": "Yuan",
+      "MDC_P004.zh-TW": "元",
+      "MDC_P006.en": "Chinese dynasty, 1271–1368",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA027",
+    "code": "ANA027",
+    "preferred_name": "Ming",
+    "preferred_name_ml": {
+      "en": "Ming",
+      "zh-TW": "明"
+    },
+    "definition": "Chinese dynasty, 1368–1644",
+    "definition_ml": {
+      "en": "Chinese dynasty, 1368–1644"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA027",
+      "MDC_P004.en": "Ming",
+      "MDC_P004.zh-TW": "明",
+      "MDC_P006.en": "Chinese dynasty, 1368–1644",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA028",
+    "code": "ANA028",
+    "preferred_name": "Qing",
+    "preferred_name_ml": {
+      "en": "Qing",
+      "zh-TW": "清"
+    },
+    "definition": "Chinese dynasty, 1644–1912",
+    "definition_ml": {
+      "en": "Chinese dynasty, 1644–1912"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA028",
+      "MDC_P004.en": "Qing",
+      "MDC_P004.zh-TW": "清",
+      "MDC_P006.en": "Chinese dynasty, 1644–1912",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA029",
+    "code": "ANA029",
+    "preferred_name": "Goryeo",
+    "preferred_name_ml": {
+      "en": "Goryeo",
+      "ko": "고려"
+    },
+    "definition": "Korean dynasty, 918–1392",
+    "definition_ml": {
+      "en": "Korean dynasty, 918–1392"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA029",
+      "MDC_P004.en": "Goryeo",
+      "MDC_P004.ko": "고려",
+      "MDC_P006.en": "Korean dynasty, 918–1392",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA030",
+    "code": "ANA030",
+    "preferred_name": "Joseon",
+    "preferred_name_ml": {
+      "en": "Joseon",
+      "ko": "조선"
+    },
+    "definition": "Korean dynasty, 1392–1897",
+    "definition_ml": {
+      "en": "Korean dynasty, 1392–1897"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA030",
+      "MDC_P004.en": "Joseon",
+      "MDC_P004.ko": "조선",
+      "MDC_P006.en": "Korean dynasty, 1392–1897",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA031",
+    "code": "ANA031",
+    "preferred_name": "Edo",
+    "preferred_name_ml": {
+      "en": "Edo",
+      "ja": "江戸"
+    },
+    "definition": "Japanese era, 1603–1868",
+    "definition_ml": {
+      "en": "Japanese era, 1603–1868"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA031",
+      "MDC_P004.en": "Edo",
+      "MDC_P004.ja": "江戸",
+      "MDC_P006.en": "Japanese era, 1603–1868",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA032",
+    "code": "ANA032",
+    "preferred_name": "Meiji",
+    "preferred_name_ml": {
+      "en": "Meiji",
+      "ja": "明治"
+    },
+    "definition": "Japanese era, 1868–1912",
+    "definition_ml": {
+      "en": "Japanese era, 1868–1912"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA032",
+      "MDC_P004.en": "Meiji",
+      "MDC_P004.ja": "明治",
+      "MDC_P006.en": "Japanese era, 1868–1912",
+      "MDC_P010": "ANA020",
+      "MDC_P011": "ITEM_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA020",
+    "superclass_type_property": "ANA020",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA100",
+    "code": "ANA100",
+    "preferred_name": "Antique Category",
+    "preferred_name_ml": {
+      "en": "Antique Category",
+      "zh-TW": "品類"
+    },
+    "definition": "categorical class whose members enumerate the kinds of East Asian works of art",
+    "definition_ml": {
+      "en": "categorical class whose members enumerate the kinds of East Asian works of art"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA100",
+      "MDC_P004.en": "Antique Category",
+      "MDC_P004.zh-TW": "品類",
+      "MDC_P006.en": "categorical class whose members enumerate the kinds of East Asian works of art",
+      "MDC_P010": "ANA001",
+      "MDC_P011": "CATEGORICAL_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "CATEGORICAL_CLASS",
+    "superclass": "ANA001",
+    "superclass_type_property": "ANA001",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA101",
+    "code": "ANA101",
+    "preferred_name": "Ceramics",
+    "preferred_name_ml": {
+      "en": "Ceramics",
+      "zh-TW": "陶瓷",
+      "ja": "陶磁器"
+    },
+    "definition": "objects of fired clay, including porcelain and stoneware vessels and wares",
+    "definition_ml": {
+      "en": "objects of fired clay, including porcelain and stoneware vessels and wares"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA101",
+      "MDC_P004.en": "Ceramics",
+      "MDC_P004.zh-TW": "陶瓷",
+      "MDC_P004.ja": "陶磁器",
+      "MDC_P006.en": "objects of fired clay, including porcelain and stoneware vessels and wares",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB101,ANB102}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB101",
+      "ANB102"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA150",
+    "code": "ANA150",
+    "preferred_name": "Ming Blue-and-White Porcelain",
+    "preferred_name_ml": {
+      "en": "Ming Blue-and-White Porcelain",
+      "zh-TW": "明青花"
+    },
+    "definition": "porcelain of the Ming dynasty decorated in underglaze cobalt blue",
+    "definition_ml": {
+      "en": "porcelain of the Ming dynasty decorated in underglaze cobalt blue"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA150",
+      "MDC_P004.en": "Ming Blue-and-White Porcelain",
+      "MDC_P004.zh-TW": "明青花",
+      "MDC_P006.en": "porcelain of the Ming dynasty decorated in underglaze cobalt blue",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P016": "{ANA027}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [
+      "ANA027"
+    ],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI006",
+    "code": "ANI006",
+    "preferred_name": "Blue-and-white 'Interlocking Dragon' Jar, Xuande Mark and Period",
+    "preferred_name_ml": {
+      "zh-TW": "明宣德青花穿花龍紋罐",
+      "en": "Blue-and-white 'Interlocking Dragon' Jar, Xuande Mark and Period"
+    },
+    "short_name": "XuandeJar",
+    "short_name_ml": {
+      "en": "XuandeJar"
+    },
+    "definition": "Ming Xuande porcelain jar painted in underglaze blue with dragons among lotus scrolls, bearing the imperial reign mark",
+    "definition_ml": {
+      "en": "Ming Xuande porcelain jar painted in underglaze blue with dragons among lotus scrolls, bearing the imperial reign mark"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI006",
+      "MDC_P004.zh-TW": "明宣德青花穿花龍紋罐",
+      "MDC_P004.en": "Blue-and-white 'Interlocking Dragon' Jar, Xuande Mark and Period",
+      "MDC_P005.en": "XuandeJar",
+      "MDC_P006.en": "Ming Xuande porcelain jar painted in underglaze blue with dragons among lotus scrolls, bearing the imperial reign mark",
+      "MDC_P010": "ANA150",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China",
+      "period": "Ming",
+      "kiln": "Jingdezhen",
+      "glaze": "blue and white",
+      "reign_mark": "Xuande (宣德)",
+      "condition_grade": "Very_good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA150",
+    "superclass_type_property": "ANA150",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA151",
+    "code": "ANA151",
+    "preferred_name": "Goryeo Celadon",
+    "preferred_name_ml": {
+      "en": "Goryeo Celadon",
+      "ko": "고려청자"
+    },
+    "definition": "celadon-glazed stoneware of the Goryeo dynasty",
+    "definition_ml": {
+      "en": "celadon-glazed stoneware of the Goryeo dynasty"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA151",
+      "MDC_P004.en": "Goryeo Celadon",
+      "MDC_P004.ko": "고려청자",
+      "MDC_P006.en": "celadon-glazed stoneware of the Goryeo dynasty",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P016": "{ANA029}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [
+      "ANA029"
+    ],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI004",
+    "code": "ANI004",
+    "preferred_name": "Goryeo Celadon Maebyeong Vase",
+    "preferred_name_ml": {
+      "ko": "고려청자 매병",
+      "en": "Goryeo Celadon Maebyeong Vase"
+    },
+    "short_name": "MaebyeongVase",
+    "short_name_ml": {
+      "en": "MaebyeongVase"
+    },
+    "definition": "Goryeo dynasty celadon vase of plump maebyeong form, National Museum of Korea, Seoul",
+    "definition_ml": {
+      "en": "Goryeo dynasty celadon vase of plump maebyeong form, National Museum of Korea, Seoul"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI004",
+      "MDC_P004.ko": "고려청자 매병",
+      "MDC_P004.en": "Goryeo Celadon Maebyeong Vase",
+      "MDC_P005.en": "MaebyeongVase",
+      "MDC_P006.en": "Goryeo dynasty celadon vase of plump maebyeong form, National Museum of Korea, Seoul",
+      "MDC_P010": "ANA151",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Goryeo",
+      "glaze": "celadon",
+      "condition_grade": "Very_good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA151",
+    "superclass_type_property": "ANA151",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI007",
+    "code": "ANI007",
+    "preferred_name": "Joseon Moon Jar",
+    "preferred_name_ml": {
+      "ko": "달항아리",
+      "en": "Joseon Moon Jar"
+    },
+    "short_name": "MoonJar",
+    "short_name_ml": {
+      "en": "MoonJar"
+    },
+    "definition": "Joseon dynasty white-porcelain storage jar of large spherical 'moon' form",
+    "definition_ml": {
+      "en": "Joseon dynasty white-porcelain storage jar of large spherical 'moon' form"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI007",
+      "MDC_P004.ko": "달항아리",
+      "MDC_P004.en": "Joseon Moon Jar",
+      "MDC_P005.en": "MoonJar",
+      "MDC_P006.en": "Joseon dynasty white-porcelain storage jar of large spherical 'moon' form",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Joseon",
+      "glaze": "white porcelain",
+      "condition_grade": "Very_good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI016",
+    "code": "ANI016",
+    "preferred_name": "Bird-shaped vessel",
+    "preferred_name_ml": {
+      "en": "Bird-shaped vessel"
+    },
+    "definition": "Vessel; Earthenware; 3rd century; The Metropolitan Museum of Art, 1997",
+    "definition_ml": {
+      "en": "Vessel; Earthenware; 3rd century; The Metropolitan Museum of Art, 1997"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI016",
+      "MDC_P004.en": "Bird-shaped vessel",
+      "MDC_P006.en": "Vessel; Earthenware; 3rd century; The Metropolitan Museum of Art, 1997",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI018",
+    "code": "ANI018",
+    "preferred_name": "Bowl with dragons amid waves",
+    "preferred_name_ml": {
+      "en": "Bowl with dragons amid waves"
+    },
+    "definition": "Bowl; Stoneware with carved and incised decoration under celadon glaze (Yue ware); 10th–11th century; The Metropolitan Museum of Art, 1918",
+    "definition_ml": {
+      "en": "Bowl; Stoneware with carved and incised decoration under celadon glaze (Yue ware); 10th–11th century; The Metropolitan Museum of Art, 1918"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI018",
+      "MDC_P004.en": "Bowl with dragons amid waves",
+      "MDC_P006.en": "Bowl; Stoneware with carved and incised decoration under celadon glaze (Yue ware); 10th–11th century; The Metropolitan Museum of Art, 1918",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China",
+      "period": "Song"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI020",
+    "code": "ANI020",
+    "preferred_name": "Jar with dragon",
+    "preferred_name_ml": {
+      "en": "Jar with dragon"
+    },
+    "definition": "Jar; Porcelain painted with cobalt blue under transparent glaze (Jingdezhen ware); early 15th century; The Metropolitan Museum of Art, 1937",
+    "definition_ml": {
+      "en": "Jar; Porcelain painted with cobalt blue under transparent glaze (Jingdezhen ware); early 15th century; The Metropolitan Museum of Art, 1937"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI020",
+      "MDC_P004.en": "Jar with dragon",
+      "MDC_P006.en": "Jar; Porcelain painted with cobalt blue under transparent glaze (Jingdezhen ware); early 15th century; The Metropolitan Museum of Art, 1937",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China",
+      "period": "Ming"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI043",
+    "code": "ANI043",
+    "preferred_name": "Female Dancer",
+    "preferred_name_ml": {
+      "en": "Female Dancer"
+    },
+    "definition": "Figure; Earthenware with slip and pigment; 2nd century BCE; The Metropolitan Museum of Art, 1992",
+    "definition_ml": {
+      "en": "Figure; Earthenware with slip and pigment; 2nd century BCE; The Metropolitan Museum of Art, 1992"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI043",
+      "MDC_P004.en": "Female Dancer",
+      "MDC_P006.en": "Figure; Earthenware with slip and pigment; 2nd century BCE; The Metropolitan Museum of Art, 1992",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China",
+      "period": "Han"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI044",
+    "code": "ANI044",
+    "preferred_name": "Vase",
+    "preferred_name_ml": {
+      "en": "Vase"
+    },
+    "definition": "Vase; Porcelain with peach-bloom glaze (Jingdezhen ware); 1713–22; The Metropolitan Museum of Art, 1914",
+    "definition_ml": {
+      "en": "Vase; Porcelain with peach-bloom glaze (Jingdezhen ware); 1713–22; The Metropolitan Museum of Art, 1914"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI044",
+      "MDC_P004.en": "Vase",
+      "MDC_P006.en": "Vase; Porcelain with peach-bloom glaze (Jingdezhen ware); 1713–22; The Metropolitan Museum of Art, 1914",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China",
+      "period": "Qing"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI045",
+    "code": "ANI045",
+    "preferred_name": "Covered box decorated with chrysanthemums and waterfowl among lotus",
+    "preferred_name_ml": {
+      "en": "Covered box decorated with chrysanthemums and waterfowl among lotus"
+    },
+    "definition": "Covered box; Stoneware with inlaid design under celadon glaze; 13th century; The Metropolitan Museum of Art, 1911",
+    "definition_ml": {
+      "en": "Covered box; Stoneware with inlaid design under celadon glaze; 13th century; The Metropolitan Museum of Art, 1911"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI045",
+      "MDC_P004.en": "Covered box decorated with chrysanthemums and waterfowl among lotus",
+      "MDC_P006.en": "Covered box; Stoneware with inlaid design under celadon glaze; 13th century; The Metropolitan Museum of Art, 1911",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI046",
+    "code": "ANI046",
+    "preferred_name": "Maebyeong (plum bottle) decorated with cranes and clouds",
+    "preferred_name_ml": {
+      "en": "Maebyeong (plum bottle) decorated with cranes and clouds"
+    },
+    "definition": "Vase; Stoneware with inlaid decoration under celadon glaze; second half 12th century; The Metropolitan Museum of Art, 1911",
+    "definition_ml": {
+      "en": "Vase; Stoneware with inlaid decoration under celadon glaze; second half 12th century; The Metropolitan Museum of Art, 1911"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI046",
+      "MDC_P004.en": "Maebyeong (plum bottle) decorated with cranes and clouds",
+      "MDC_P006.en": "Vase; Stoneware with inlaid decoration under celadon glaze; second half 12th century; The Metropolitan Museum of Art, 1911",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI047",
+    "code": "ANI047",
+    "preferred_name": "Flask-shaped bottle decorated with peonies",
+    "preferred_name_ml": {
+      "en": "Flask-shaped bottle decorated with peonies"
+    },
+    "definition": "Bottle; Buncheong ware with incised and sgraffito design; late 15th century; The Metropolitan Museum of Art, 1986",
+    "definition_ml": {
+      "en": "Bottle; Buncheong ware with incised and sgraffito design; late 15th century; The Metropolitan Museum of Art, 1986"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI047",
+      "MDC_P004.en": "Flask-shaped bottle decorated with peonies",
+      "MDC_P006.en": "Bottle; Buncheong ware with incised and sgraffito design; late 15th century; The Metropolitan Museum of Art, 1986",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI051",
+    "code": "ANI051",
+    "preferred_name": "Arhat (Luohan)",
+    "preferred_name_ml": {
+      "en": "Arhat (Luohan)"
+    },
+    "definition": "Figure; Stoneware with three-color glaze; ca. 1000; The Metropolitan Museum of Art, 1921",
+    "definition_ml": {
+      "en": "Figure; Stoneware with three-color glaze; ca. 1000; The Metropolitan Museum of Art, 1921"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI051",
+      "MDC_P004.en": "Arhat (Luohan)",
+      "MDC_P006.en": "Figure; Stoneware with three-color glaze; ca. 1000; The Metropolitan Museum of Art, 1921",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI060",
+    "code": "ANI060",
+    "preferred_name": "Small Dish (Kozara) with Three Jars",
+    "preferred_name_ml": {
+      "en": "Small Dish (Kozara) with Three Jars"
+    },
+    "definition": "Dish; Porcelain with cobalt blue under transparent glaze and polychrome enamels over the glaze (Hizen ware, Nabeshima type); 1680–90s; The Metropolitan Museum of Art, 1975",
+    "definition_ml": {
+      "en": "Dish; Porcelain with cobalt blue under transparent glaze and polychrome enamels over the glaze (Hizen ware, Nabeshima type); 1680–90s; The Metropolitan Museum of Art, 1975"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI060",
+      "MDC_P004.en": "Small Dish (Kozara) with Three Jars",
+      "MDC_P006.en": "Dish; Porcelain with cobalt blue under transparent glaze and polychrome enamels over the glaze (Hizen ware, Nabeshima type); 1680–90s; The Metropolitan Museum of Art, 1975",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Japan",
+      "period": "Edo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI061",
+    "code": "ANI061",
+    "preferred_name": "Wine Ewer with Chrysanthemums and Lotus Flowers",
+    "preferred_name_ml": {
+      "en": "Wine Ewer with Chrysanthemums and Lotus Flowers"
+    },
+    "definition": "Ewer; Stoneware with inlaid decoration under celadon glaze; first half of the 13th century; The Metropolitan Museum of Art, 1913",
+    "definition_ml": {
+      "en": "Ewer; Stoneware with inlaid decoration under celadon glaze; first half of the 13th century; The Metropolitan Museum of Art, 1913"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI061",
+      "MDC_P004.en": "Wine Ewer with Chrysanthemums and Lotus Flowers",
+      "MDC_P006.en": "Ewer; Stoneware with inlaid decoration under celadon glaze; first half of the 13th century; The Metropolitan Museum of Art, 1913",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI070",
+    "code": "ANI070",
+    "preferred_name": "Bowl with inscription and chrysanthemums and tortoiseshell decoration",
+    "preferred_name_ml": {
+      "en": "Bowl with inscription and chrysanthemums and tortoiseshell decoration"
+    },
+    "definition": "Bowl; Buncheong ware with stamped design; mid-15th century; The Metropolitan Museum of Art, 2003",
+    "definition_ml": {
+      "en": "Bowl; Buncheong ware with stamped design; mid-15th century; The Metropolitan Museum of Art, 2003"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI070",
+      "MDC_P004.en": "Bowl with inscription and chrysanthemums and tortoiseshell decoration",
+      "MDC_P006.en": "Bowl; Buncheong ware with stamped design; mid-15th century; The Metropolitan Museum of Art, 2003",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI075",
+    "code": "ANI075",
+    "preferred_name": "Dragon jar",
+    "preferred_name_ml": {
+      "en": "Dragon jar"
+    },
+    "definition": "Jar; Porcelain with underglaze cobalt-blue design; second half 18th century; The Metropolitan Museum of Art, 2010",
+    "definition_ml": {
+      "en": "Jar; Porcelain with underglaze cobalt-blue design; second half 18th century; The Metropolitan Museum of Art, 2010"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI075",
+      "MDC_P004.en": "Dragon jar",
+      "MDC_P006.en": "Jar; Porcelain with underglaze cobalt-blue design; second half 18th century; The Metropolitan Museum of Art, 2010",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI078",
+    "code": "ANI078",
+    "preferred_name": "Sitting boy",
+    "preferred_name_ml": {
+      "en": "Sitting boy"
+    },
+    "definition": "Figure; Earthenware with slip; 12th century; The Metropolitan Museum of Art, 2024",
+    "definition_ml": {
+      "en": "Figure; Earthenware with slip; 12th century; The Metropolitan Museum of Art, 2024"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI078",
+      "MDC_P004.en": "Sitting boy",
+      "MDC_P006.en": "Figure; Earthenware with slip; 12th century; The Metropolitan Museum of Art, 2024",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China",
+      "period": "Song"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI085",
+    "code": "ANI085",
+    "preferred_name": "Tripod incense burner with archaistic patterns",
+    "preferred_name_ml": {
+      "en": "Tripod incense burner with archaistic patterns"
+    },
+    "definition": "Incense burner; Stoneware with molded decoration under celadon glaze (Yaozhou ware); 12th century; The Metropolitan Museum of Art, 2024",
+    "definition_ml": {
+      "en": "Incense burner; Stoneware with molded decoration under celadon glaze (Yaozhou ware); 12th century; The Metropolitan Museum of Art, 2024"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI085",
+      "MDC_P004.en": "Tripod incense burner with archaistic patterns",
+      "MDC_P006.en": "Incense burner; Stoneware with molded decoration under celadon glaze (Yaozhou ware); 12th century; The Metropolitan Museum of Art, 2024",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "China"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI086",
+    "code": "ANI086",
+    "preferred_name": "Covered Vessel (Futamono) with Plum Tree",
+    "preferred_name_ml": {
+      "en": "Covered Vessel (Futamono) with Plum Tree"
+    },
+    "definition": "Vessel; Stoneware with iron brown under transparent glaze and copper-green glaze (Mino ware, Oribe type); early 17th century; The Metropolitan Museum of Art, 2023",
+    "definition_ml": {
+      "en": "Vessel; Stoneware with iron brown under transparent glaze and copper-green glaze (Mino ware, Oribe type); early 17th century; The Metropolitan Museum of Art, 2023"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI086",
+      "MDC_P004.en": "Covered Vessel (Futamono) with Plum Tree",
+      "MDC_P006.en": "Vessel; Stoneware with iron brown under transparent glaze and copper-green glaze (Mino ware, Oribe type); early 17th century; The Metropolitan Museum of Art, 2023",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI088",
+    "code": "ANI088",
+    "preferred_name": "Openwork jar with peonies",
+    "preferred_name_ml": {
+      "en": "Openwork jar with peonies"
+    },
+    "definition": "Jar; Porcelain; late 18th–early 19th century; The Metropolitan Museum of Art, 2024",
+    "definition_ml": {
+      "en": "Jar; Porcelain; late 18th–early 19th century; The Metropolitan Museum of Art, 2024"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI088",
+      "MDC_P004.en": "Openwork jar with peonies",
+      "MDC_P006.en": "Jar; Porcelain; late 18th–early 19th century; The Metropolitan Museum of Art, 2024",
+      "MDC_P010": "ANA101",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Ceramics",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA101",
+    "superclass_type_property": "ANA101",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA102",
+    "code": "ANA102",
+    "preferred_name": "Bronze",
+    "preferred_name_ml": {
+      "en": "Bronze",
+      "zh-TW": "青銅器"
+    },
+    "definition": "cast bronze ritual vessels, weapons and fittings",
+    "definition_ml": {
+      "en": "cast bronze ritual vessels, weapons and fittings"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA102",
+      "MDC_P004.en": "Bronze",
+      "MDC_P004.zh-TW": "青銅器",
+      "MDC_P006.en": "cast bronze ritual vessels, weapons and fittings",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB103,ANB104}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB103",
+      "ANB104"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI001",
+    "code": "ANI001",
+    "preferred_name": "Mao Gong Ding",
+    "preferred_name_ml": {
+      "zh-TW": "毛公鼎",
+      "en": "Mao Gong Ding"
+    },
+    "short_name": "MaoGongDing",
+    "short_name_ml": {
+      "en": "MaoGongDing"
+    },
+    "definition": "Western Zhou bronze tripod food vessel bearing one of the longest known Chinese bronze inscriptions, National Palace Museum, Taipei",
+    "definition_ml": {
+      "en": "Western Zhou bronze tripod food vessel bearing one of the longest known Chinese bronze inscriptions, National Palace Museum, Taipei"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI001",
+      "MDC_P004.zh-TW": "毛公鼎",
+      "MDC_P004.en": "Mao Gong Ding",
+      "MDC_P005.en": "MaoGongDing",
+      "MDC_P006.en": "Western Zhou bronze tripod food vessel bearing one of the longest known Chinese bronze inscriptions, National Palace Museum, Taipei",
+      "MDC_P010": "ANA102",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Bronze",
+      "culture": "China",
+      "period": "Zhou",
+      "height": "53.8",
+      "diameter": "47.9",
+      "vessel_form": "Ding",
+      "inscription_characters": "497",
+      "condition_grade": "Excellent"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA102",
+    "superclass_type_property": "ANA102",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI022",
+    "code": "ANI022",
+    "preferred_name": "Zaō Gongen",
+    "preferred_name_ml": {
+      "en": "Zaō Gongen"
+    },
+    "definition": "Figure; Gilt bronze with incised decoration; 11th century; The Metropolitan Museum of Art, 1975",
+    "definition_ml": {
+      "en": "Figure; Gilt bronze with incised decoration; 11th century; The Metropolitan Museum of Art, 1975"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI022",
+      "MDC_P004.en": "Zaō Gongen",
+      "MDC_P006.en": "Figure; Gilt bronze with incised decoration; 11th century; The Metropolitan Museum of Art, 1975",
+      "MDC_P010": "ANA102",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Bronze",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA102",
+    "superclass_type_property": "ANA102",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI059",
+    "code": "ANI059",
+    "preferred_name": "Rafter finial in the shape of a dragon’s head and wind chime",
+    "preferred_name_ml": {
+      "en": "Rafter finial in the shape of a dragon’s head and wind chime"
+    },
+    "definition": "Finial and chime; Gilt bronze; 10th century; The Metropolitan Museum of Art, 1999",
+    "definition_ml": {
+      "en": "Finial and chime; Gilt bronze; 10th century; The Metropolitan Museum of Art, 1999"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI059",
+      "MDC_P004.en": "Rafter finial in the shape of a dragon’s head and wind chime",
+      "MDC_P006.en": "Finial and chime; Gilt bronze; 10th century; The Metropolitan Museum of Art, 1999",
+      "MDC_P010": "ANA102",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Bronze",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA102",
+    "superclass_type_property": "ANA102",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI063",
+    "code": "ANI063",
+    "preferred_name": "Mirror decorated with figures in a landscape",
+    "preferred_name_ml": {
+      "en": "Mirror decorated with figures in a landscape"
+    },
+    "definition": "Mirror; Bronze; The Metropolitan Museum of Art, 1925",
+    "definition_ml": {
+      "en": "Mirror; Bronze; The Metropolitan Museum of Art, 1925"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI063",
+      "MDC_P004.en": "Mirror decorated with figures in a landscape",
+      "MDC_P006.en": "Mirror; Bronze; The Metropolitan Museum of Art, 1925",
+      "MDC_P010": "ANA102",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Bronze",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA102",
+    "superclass_type_property": "ANA102",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI076",
+    "code": "ANI076",
+    "preferred_name": "Ritual Altar Set",
+    "preferred_name_ml": {
+      "en": "Ritual Altar Set"
+    },
+    "definition": "Altar set; Bronze; late 11th century BCE; The Metropolitan Museum of Art, 1924",
+    "definition_ml": {
+      "en": "Altar set; Bronze; late 11th century BCE; The Metropolitan Museum of Art, 1924"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI076",
+      "MDC_P004.en": "Ritual Altar Set",
+      "MDC_P006.en": "Altar set; Bronze; late 11th century BCE; The Metropolitan Museum of Art, 1924",
+      "MDC_P010": "ANA102",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Bronze",
+      "culture": "China",
+      "period": "Shang"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA102",
+    "superclass_type_property": "ANA102",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI080",
+    "code": "ANI080",
+    "preferred_name": "Cosmetic Box (Tebako) with Chrysanthemum Flowers",
+    "preferred_name_ml": {
+      "en": "Cosmetic Box (Tebako) with Chrysanthemum Flowers"
+    },
+    "definition": "Cosmetic box; Lacquered wood with gold, silver takamaki-e, hiramaki-e, gold, silver foil application on nashiji ground; gilt bronze fittings; first half of the 15th century; The Metropolitan Museum of Art, 2019",
+    "definition_ml": {
+      "en": "Cosmetic box; Lacquered wood with gold, silver takamaki-e, hiramaki-e, gold, silver foil application on nashiji ground; gilt bronze fittings; first half of the 15th century; The Metropolitan Museum of Art, 2019"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI080",
+      "MDC_P004.en": "Cosmetic Box (Tebako) with Chrysanthemum Flowers",
+      "MDC_P006.en": "Cosmetic box; Lacquered wood with gold, silver takamaki-e, hiramaki-e, gold, silver foil application on nashiji ground; gilt bronze fittings; first half of the 15th century; The Metropolitan Museum of Art, 2019",
+      "MDC_P010": "ANA102",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Bronze",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA102",
+    "superclass_type_property": "ANA102",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI087",
+    "code": "ANI087",
+    "preferred_name": "Sutra Box (Kyōbako) with Sun and Clouds",
+    "preferred_name_ml": {
+      "en": "Sutra Box (Kyōbako) with Sun and Clouds"
+    },
+    "definition": "Sutra box; Lacquered wood with gold hiramaki-e; gilt bronze fittings; late 14th–early 15th century; The Metropolitan Museum of Art, 2024",
+    "definition_ml": {
+      "en": "Sutra box; Lacquered wood with gold hiramaki-e; gilt bronze fittings; late 14th–early 15th century; The Metropolitan Museum of Art, 2024"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI087",
+      "MDC_P004.en": "Sutra Box (Kyōbako) with Sun and Clouds",
+      "MDC_P006.en": "Sutra box; Lacquered wood with gold hiramaki-e; gilt bronze fittings; late 14th–early 15th century; The Metropolitan Museum of Art, 2024",
+      "MDC_P010": "ANA102",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Bronze",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA102",
+    "superclass_type_property": "ANA102",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA103",
+    "code": "ANA103",
+    "preferred_name": "Jade",
+    "preferred_name_ml": {
+      "en": "Jade",
+      "zh-TW": "玉器"
+    },
+    "definition": "objects carved from jade stone, whether nephrite or jadeite",
+    "definition_ml": {
+      "en": "objects carved from jade stone, whether nephrite or jadeite"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA103",
+      "MDC_P004.en": "Jade",
+      "MDC_P004.zh-TW": "玉器",
+      "MDC_P006.en": "objects carved from jade stone, whether nephrite or jadeite",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB105}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB105"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI002",
+    "code": "ANI002",
+    "preferred_name": "Jadeite Cabbage",
+    "preferred_name_ml": {
+      "zh-TW": "翠玉白菜",
+      "en": "Jadeite Cabbage"
+    },
+    "short_name": "JadeiteCabbage",
+    "short_name_ml": {
+      "en": "JadeiteCabbage"
+    },
+    "definition": "Qing dynasty jadeite carving of a Chinese cabbage with insects, National Palace Museum, Taipei",
+    "definition_ml": {
+      "en": "Qing dynasty jadeite carving of a Chinese cabbage with insects, National Palace Museum, Taipei"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI002",
+      "MDC_P004.zh-TW": "翠玉白菜",
+      "MDC_P004.en": "Jadeite Cabbage",
+      "MDC_P005.en": "JadeiteCabbage",
+      "MDC_P006.en": "Qing dynasty jadeite carving of a Chinese cabbage with insects, National Palace Museum, Taipei",
+      "MDC_P010": "ANA103",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Jade",
+      "culture": "China",
+      "period": "Qing",
+      "height": "18.7",
+      "jade_stone": "Jadeite",
+      "condition_grade": "Excellent"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA103",
+    "superclass_type_property": "ANA103",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI017",
+    "code": "ANI017",
+    "preferred_name": "Knotted dragon ring",
+    "preferred_name_ml": {
+      "en": "Knotted dragon ring"
+    },
+    "definition": "Ring; Jade (nephrite); 3rd century BCE; The Metropolitan Museum of Art, 1985",
+    "definition_ml": {
+      "en": "Ring; Jade (nephrite); 3rd century BCE; The Metropolitan Museum of Art, 1985"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI017",
+      "MDC_P004.en": "Knotted dragon ring",
+      "MDC_P006.en": "Ring; Jade (nephrite); 3rd century BCE; The Metropolitan Museum of Art, 1985",
+      "MDC_P010": "ANA103",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Jade",
+      "culture": "China",
+      "period": "Zhou"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA103",
+    "superclass_type_property": "ANA103",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA104",
+    "code": "ANA104",
+    "preferred_name": "Painting and Calligraphy",
+    "preferred_name_ml": {
+      "en": "Painting and Calligraphy",
+      "zh-TW": "書畫",
+      "ja": "書画"
+    },
+    "definition": "paintings and works of calligraphy on paper or silk",
+    "definition_ml": {
+      "en": "paintings and works of calligraphy on paper or silk"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA104",
+      "MDC_P004.en": "Painting and Calligraphy",
+      "MDC_P004.zh-TW": "書畫",
+      "MDC_P004.ja": "書画",
+      "MDC_P006.en": "paintings and works of calligraphy on paper or silk",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB106,ANB107}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB106",
+      "ANB107"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI003",
+    "code": "ANI003",
+    "preferred_name": "Along the River During the Qingming Festival",
+    "preferred_name_ml": {
+      "zh-TW": "清明上河圖",
+      "en": "Along the River During the Qingming Festival"
+    },
+    "short_name": "QingmingScroll",
+    "short_name_ml": {
+      "en": "QingmingScroll"
+    },
+    "definition": "attributed to Zhang Zeduan, Northern Song handscroll depicting the capital Bianjing, Palace Museum, Beijing",
+    "definition_ml": {
+      "en": "attributed to Zhang Zeduan, Northern Song handscroll depicting the capital Bianjing, Palace Museum, Beijing"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI003",
+      "MDC_P004.zh-TW": "清明上河圖",
+      "MDC_P004.en": "Along the River During the Qingming Festival",
+      "MDC_P005.en": "QingmingScroll",
+      "MDC_P006.en": "attributed to Zhang Zeduan, Northern Song handscroll depicting the capital Bianjing, Palace Museum, Beijing",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Song",
+      "height": "24.8",
+      "medium": "Ink_and_colour_on_silk",
+      "mounting_format": "Handscroll",
+      "condition_grade": "Good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI013",
+    "code": "ANI013",
+    "preferred_name": "Water-moon Avalokiteshvara",
+    "preferred_name_ml": {
+      "en": "Water-moon Avalokiteshvara"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1914",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1914"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI013",
+      "MDC_P004.en": "Water-moon Avalokiteshvara",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1914",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI014",
+    "code": "ANI014",
+    "preferred_name": "Grapevine in the Wind",
+    "preferred_name_ml": {
+      "en": "Grapevine in the Wind"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink on silk; 16th century; The Metropolitan Museum of Art, 1994",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink on silk; 16th century; The Metropolitan Museum of Art, 1994"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI014",
+      "MDC_P004.en": "Grapevine in the Wind",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on silk; 16th century; The Metropolitan Museum of Art, 1994",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI019",
+    "code": "ANI019",
+    "preferred_name": "Irises at Yatsuhashi (Eight Bridges)",
+    "preferred_name_ml": {
+      "en": "Irises at Yatsuhashi (Eight Bridges)"
+    },
+    "definition": "Screen; Pair of six-panel folding screens; ink and color on gold leaf on paper; after 1709; The Metropolitan Museum of Art, 1953",
+    "definition_ml": {
+      "en": "Screen; Pair of six-panel folding screens; ink and color on gold leaf on paper; after 1709; The Metropolitan Museum of Art, 1953"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI019",
+      "MDC_P004.en": "Irises at Yatsuhashi (Eight Bridges)",
+      "MDC_P006.en": "Screen; Pair of six-panel folding screens; ink and color on gold leaf on paper; after 1709; The Metropolitan Museum of Art, 1953",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan",
+      "period": "Edo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI021",
+    "code": "ANI021",
+    "preferred_name": "Old Trees, Level Distance",
+    "preferred_name_ml": {
+      "en": "Old Trees, Level Distance"
+    },
+    "definition": "Handscroll; Handscroll; ink and color on silk; ca. 1080; The Metropolitan Museum of Art, 1981",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink and color on silk; ca. 1080; The Metropolitan Museum of Art, 1981"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI021",
+      "MDC_P004.en": "Old Trees, Level Distance",
+      "MDC_P006.en": "Handscroll; Handscroll; ink and color on silk; ca. 1080; The Metropolitan Museum of Art, 1981",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Song"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI024",
+    "code": "ANI024",
+    "preferred_name": "Amitabha and Kshitigarba",
+    "preferred_name_ml": {
+      "en": "Amitabha and Kshitigarba"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1913",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1913"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI024",
+      "MDC_P004.en": "Amitabha and Kshitigarba",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1913",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI025",
+    "code": "ANI025",
+    "preferred_name": "Kshitigarbha",
+    "preferred_name_ml": {
+      "en": "Kshitigarbha"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; first half of the 14th century; The Metropolitan Museum of Art, 1929",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; first half of the 14th century; The Metropolitan Museum of Art, 1929"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI025",
+      "MDC_P004.en": "Kshitigarbha",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; first half of the 14th century; The Metropolitan Museum of Art, 1929",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI026",
+    "code": "ANI026",
+    "preferred_name": "Brahma with Attendants and Musicians",
+    "preferred_name_ml": {
+      "en": "Brahma with Attendants and Musicians"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on hemp; late 16th century; The Metropolitan Museum of Art, 1921",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on hemp; late 16th century; The Metropolitan Museum of Art, 1921"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI026",
+      "MDC_P004.en": "Brahma with Attendants and Musicians",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on hemp; late 16th century; The Metropolitan Museum of Art, 1921",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI027",
+    "code": "ANI027",
+    "preferred_name": "Wild geese descending to sandbar",
+    "preferred_name_ml": {
+      "en": "Wild geese descending to sandbar"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink on silk; late 15th–early 16th century; The Metropolitan Museum of Art, 1992",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink on silk; late 15th–early 16th century; The Metropolitan Museum of Art, 1992"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI027",
+      "MDC_P004.en": "Wild geese descending to sandbar",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on silk; late 15th–early 16th century; The Metropolitan Museum of Art, 1992",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI028",
+    "code": "ANI028",
+    "preferred_name": "Portrait of the Great Master Seosan",
+    "preferred_name_ml": {
+      "en": "Portrait of the Great Master Seosan"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on silk; late 17th–18th century; The Metropolitan Museum of Art, 1959",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on silk; late 17th–18th century; The Metropolitan Museum of Art, 1959"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI028",
+      "MDC_P004.en": "Portrait of the Great Master Seosan",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; late 17th–18th century; The Metropolitan Museum of Art, 1959",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI029",
+    "code": "ANI029",
+    "preferred_name": "Night-Shining White",
+    "preferred_name_ml": {
+      "en": "Night-Shining White"
+    },
+    "definition": "Handscroll; Handscroll; ink on paper; ca. 750; The Metropolitan Museum of Art, 1977",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink on paper; ca. 750; The Metropolitan Museum of Art, 1977"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI029",
+      "MDC_P004.en": "Night-Shining White",
+      "MDC_P006.en": "Handscroll; Handscroll; ink on paper; ca. 750; The Metropolitan Museum of Art, 1977",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Tang"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI030",
+    "code": "ANI030",
+    "preferred_name": "Summer Mountains",
+    "preferred_name_ml": {
+      "en": "Summer Mountains"
+    },
+    "definition": "Handscroll; Handscroll; ink and color on silk; ca. 1050; The Metropolitan Museum of Art, 1973",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink and color on silk; ca. 1050; The Metropolitan Museum of Art, 1973"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI030",
+      "MDC_P004.en": "Summer Mountains",
+      "MDC_P006.en": "Handscroll; Handscroll; ink and color on silk; ca. 1050; The Metropolitan Museum of Art, 1973",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Song"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI031",
+    "code": "ANI031",
+    "preferred_name": "Biographies of Lian Po and Lin Xiangru",
+    "preferred_name_ml": {
+      "en": "Biographies of Lian Po and Lin Xiangru"
+    },
+    "definition": "Handscroll; Handscroll; ink on paper; ca. 1095; The Metropolitan Museum of Art, 1989",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink on paper; ca. 1095; The Metropolitan Museum of Art, 1989"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI031",
+      "MDC_P004.en": "Biographies of Lian Po and Lin Xiangru",
+      "MDC_P006.en": "Handscroll; Handscroll; ink on paper; ca. 1095; The Metropolitan Museum of Art, 1989",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Song"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI032",
+    "code": "ANI032",
+    "preferred_name": "Finches and bamboo",
+    "preferred_name_ml": {
+      "en": "Finches and bamboo"
+    },
+    "definition": "Handscroll; Handscroll; ink and color on silk; early 12th century; The Metropolitan Museum of Art, 1981",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink and color on silk; early 12th century; The Metropolitan Museum of Art, 1981"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI032",
+      "MDC_P004.en": "Finches and bamboo",
+      "MDC_P006.en": "Handscroll; Handscroll; ink and color on silk; early 12th century; The Metropolitan Museum of Art, 1981",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Song"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI034",
+    "code": "ANI034",
+    "preferred_name": "Emperor Xuanzong's flight to Shu",
+    "preferred_name_ml": {
+      "en": "Emperor Xuanzong's flight to Shu"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; mid-12th century; The Metropolitan Museum of Art, 1941",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; mid-12th century; The Metropolitan Museum of Art, 1941"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI034",
+      "MDC_P004.en": "Emperor Xuanzong's flight to Shu",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; mid-12th century; The Metropolitan Museum of Art, 1941",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Song"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI035",
+    "code": "ANI035",
+    "preferred_name": "Wang Xizhi watching geese",
+    "preferred_name_ml": {
+      "en": "Wang Xizhi watching geese"
+    },
+    "definition": "Handscroll; Handscroll; ink, color, and gold on paper; ca. 1295; The Metropolitan Museum of Art, 1973",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink, color, and gold on paper; ca. 1295; The Metropolitan Museum of Art, 1973"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI035",
+      "MDC_P004.en": "Wang Xizhi watching geese",
+      "MDC_P006.en": "Handscroll; Handscroll; ink, color, and gold on paper; ca. 1295; The Metropolitan Museum of Art, 1973",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Yuan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI037",
+    "code": "ANI037",
+    "preferred_name": "Grapevine and Squirrels",
+    "preferred_name_ml": {
+      "en": "Grapevine and Squirrels"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on paper; early 19th century; The Metropolitan Museum of Art, 1987",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on paper; early 19th century; The Metropolitan Museum of Art, 1987"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI037",
+      "MDC_P004.en": "Grapevine and Squirrels",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on paper; early 19th century; The Metropolitan Museum of Art, 1987",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI050",
+    "code": "ANI050",
+    "preferred_name": "Gibbons in a Landscape",
+    "preferred_name_ml": {
+      "en": "Gibbons in a Landscape"
+    },
+    "definition": "Screen; Pair of six-panel screens; ink on paper; ca. 1570; The Metropolitan Museum of Art, 1992",
+    "definition_ml": {
+      "en": "Screen; Pair of six-panel screens; ink on paper; ca. 1570; The Metropolitan Museum of Art, 1992"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI050",
+      "MDC_P004.en": "Gibbons in a Landscape",
+      "MDC_P006.en": "Screen; Pair of six-panel screens; ink on paper; ca. 1570; The Metropolitan Museum of Art, 1992",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI053",
+    "code": "ANI053",
+    "preferred_name": "Rough Waves",
+    "preferred_name_ml": {
+      "en": "Rough Waves"
+    },
+    "definition": "Screen; Two-panel folding screen; ink, color, and gold leaf on paper; ca. 1704–9; The Metropolitan Museum of Art, 1926",
+    "definition_ml": {
+      "en": "Screen; Two-panel folding screen; ink, color, and gold leaf on paper; ca. 1704–9; The Metropolitan Museum of Art, 1926"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI053",
+      "MDC_P004.en": "Rough Waves",
+      "MDC_P006.en": "Screen; Two-panel folding screen; ink, color, and gold leaf on paper; ca. 1704–9; The Metropolitan Museum of Art, 1926",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan",
+      "period": "Edo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI055",
+    "code": "ANI055",
+    "preferred_name": "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)",
+    "preferred_name_ml": {
+      "en": "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)"
+    },
+    "definition": "Handscrolls; Set of five handscrolls; ink, color, and cut gold leaf (kirikane) on paper; late 13th century; The Metropolitan Museum of Art, 1925",
+    "definition_ml": {
+      "en": "Handscrolls; Set of five handscrolls; ink, color, and cut gold leaf (kirikane) on paper; late 13th century; The Metropolitan Museum of Art, 1925"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI055",
+      "MDC_P004.en": "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)",
+      "MDC_P006.en": "Handscrolls; Set of five handscrolls; ink, color, and cut gold leaf (kirikane) on paper; late 13th century; The Metropolitan Museum of Art, 1925",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI056",
+    "code": "ANI056",
+    "preferred_name": "Woods and Valleys of Mount Yu",
+    "preferred_name_ml": {
+      "en": "Woods and Valleys of Mount Yu"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink on paper; dated 1372; The Metropolitan Museum of Art, 1973",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink on paper; dated 1372; The Metropolitan Museum of Art, 1973"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI056",
+      "MDC_P004.en": "Woods and Valleys of Mount Yu",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on paper; dated 1372; The Metropolitan Museum of Art, 1973",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Yuan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI057",
+    "code": "ANI057",
+    "preferred_name": "The Sixteen Luohans",
+    "preferred_name_ml": {
+      "en": "The Sixteen Luohans"
+    },
+    "definition": "Handscroll; Handscroll; ink and color on paper; dated 1591; The Metropolitan Museum of Art, 1986",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink and color on paper; dated 1591; The Metropolitan Museum of Art, 1986"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI057",
+      "MDC_P004.en": "The Sixteen Luohans",
+      "MDC_P006.en": "Handscroll; Handscroll; ink and color on paper; dated 1591; The Metropolitan Museum of Art, 1986",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Ming"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI058",
+    "code": "ANI058",
+    "preferred_name": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai",
+    "preferred_name_ml": {
+      "en": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai"
+    },
+    "definition": "Handscroll; Handscroll; ink and color on silk; datable to 1698; The Metropolitan Museum of Art, 1979",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink and color on silk; datable to 1698; The Metropolitan Museum of Art, 1979"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI058",
+      "MDC_P004.en": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai",
+      "MDC_P006.en": "Handscroll; Handscroll; ink and color on silk; datable to 1698; The Metropolitan Museum of Art, 1979",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Qing"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI062",
+    "code": "ANI062",
+    "preferred_name": "Water-Moon Avalokiteshvara",
+    "preferred_name_ml": {
+      "en": "Water-Moon Avalokiteshvara"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI062",
+      "MDC_P004.en": "Water-Moon Avalokiteshvara",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI064",
+    "code": "ANI064",
+    "preferred_name": "Bamboo in the Wind",
+    "preferred_name_ml": {
+      "en": "Bamboo in the Wind"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink on silk with gold on colophon; early 17th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink on silk with gold on colophon; early 17th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI064",
+      "MDC_P004.en": "Bamboo in the Wind",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on silk with gold on colophon; early 17th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI065",
+    "code": "ANI065",
+    "preferred_name": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)",
+    "preferred_name_ml": {
+      "en": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)"
+    },
+    "definition": "Hanging scrolls; Pair of hanging scrolls; ink on silk; ca. 1450–1500; The Metropolitan Museum of Art, 1987",
+    "definition_ml": {
+      "en": "Hanging scrolls; Pair of hanging scrolls; ink on silk; ca. 1450–1500; The Metropolitan Museum of Art, 1987"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI065",
+      "MDC_P004.en": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)",
+      "MDC_P006.en": "Hanging scrolls; Pair of hanging scrolls; ink on silk; ca. 1450–1500; The Metropolitan Museum of Art, 1987",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI067",
+    "code": "ANI067",
+    "preferred_name": "Portrait of Shun'oku Myōha",
+    "preferred_name_ml": {
+      "en": "Portrait of Shun'oku Myōha"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; ca. 1383; The Metropolitan Museum of Art, 2007",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; ca. 1383; The Metropolitan Museum of Art, 2007"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI067",
+      "MDC_P004.en": "Portrait of Shun'oku Myōha",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink, color, and gold on silk; ca. 1383; The Metropolitan Museum of Art, 2007",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI072",
+    "code": "ANI072",
+    "preferred_name": "Gathering of government officials",
+    "preferred_name_ml": {
+      "en": "Gathering of government officials"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1551; The Metropolitan Museum of Art, 2008",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1551; The Metropolitan Museum of Art, 2008"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI072",
+      "MDC_P004.en": "Gathering of government officials",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1551; The Metropolitan Museum of Art, 2008",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI073",
+    "code": "ANI073",
+    "preferred_name": "Shakyamuni triad",
+    "preferred_name_ml": {
+      "en": "Shakyamuni triad"
+    },
+    "definition": "Hanging scroll; Hanging scroll; color and gold on silk; 1565; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; color and gold on silk; 1565; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI073",
+      "MDC_P004.en": "Shakyamuni triad",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; color and gold on silk; 1565; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI077",
+    "code": "ANI077",
+    "preferred_name": "Portrait of Yun Dongseom (1710–1795)",
+    "preferred_name_ml": {
+      "en": "Portrait of Yun Dongseom (1710–1795)"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1790–1805; The Metropolitan Museum of Art, 2014",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1790–1805; The Metropolitan Museum of Art, 2014"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI077",
+      "MDC_P004.en": "Portrait of Yun Dongseom (1710–1795)",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1790–1805; The Metropolitan Museum of Art, 2014",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI079",
+    "code": "ANI079",
+    "preferred_name": "”Abiding nowhere, the awakened mind arises”",
+    "preferred_name_ml": {
+      "en": "”Abiding nowhere, the awakened mind arises”"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink on paper; early to mid-14th century; The Metropolitan Museum of Art, 2018",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink on paper; early to mid-14th century; The Metropolitan Museum of Art, 2018"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI079",
+      "MDC_P004.en": "”Abiding nowhere, the awakened mind arises”",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on paper; early to mid-14th century; The Metropolitan Museum of Art, 2018",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI081",
+    "code": "ANI081",
+    "preferred_name": "Daoist Master Fei Zhangfang",
+    "preferred_name_ml": {
+      "en": "Daoist Master Fei Zhangfang"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink on paper; ca. 1555–61; The Metropolitan Museum of Art, 2022",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink on paper; ca. 1555–61; The Metropolitan Museum of Art, 2022"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI081",
+      "MDC_P004.en": "Daoist Master Fei Zhangfang",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink on paper; ca. 1555–61; The Metropolitan Museum of Art, 2022",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI083",
+    "code": "ANI083",
+    "preferred_name": "Streams and Mountains without End",
+    "preferred_name_ml": {
+      "en": "Streams and Mountains without End"
+    },
+    "definition": "Handscroll; Handscroll; ink on paper; ca. 1710; The Metropolitan Museum of Art, 2022",
+    "definition_ml": {
+      "en": "Handscroll; Handscroll; ink on paper; ca. 1710; The Metropolitan Museum of Art, 2022"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI083",
+      "MDC_P004.en": "Streams and Mountains without End",
+      "MDC_P006.en": "Handscroll; Handscroll; ink on paper; ca. 1710; The Metropolitan Museum of Art, 2022",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Qing"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI084",
+    "code": "ANI084",
+    "preferred_name": "Hawk at Sunrise",
+    "preferred_name_ml": {
+      "en": "Hawk at Sunrise"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on silk; second half 18th century–first half 19th century; The Metropolitan Museum of Art, 2022",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on silk; second half 18th century–first half 19th century; The Metropolitan Museum of Art, 2022"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI084",
+      "MDC_P004.en": "Hawk at Sunrise",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; second half 18th century–first half 19th century; The Metropolitan Museum of Art, 2022",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI089",
+    "code": "ANI089",
+    "preferred_name": "Woman at her dressing table",
+    "preferred_name_ml": {
+      "en": "Woman at her dressing table"
+    },
+    "definition": "Hanging scroll; Hanging scroll; ink and color on silk; early 18th century; The Metropolitan Museum of Art, 2024",
+    "definition_ml": {
+      "en": "Hanging scroll; Hanging scroll; ink and color on silk; early 18th century; The Metropolitan Museum of Art, 2024"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI089",
+      "MDC_P004.en": "Woman at her dressing table",
+      "MDC_P006.en": "Hanging scroll; Hanging scroll; ink and color on silk; early 18th century; The Metropolitan Museum of Art, 2024",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "China",
+      "period": "Qing"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI090",
+    "code": "ANI090",
+    "preferred_name": "The Thirty-Six Poetic Immortals",
+    "preferred_name_ml": {
+      "en": "The Thirty-Six Poetic Immortals"
+    },
+    "definition": "Folding screens; Pair of six-panel folding screens; ink, color, gold, and silver on paper; early 17th century; The Metropolitan Museum of Art, 2024",
+    "definition_ml": {
+      "en": "Folding screens; Pair of six-panel folding screens; ink, color, gold, and silver on paper; early 17th century; The Metropolitan Museum of Art, 2024"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI090",
+      "MDC_P004.en": "The Thirty-Six Poetic Immortals",
+      "MDC_P006.en": "Folding screens; Pair of six-panel folding screens; ink, color, gold, and silver on paper; early 17th century; The Metropolitan Museum of Art, 2024",
+      "MDC_P010": "ANA104",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "PaintingCalligraphy",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA104",
+    "superclass_type_property": "ANA104",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA105",
+    "code": "ANA105",
+    "preferred_name": "Furniture",
+    "preferred_name_ml": {
+      "en": "Furniture",
+      "zh-TW": "家具"
+    },
+    "definition": "cabinetwork and household furniture of hardwood or softwood",
+    "definition_ml": {
+      "en": "cabinetwork and household furniture of hardwood or softwood"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA105",
+      "MDC_P004.en": "Furniture",
+      "MDC_P004.zh-TW": "家具",
+      "MDC_P006.en": "cabinetwork and household furniture of hardwood or softwood",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB108}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB108"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI009",
+    "code": "ANI009",
+    "preferred_name": "Ming Huanghuali Rounded-Corner Cabinet",
+    "preferred_name_ml": {
+      "zh-TW": "明黃花梨圓角櫃",
+      "en": "Ming Huanghuali Rounded-Corner Cabinet"
+    },
+    "short_name": "HuanghualiCabinet",
+    "short_name_ml": {
+      "en": "HuanghualiCabinet"
+    },
+    "definition": "Ming dynasty rounded-corner cabinet of huanghuali hardwood with original mounts",
+    "definition_ml": {
+      "en": "Ming dynasty rounded-corner cabinet of huanghuali hardwood with original mounts"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI009",
+      "MDC_P004.zh-TW": "明黃花梨圓角櫃",
+      "MDC_P004.en": "Ming Huanghuali Rounded-Corner Cabinet",
+      "MDC_P005.en": "HuanghualiCabinet",
+      "MDC_P006.en": "Ming dynasty rounded-corner cabinet of huanghuali hardwood with original mounts",
+      "MDC_P010": "ANA105",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Furniture",
+      "culture": "China",
+      "period": "Ming",
+      "wood_type": "huanghuali",
+      "condition_grade": "Good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA105",
+    "superclass_type_property": "ANA105",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA106",
+    "code": "ANA106",
+    "preferred_name": "Lacquer",
+    "preferred_name_ml": {
+      "en": "Lacquer",
+      "zh-TW": "漆器",
+      "ja": "漆工"
+    },
+    "definition": "objects decorated or built in applied lacquer",
+    "definition_ml": {
+      "en": "objects decorated or built in applied lacquer"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA106",
+      "MDC_P004.en": "Lacquer",
+      "MDC_P004.zh-TW": "漆器",
+      "MDC_P004.ja": "漆工",
+      "MDC_P006.en": "objects decorated or built in applied lacquer",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB109}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB109"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI012",
+    "code": "ANI012",
+    "preferred_name": "Carved Red Lacquer Box and Cover",
+    "preferred_name_ml": {
+      "zh-TW": "雕漆蓋盒",
+      "en": "Carved Red Lacquer Box and Cover"
+    },
+    "short_name": "LacquerBox",
+    "short_name_ml": {
+      "en": "LacquerBox"
+    },
+    "definition": "box and cover deeply carved through thick red lacquer layers with floral scroll",
+    "definition_ml": {
+      "en": "box and cover deeply carved through thick red lacquer layers with floral scroll"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI012",
+      "MDC_P004.zh-TW": "雕漆蓋盒",
+      "MDC_P004.en": "Carved Red Lacquer Box and Cover",
+      "MDC_P005.en": "LacquerBox",
+      "MDC_P006.en": "box and cover deeply carved through thick red lacquer layers with floral scroll",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "China",
+      "period": "Ming",
+      "lacquer_technique": "carved red lacquer",
+      "condition_grade": "Good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI033",
+    "code": "ANI033",
+    "preferred_name": "Trefoil-shaped covered box with decoration of chrysanthemums",
+    "preferred_name_ml": {
+      "en": "Trefoil-shaped covered box with decoration of chrysanthemums"
+    },
+    "definition": "Covered box; Lacquer inlaid with mother-of-pearl and tortoise shell over pigment and brass wire; ca.12th century; The Metropolitan Museum of Art, 1925",
+    "definition_ml": {
+      "en": "Covered box; Lacquer inlaid with mother-of-pearl and tortoise shell over pigment and brass wire; ca.12th century; The Metropolitan Museum of Art, 1925"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI033",
+      "MDC_P004.en": "Trefoil-shaped covered box with decoration of chrysanthemums",
+      "MDC_P006.en": "Covered box; Lacquer inlaid with mother-of-pearl and tortoise shell over pigment and brass wire; ca.12th century; The Metropolitan Museum of Art, 1925",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "Korea",
+      "period": "Goryeo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI036",
+    "code": "ANI036",
+    "preferred_name": "Tray with women and boys on a garden terrace",
+    "preferred_name_ml": {
+      "en": "Tray with women and boys on a garden terrace"
+    },
+    "definition": "Tray; Carved red lacquer; 14th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Tray; Carved red lacquer; 14th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI036",
+      "MDC_P004.en": "Tray with women and boys on a garden terrace",
+      "MDC_P006.en": "Tray; Carved red lacquer; 14th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "China",
+      "period": "Yuan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI038",
+    "code": "ANI038",
+    "preferred_name": "Stationery box decorated with peony scrolls",
+    "preferred_name_ml": {
+      "en": "Stationery box decorated with peony scrolls"
+    },
+    "definition": "Stationery box; Lacquer inlaid with mother-of-pearl; brass fittings; 15th–16th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Stationery box; Lacquer inlaid with mother-of-pearl; brass fittings; 15th–16th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI038",
+      "MDC_P004.en": "Stationery box decorated with peony scrolls",
+      "MDC_P006.en": "Stationery box; Lacquer inlaid with mother-of-pearl; brass fittings; 15th–16th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI039",
+    "code": "ANI039",
+    "preferred_name": "Stationery box decorated with peony scrolls",
+    "preferred_name_ml": {
+      "en": "Stationery box decorated with peony scrolls"
+    },
+    "definition": "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI039",
+      "MDC_P004.en": "Stationery box decorated with peony scrolls",
+      "MDC_P006.en": "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI040",
+    "code": "ANI040",
+    "preferred_name": "Clothing box decorated with dragons",
+    "preferred_name_ml": {
+      "en": "Clothing box decorated with dragons"
+    },
+    "definition": "Clothing box; Lacquer inlaid with mother-of-pearl, tortoiseshell, and ray skin; 19th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Clothing box; Lacquer inlaid with mother-of-pearl, tortoiseshell, and ray skin; 19th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI040",
+      "MDC_P004.en": "Clothing box decorated with dragons",
+      "MDC_P006.en": "Clothing box; Lacquer inlaid with mother-of-pearl, tortoiseshell, and ray skin; 19th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI052",
+    "code": "ANI052",
+    "preferred_name": "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields",
+    "preferred_name_ml": {
+      "en": "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields"
+    },
+    "definition": "Wine ewer; Lacquered wood with gold hiramaki-e and e-nashiji (“pear-skin picture”) on black ground; early 17th century; The Metropolitan Museum of Art, 1980",
+    "definition_ml": {
+      "en": "Wine ewer; Lacquered wood with gold hiramaki-e and e-nashiji (“pear-skin picture”) on black ground; early 17th century; The Metropolitan Museum of Art, 1980"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI052",
+      "MDC_P004.en": "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields",
+      "MDC_P006.en": "Wine ewer; Lacquered wood with gold hiramaki-e and e-nashiji (“pear-skin picture”) on black ground; early 17th century; The Metropolitan Museum of Art, 1980",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI054",
+    "code": "ANI054",
+    "preferred_name": "Box decorated with auspicious symbols",
+    "preferred_name_ml": {
+      "en": "Box decorated with auspicious symbols"
+    },
+    "definition": "Box; Lacquered wood inlaid with flattened and painted ox horn; 19th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Box; Lacquered wood inlaid with flattened and painted ox horn; 19th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI054",
+      "MDC_P004.en": "Box decorated with auspicious symbols",
+      "MDC_P006.en": "Box; Lacquered wood inlaid with flattened and painted ox horn; 19th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI066",
+    "code": "ANI066",
+    "preferred_name": "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)",
+    "preferred_name_ml": {
+      "en": "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)"
+    },
+    "definition": "Figure; Japanese cypress with lacquer, color, gold, cut gold leaf (kirikane), and inlaid crystal eyes; early 13th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Figure; Japanese cypress with lacquer, color, gold, cut gold leaf (kirikane), and inlaid crystal eyes; early 13th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI066",
+      "MDC_P004.en": "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)",
+      "MDC_P006.en": "Figure; Japanese cypress with lacquer, color, gold, cut gold leaf (kirikane), and inlaid crystal eyes; early 13th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI068",
+    "code": "ANI068",
+    "preferred_name": "Sutra box with dragons amid clouds",
+    "preferred_name_ml": {
+      "en": "Sutra box with dragons amid clouds"
+    },
+    "definition": "Sutra box; Red lacquer, incised decoration, gold inlay, damascened brass lock and key; The Metropolitan Museum of Art, 2001",
+    "definition_ml": {
+      "en": "Sutra box; Red lacquer, incised decoration, gold inlay, damascened brass lock and key; The Metropolitan Museum of Art, 2001"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI068",
+      "MDC_P004.en": "Sutra box with dragons amid clouds",
+      "MDC_P006.en": "Sutra box; Red lacquer, incised decoration, gold inlay, damascened brass lock and key; The Metropolitan Museum of Art, 2001",
+      "MDC_P010": "ANA106",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "Lacquer",
+      "culture": "China",
+      "period": "Ming"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA106",
+    "superclass_type_property": "ANA106",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA107",
+    "code": "ANA107",
+    "preferred_name": "Cloisonné Enamel",
+    "preferred_name_ml": {
+      "en": "Cloisonné Enamel",
+      "zh-TW": "掐絲琺瑯"
+    },
+    "definition": "objects decorated with cloisonné enamel, wire-outlined glass paste fired on a metal body",
+    "definition_ml": {
+      "en": "objects decorated with cloisonné enamel, wire-outlined glass paste fired on a metal body"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA107",
+      "MDC_P004.en": "Cloisonné Enamel",
+      "MDC_P004.zh-TW": "掐絲琺瑯",
+      "MDC_P006.en": "objects decorated with cloisonné enamel, wire-outlined glass paste fired on a metal body",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB110}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB110"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI011",
+    "code": "ANI011",
+    "preferred_name": "Cloisonné Enamel Censer",
+    "preferred_name_ml": {
+      "zh-TW": "掐絲琺瑯香爐",
+      "en": "Cloisonné Enamel Censer"
+    },
+    "short_name": "CloisonneCenser",
+    "short_name_ml": {
+      "en": "CloisonneCenser"
+    },
+    "definition": "censer of copper decorated with wire-outlined enamel, of the type made for the Ming court",
+    "definition_ml": {
+      "en": "censer of copper decorated with wire-outlined enamel, of the type made for the Ming court"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI011",
+      "MDC_P004.zh-TW": "掐絲琺瑯香爐",
+      "MDC_P004.en": "Cloisonné Enamel Censer",
+      "MDC_P005.en": "CloisonneCenser",
+      "MDC_P006.en": "censer of copper decorated with wire-outlined enamel, of the type made for the Ming court",
+      "MDC_P010": "ANA107",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "CloisonneEnamel",
+      "culture": "China",
+      "period": "Ming",
+      "cloisonne_technique": "cloisonné wire enamel",
+      "condition_grade": "Good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA107",
+    "superclass_type_property": "ANA107",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI082",
+    "code": "ANI082",
+    "preferred_name": "Table screen with landscape",
+    "preferred_name_ml": {
+      "en": "Table screen with landscape"
+    },
+    "definition": "Table screen; Cloisonné enamel on copper alloy, wood frame and stand; second half 15th century; The Metropolitan Museum of Art, 2022",
+    "definition_ml": {
+      "en": "Table screen; Cloisonné enamel on copper alloy, wood frame and stand; second half 15th century; The Metropolitan Museum of Art, 2022"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI082",
+      "MDC_P004.en": "Table screen with landscape",
+      "MDC_P006.en": "Table screen; Cloisonné enamel on copper alloy, wood frame and stand; second half 15th century; The Metropolitan Museum of Art, 2022",
+      "MDC_P010": "ANA107",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "CloisonneEnamel",
+      "culture": "China",
+      "period": "Ming"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA107",
+    "superclass_type_property": "ANA107",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA108",
+    "code": "ANA108",
+    "preferred_name": "Buddhist Sculpture",
+    "preferred_name_ml": {
+      "en": "Buddhist Sculpture",
+      "zh-TW": "佛教造像"
+    },
+    "definition": "sculptural images of Buddhist devotion",
+    "definition_ml": {
+      "en": "sculptural images of Buddhist devotion"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA108",
+      "MDC_P004.en": "Buddhist Sculpture",
+      "MDC_P004.zh-TW": "佛教造像",
+      "MDC_P006.en": "sculptural images of Buddhist devotion",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB111}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB111"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI008",
+    "code": "ANI008",
+    "preferred_name": "Tang Gilt-Bronze Seated Buddha",
+    "preferred_name_ml": {
+      "zh-TW": "唐鎏金銅佛坐像",
+      "en": "Tang Gilt-Bronze Seated Buddha"
+    },
+    "short_name": "TangBuddha",
+    "short_name_ml": {
+      "en": "TangBuddha"
+    },
+    "definition": "Tang dynasty gilt-bronze figure of the seated Buddha",
+    "definition_ml": {
+      "en": "Tang dynasty gilt-bronze figure of the seated Buddha"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI008",
+      "MDC_P004.zh-TW": "唐鎏金銅佛坐像",
+      "MDC_P004.en": "Tang Gilt-Bronze Seated Buddha",
+      "MDC_P005.en": "TangBuddha",
+      "MDC_P006.en": "Tang dynasty gilt-bronze figure of the seated Buddha",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "China",
+      "period": "Tang",
+      "sculpture_material": "Gilt_bronze",
+      "condition_grade": "Good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI041",
+    "code": "ANI041",
+    "preferred_name": "Buddha Maitreya (Mile) Altarpiece",
+    "preferred_name_ml": {
+      "en": "Buddha Maitreya (Mile) Altarpiece"
+    },
+    "definition": "Altarpiece; Gilt bronze; dated 524 (5th year of Zhengguang reign); The Metropolitan Museum of Art, 1938",
+    "definition_ml": {
+      "en": "Altarpiece; Gilt bronze; dated 524 (5th year of Zhengguang reign); The Metropolitan Museum of Art, 1938"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI041",
+      "MDC_P004.en": "Buddha Maitreya (Mile) Altarpiece",
+      "MDC_P006.en": "Altarpiece; Gilt bronze; dated 524 (5th year of Zhengguang reign); The Metropolitan Museum of Art, 1938",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "China"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI042",
+    "code": "ANI042",
+    "preferred_name": "Buddha, probably Amitabha",
+    "preferred_name_ml": {
+      "en": "Buddha, probably Amitabha"
+    },
+    "definition": "Figure; Dry lacquer with polychrome pigment and gilding; early 7th century; The Metropolitan Museum of Art, 1919",
+    "definition_ml": {
+      "en": "Figure; Dry lacquer with polychrome pigment and gilding; early 7th century; The Metropolitan Museum of Art, 1919"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI042",
+      "MDC_P004.en": "Buddha, probably Amitabha",
+      "MDC_P006.en": "Figure; Dry lacquer with polychrome pigment and gilding; early 7th century; The Metropolitan Museum of Art, 1919",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "China",
+      "period": "Tang"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI048",
+    "code": "ANI048",
+    "preferred_name": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)",
+    "preferred_name_ml": {
+      "en": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)"
+    },
+    "definition": "Wall painting; Water-based pigment over foundation of clay mixed with straw; ca. 1319; The Metropolitan Museum of Art, 1965",
+    "definition_ml": {
+      "en": "Wall painting; Water-based pigment over foundation of clay mixed with straw; ca. 1319; The Metropolitan Museum of Art, 1965"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI048",
+      "MDC_P004.en": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)",
+      "MDC_P006.en": "Wall painting; Water-based pigment over foundation of clay mixed with straw; ca. 1319; The Metropolitan Museum of Art, 1965",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "China",
+      "period": "Yuan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI049",
+    "code": "ANI049",
+    "preferred_name": "Buddha Maitreya (Mile)",
+    "preferred_name_ml": {
+      "en": "Buddha Maitreya (Mile)"
+    },
+    "definition": "Figure; Gilt bronze with traces of pigment; piece-mold cast; dated 486 (10th year of Taihe reign); The Metropolitan Museum of Art, 1926",
+    "definition_ml": {
+      "en": "Figure; Gilt bronze with traces of pigment; piece-mold cast; dated 486 (10th year of Taihe reign); The Metropolitan Museum of Art, 1926"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI049",
+      "MDC_P004.en": "Buddha Maitreya (Mile)",
+      "MDC_P006.en": "Figure; Gilt bronze with traces of pigment; piece-mold cast; dated 486 (10th year of Taihe reign); The Metropolitan Museum of Art, 1926",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "China"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI069",
+    "code": "ANI069",
+    "preferred_name": "Pensive bodhisattva",
+    "preferred_name_ml": {
+      "en": "Pensive bodhisattva"
+    },
+    "definition": "Figure; Gilt bronze; mid-7th century; The Metropolitan Museum of Art, 2003",
+    "definition_ml": {
+      "en": "Figure; Gilt bronze; mid-7th century; The Metropolitan Museum of Art, 2003"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI069",
+      "MDC_P004.en": "Pensive bodhisattva",
+      "MDC_P006.en": "Figure; Gilt bronze; mid-7th century; The Metropolitan Museum of Art, 2003",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "Korea"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI071",
+    "code": "ANI071",
+    "preferred_name": "Seated bodhisattva (left attendant of a triad)",
+    "preferred_name_ml": {
+      "en": "Seated bodhisattva (left attendant of a triad)"
+    },
+    "definition": "Statue; Gilt wood; ca. mid-17th century; The Metropolitan Museum of Art, 2015",
+    "definition_ml": {
+      "en": "Statue; Gilt wood; ca. mid-17th century; The Metropolitan Museum of Art, 2015"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI071",
+      "MDC_P004.en": "Seated bodhisattva (left attendant of a triad)",
+      "MDC_P006.en": "Statue; Gilt wood; ca. mid-17th century; The Metropolitan Museum of Art, 2015",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "Korea",
+      "period": "Joseon"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI074",
+    "code": "ANI074",
+    "preferred_name": "The Bodhisattva Jizō",
+    "preferred_name_ml": {
+      "en": "The Bodhisattva Jizō"
+    },
+    "definition": "Statue; Japanese cypress wood (hinoki) with polychrome pigments, gold paint (kindei), cut gold leaf (kirikane), and rock-crystal eyes; 1291; The Metropolitan Museum of Art, 2023",
+    "definition_ml": {
+      "en": "Statue; Japanese cypress wood (hinoki) with polychrome pigments, gold paint (kindei), cut gold leaf (kirikane), and rock-crystal eyes; 1291; The Metropolitan Museum of Art, 2023"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI074",
+      "MDC_P004.en": "The Bodhisattva Jizō",
+      "MDC_P006.en": "Statue; Japanese cypress wood (hinoki) with polychrome pigments, gold paint (kindei), cut gold leaf (kirikane), and rock-crystal eyes; 1291; The Metropolitan Museum of Art, 2023",
+      "MDC_P010": "ANA108",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "BuddhistSculpture",
+      "culture": "Japan"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA108",
+    "superclass_type_property": "ANA108",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA109",
+    "code": "ANA109",
+    "preferred_name": "Snuff Bottle",
+    "preferred_name_ml": {
+      "en": "Snuff Bottle",
+      "zh-TW": "鼻煙壺"
+    },
+    "definition": "small bottle for powdered tobacco, made in glass, porcelain, jade and other materials",
+    "definition_ml": {
+      "en": "small bottle for powdered tobacco, made in glass, porcelain, jade and other materials"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA109",
+      "MDC_P004.en": "Snuff Bottle",
+      "MDC_P004.zh-TW": "鼻煙壺",
+      "MDC_P006.en": "small bottle for powdered tobacco, made in glass, porcelain, jade and other materials",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB112}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB112"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI010",
+    "code": "ANI010",
+    "preferred_name": "Inside-Painted Glass Snuff Bottle",
+    "preferred_name_ml": {
+      "zh-TW": "玻璃內畫鼻煙壺",
+      "en": "Inside-Painted Glass Snuff Bottle"
+    },
+    "short_name": "SnuffBottle",
+    "short_name_ml": {
+      "en": "SnuffBottle"
+    },
+    "definition": "Qing dynasty snuff bottle of transparent glass painted on the interior surface",
+    "definition_ml": {
+      "en": "Qing dynasty snuff bottle of transparent glass painted on the interior surface"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI010",
+      "MDC_P004.zh-TW": "玻璃內畫鼻煙壺",
+      "MDC_P004.en": "Inside-Painted Glass Snuff Bottle",
+      "MDC_P005.en": "SnuffBottle",
+      "MDC_P006.en": "Qing dynasty snuff bottle of transparent glass painted on the interior surface",
+      "MDC_P010": "ANA109",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "SnuffBottle",
+      "culture": "China",
+      "period": "Qing",
+      "bottle_material": "glass",
+      "condition_grade": "Very_good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA109",
+    "superclass_type_property": "ANA109",
+    "type": "class"
+  },
+  {
+    "irdi": "ANA110",
+    "code": "ANA110",
+    "preferred_name": "Ukiyo-e Print",
+    "preferred_name_ml": {
+      "en": "Ukiyo-e Print",
+      "zh-TW": "浮世繪",
+      "ja": "浮世絵"
+    },
+    "definition": "Japanese woodblock print of the floating-world genre",
+    "definition_ml": {
+      "en": "Japanese woodblock print of the floating-world genre"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANA110",
+      "MDC_P004.en": "Ukiyo-e Print",
+      "MDC_P004.zh-TW": "浮世繪",
+      "MDC_P004.ja": "浮世絵",
+      "MDC_P006.en": "Japanese woodblock print of the floating-world genre",
+      "MDC_P010": "ANA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ANB113}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ANB113"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA100",
+    "superclass_type_property": "ANA100",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI005",
+    "code": "ANI005",
+    "preferred_name": "The Great Wave off Kanagawa",
+    "preferred_name_ml": {
+      "ja": "神奈川沖浪裏",
+      "en": "The Great Wave off Kanagawa"
+    },
+    "short_name": "GreatWave",
+    "short_name_ml": {
+      "en": "GreatWave"
+    },
+    "definition": "woodblock print by Katsushika Hokusai from the series Thirty-six Views of Mount Fuji",
+    "definition_ml": {
+      "en": "woodblock print by Katsushika Hokusai from the series Thirty-six Views of Mount Fuji"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI005",
+      "MDC_P004.ja": "神奈川沖浪裏",
+      "MDC_P004.en": "The Great Wave off Kanagawa",
+      "MDC_P005.en": "GreatWave",
+      "MDC_P006.en": "woodblock print by Katsushika Hokusai from the series Thirty-six Views of Mount Fuji",
+      "MDC_P010": "ANA110",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "UkiyoEPrint",
+      "culture": "Japan",
+      "period": "Edo",
+      "height": "25.4",
+      "print_format": "Oban",
+      "condition_grade": "Good"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA110",
+    "superclass_type_property": "ANA110",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI015",
+    "code": "ANI015",
+    "preferred_name": "Night Rain at the Double-Shelf Stand, from the series Eight Parlor Views (Zashiki hakkei)",
+    "preferred_name_ml": {
+      "en": "Night Rain at the Double-Shelf Stand, from the series Eight Parlor Views (Zashiki hakkei)"
+    },
+    "definition": "Print; Woodblock print (first edition); ink and colors on paper, medium-sized print (chuban); ca. 1766; The Metropolitan Museum of Art, 1911",
+    "definition_ml": {
+      "en": "Print; Woodblock print (first edition); ink and colors on paper, medium-sized print (chuban); ca. 1766; The Metropolitan Museum of Art, 1911"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI015",
+      "MDC_P004.en": "Night Rain at the Double-Shelf Stand, from the series Eight Parlor Views (Zashiki hakkei)",
+      "MDC_P006.en": "Print; Woodblock print (first edition); ink and colors on paper, medium-sized print (chuban); ca. 1766; The Metropolitan Museum of Art, 1911",
+      "MDC_P010": "ANA110",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "UkiyoEPrint",
+      "culture": "Japan",
+      "period": "Edo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA110",
+    "superclass_type_property": "ANA110",
+    "type": "class"
+  },
+  {
+    "irdi": "ANI023",
+    "code": "ANI023",
+    "preferred_name": "Under the Wave off Kanagawa (Kanagawa oki nami ura), or The Great Wave, from the series Thirty-six V",
+    "preferred_name_ml": {
+      "en": "Under the Wave off Kanagawa (Kanagawa oki nami ura), or The Great Wave, from the series Thirty-six V"
+    },
+    "definition": "Woodblock print; Woodblock print; ink and color on paper; ca. 1830–32; The Metropolitan Museum of Art, 1936",
+    "definition_ml": {
+      "en": "Woodblock print; Woodblock print; ink and color on paper; ca. 1830–32; The Metropolitan Museum of Art, 1936"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_5": "ANI023",
+      "MDC_P004.en": "Under the Wave off Kanagawa (Kanagawa oki nami ura), or The Great Wave, from the series Thirty-six V",
+      "MDC_P006.en": "Woodblock print; Woodblock print; ink and color on paper; ca. 1830–32; The Metropolitan Museum of Art, 1936",
+      "MDC_P010": "ANA110",
+      "MDC_P011": "ITEM_CLASS",
+      "category": "UkiyoEPrint",
+      "culture": "Japan",
+      "period": "Edo"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ANA110",
+    "superclass_type_property": "ANA110",
+    "type": "class"
+  },
+  {
+    "irdi": "ANB001",
+    "code": "ANB001",
+    "preferred_name": "antique category",
+    "preferred_name_ml": {
+      "en": "antique category",
+      "zh-TW": "品類"
+    },
+    "definition": "kind of object, selected from the antique category classification",
+    "definition_ml": {
+      "en": "kind of object, selected from the antique category classification"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB001",
+      "MDC_P004.en": "antique category",
+      "MDC_P004.zh-TW": "品類",
+      "MDC_P006.en": "kind of object, selected from the antique category classification",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA001",
+      "MDC_P022": "CLASS_REFERENCE(AntiqueCategory)"
+    },
+    "definition_class": "ANA001",
+    "alternative_units": [],
+    "data_type": "CLASS_REFERENCE(AntiqueCategory)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB002",
+    "code": "ANB002",
+    "preferred_name": "culture",
+    "preferred_name_ml": {
+      "en": "culture",
+      "zh-TW": "文化"
+    },
+    "definition": "cultural sphere of origin of the antique",
+    "definition_ml": {
+      "en": "cultural sphere of origin of the antique"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB002",
+      "MDC_P004.en": "culture",
+      "MDC_P004.zh-TW": "文化",
+      "MDC_P006.en": "cultural sphere of origin of the antique",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA001",
+      "MDC_P022": "CLASS_REFERENCE(Culture)"
+    },
+    "definition_class": "ANA001",
+    "alternative_units": [],
+    "data_type": "CLASS_REFERENCE(Culture)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB003",
+    "code": "ANB003",
+    "preferred_name": "period",
+    "preferred_name_ml": {
+      "en": "period",
+      "zh-TW": "朝代時期"
+    },
+    "definition": "dynasty or era of the antique",
+    "definition_ml": {
+      "en": "dynasty or era of the antique"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB003",
+      "MDC_P004.en": "period",
+      "MDC_P004.zh-TW": "朝代時期",
+      "MDC_P006.en": "dynasty or era of the antique",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA001",
+      "MDC_P022": "CLASS_REFERENCE(Period)"
+    },
+    "definition_class": "ANA001",
+    "alternative_units": [],
+    "data_type": "CLASS_REFERENCE(Period)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB004",
+    "code": "ANB004",
+    "preferred_name": "height",
+    "preferred_name_ml": {
+      "en": "height",
+      "zh-TW": "高度"
+    },
+    "definition": "height of the object as catalogued",
+    "definition_ml": {
+      "en": "height of the object as catalogued"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB004",
+      "MDC_P004.en": "height",
+      "MDC_P004.zh-TW": "高度",
+      "MDC_P006.en": "height of the object as catalogued",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "centimetre"
+    },
+    "definition_class": "ANA001",
+    "unit": "0112/2///62720#UAA375",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "centimetre"
+  },
+  {
+    "irdi": "ANB005",
+    "code": "ANB005",
+    "preferred_name": "diameter",
+    "preferred_name_ml": {
+      "en": "diameter",
+      "zh-TW": "口徑"
+    },
+    "definition": "diameter of the widest body section, as catalogued",
+    "definition_ml": {
+      "en": "diameter of the widest body section, as catalogued"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB005",
+      "MDC_P004.en": "diameter",
+      "MDC_P004.zh-TW": "口徑",
+      "MDC_P006.en": "diameter of the widest body section, as catalogued",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "centimetre"
+    },
+    "definition_class": "ANA001",
+    "unit": "0112/2///62720#UAA375",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "centimetre"
+  },
+  {
+    "irdi": "ANB006",
+    "code": "ANB006",
+    "preferred_name": "condition grade",
+    "preferred_name_ml": {
+      "en": "condition grade",
+      "zh-TW": "品相"
+    },
+    "definition": "preservation condition of the object",
+    "definition_ml": {
+      "en": "preservation condition of the object"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB006",
+      "MDC_P004.en": "condition grade",
+      "MDC_P004.zh-TW": "品相",
+      "MDC_P006.en": "preservation condition of the object",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA001",
+      "MDC_P022": "ENUM_STRING_TYPE(condition_enum)"
+    },
+    "definition_class": "ANA001",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(condition_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ANE007"
+  },
+  {
+    "irdi": "ANB007",
+    "code": "ANB007",
+    "preferred_name": "reign mark",
+    "preferred_name_ml": {
+      "en": "reign mark",
+      "zh-TW": "年款"
+    },
+    "definition": "imperial reign mark inscribed on the object",
+    "definition_ml": {
+      "en": "imperial reign mark inscribed on the object"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB007",
+      "MDC_P004.en": "reign mark",
+      "MDC_P004.zh-TW": "年款",
+      "MDC_P006.en": "imperial reign mark inscribed on the object",
+      "MDC_P020": "CONDITION_DET",
+      "MDC_P021": "ANA001",
+      "MDC_P022": "STRING_TYPE",
+      "MDC_P028": "category == Ceramics"
+    },
+    "definition_class": "ANA001",
+    "alternative_units": [],
+    "data_type": "STRING_TYPE",
+    "data_element_type": "CONDITION_DET",
+    "property_data_element_type": "CONDITION_DET",
+    "condition_raw": "category == Ceramics",
+    "condition": "category == Ceramics",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB101",
+    "code": "ANB101",
+    "preferred_name": "kiln",
+    "preferred_name_ml": {
+      "en": "kiln",
+      "zh-TW": "窯口"
+    },
+    "definition": "kiln complex or firing centre of origin",
+    "definition_ml": {
+      "en": "kiln complex or firing centre of origin"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB101",
+      "MDC_P004.en": "kiln",
+      "MDC_P004.zh-TW": "窯口",
+      "MDC_P006.en": "kiln complex or firing centre of origin",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA101",
+      "MDC_P022": "STRING_TYPE"
+    },
+    "definition_class": "ANA101",
+    "alternative_units": [],
+    "data_type": "STRING_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB102",
+    "code": "ANB102",
+    "preferred_name": "glaze",
+    "preferred_name_ml": {
+      "en": "glaze",
+      "zh-TW": "釉彩"
+    },
+    "definition": "glaze and dominant decorative palette of the ware",
+    "definition_ml": {
+      "en": "glaze and dominant decorative palette of the ware"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB102",
+      "MDC_P004.en": "glaze",
+      "MDC_P004.zh-TW": "釉彩",
+      "MDC_P006.en": "glaze and dominant decorative palette of the ware",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA101",
+      "MDC_P022": "STRING_TYPE"
+    },
+    "definition_class": "ANA101",
+    "alternative_units": [],
+    "data_type": "STRING_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB103",
+    "code": "ANB103",
+    "preferred_name": "vessel form",
+    "preferred_name_ml": {
+      "en": "vessel form",
+      "zh-TW": "器形"
+    },
+    "definition": "classical ritual vessel form of the bronze",
+    "definition_ml": {
+      "en": "classical ritual vessel form of the bronze"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB103",
+      "MDC_P004.en": "vessel form",
+      "MDC_P004.zh-TW": "器形",
+      "MDC_P006.en": "classical ritual vessel form of the bronze",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA102",
+      "MDC_P022": "ENUM_STRING_TYPE(vessel_form_enum)"
+    },
+    "definition_class": "ANA102",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(vessel_form_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ANE001"
+  },
+  {
+    "irdi": "ANB104",
+    "code": "ANB104",
+    "preferred_name": "inscription character count",
+    "preferred_name_ml": {
+      "en": "inscription character count",
+      "zh-TW": "銘文字數"
+    },
+    "definition": "number of characters in the cast inscription",
+    "definition_ml": {
+      "en": "number of characters in the cast inscription"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB104",
+      "MDC_P004.en": "inscription character count",
+      "MDC_P004.zh-TW": "銘文字數",
+      "MDC_P006.en": "number of characters in the cast inscription",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA102",
+      "MDC_P022": "REAL_TYPE"
+    },
+    "definition_class": "ANA102",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB105",
+    "code": "ANB105",
+    "preferred_name": "jade stone",
+    "preferred_name_ml": {
+      "en": "jade stone",
+      "zh-TW": "玉料"
+    },
+    "definition": "jade mineral of the carved stone",
+    "definition_ml": {
+      "en": "jade mineral of the carved stone"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB105",
+      "MDC_P004.en": "jade stone",
+      "MDC_P004.zh-TW": "玉料",
+      "MDC_P006.en": "jade mineral of the carved stone",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA103",
+      "MDC_P022": "ENUM_STRING_TYPE(jade_stone_enum)"
+    },
+    "definition_class": "ANA103",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(jade_stone_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ANE002"
+  },
+  {
+    "irdi": "ANB106",
+    "code": "ANB106",
+    "preferred_name": "medium",
+    "preferred_name_ml": {
+      "en": "medium",
+      "zh-TW": "材質"
+    },
+    "definition": "ink and colour medium on the paper or silk support",
+    "definition_ml": {
+      "en": "ink and colour medium on the paper or silk support"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB106",
+      "MDC_P004.en": "medium",
+      "MDC_P004.zh-TW": "材質",
+      "MDC_P006.en": "ink and colour medium on the paper or silk support",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA104",
+      "MDC_P022": "ENUM_STRING_TYPE(medium_enum)"
+    },
+    "definition_class": "ANA104",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(medium_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ANE003"
+  },
+  {
+    "irdi": "ANB107",
+    "code": "ANB107",
+    "preferred_name": "mounting format",
+    "preferred_name_ml": {
+      "en": "mounting format",
+      "zh-TW": "裝裱形式"
+    },
+    "definition": "traditional mounting format of the work",
+    "definition_ml": {
+      "en": "traditional mounting format of the work"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB107",
+      "MDC_P004.en": "mounting format",
+      "MDC_P004.zh-TW": "裝裱形式",
+      "MDC_P006.en": "traditional mounting format of the work",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA104",
+      "MDC_P022": "ENUM_STRING_TYPE(mounting_enum)"
+    },
+    "definition_class": "ANA104",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(mounting_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ANE004"
+  },
+  {
+    "irdi": "ANB108",
+    "code": "ANB108",
+    "preferred_name": "wood type",
+    "preferred_name_ml": {
+      "en": "wood type",
+      "zh-TW": "木料"
+    },
+    "definition": "timber of the furniture",
+    "definition_ml": {
+      "en": "timber of the furniture"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB108",
+      "MDC_P004.en": "wood type",
+      "MDC_P004.zh-TW": "木料",
+      "MDC_P006.en": "timber of the furniture",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA105",
+      "MDC_P022": "STRING_TYPE"
+    },
+    "definition_class": "ANA105",
+    "alternative_units": [],
+    "data_type": "STRING_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB109",
+    "code": "ANB109",
+    "preferred_name": "lacquer technique",
+    "preferred_name_ml": {
+      "en": "lacquer technique",
+      "zh-TW": "漆藝"
+    },
+    "definition": "decorative lacquer technique of the object",
+    "definition_ml": {
+      "en": "decorative lacquer technique of the object"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB109",
+      "MDC_P004.en": "lacquer technique",
+      "MDC_P004.zh-TW": "漆藝",
+      "MDC_P006.en": "decorative lacquer technique of the object",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA106",
+      "MDC_P022": "STRING_TYPE"
+    },
+    "definition_class": "ANA106",
+    "alternative_units": [],
+    "data_type": "STRING_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB110",
+    "code": "ANB110",
+    "preferred_name": "cloisonné technique",
+    "preferred_name_ml": {
+      "en": "cloisonné technique",
+      "zh-TW": "琺瑯工藝"
+    },
+    "definition": "enamel technique applied to the metal body",
+    "definition_ml": {
+      "en": "enamel technique applied to the metal body"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB110",
+      "MDC_P004.en": "cloisonné technique",
+      "MDC_P004.zh-TW": "琺瑯工藝",
+      "MDC_P006.en": "enamel technique applied to the metal body",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA107",
+      "MDC_P022": "STRING_TYPE"
+    },
+    "definition_class": "ANA107",
+    "alternative_units": [],
+    "data_type": "STRING_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB111",
+    "code": "ANB111",
+    "preferred_name": "sculpture material",
+    "preferred_name_ml": {
+      "en": "sculpture material",
+      "zh-TW": "造像材質"
+    },
+    "definition": "material of the sculptural image",
+    "definition_ml": {
+      "en": "material of the sculptural image"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB111",
+      "MDC_P004.en": "sculpture material",
+      "MDC_P004.zh-TW": "造像材質",
+      "MDC_P006.en": "material of the sculptural image",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA108",
+      "MDC_P022": "ENUM_STRING_TYPE(sculpture_material_enum)"
+    },
+    "definition_class": "ANA108",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(sculpture_material_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ANE005"
+  },
+  {
+    "irdi": "ANB112",
+    "code": "ANB112",
+    "preferred_name": "bottle material",
+    "preferred_name_ml": {
+      "en": "bottle material",
+      "zh-TW": "壺身材質"
+    },
+    "definition": "material of the snuff bottle body",
+    "definition_ml": {
+      "en": "material of the snuff bottle body"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB112",
+      "MDC_P004.en": "bottle material",
+      "MDC_P004.zh-TW": "壺身材質",
+      "MDC_P006.en": "material of the snuff bottle body",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA109",
+      "MDC_P022": "STRING_TYPE"
+    },
+    "definition_class": "ANA109",
+    "alternative_units": [],
+    "data_type": "STRING_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ANB113",
+    "code": "ANB113",
+    "preferred_name": "print format",
+    "preferred_name_ml": {
+      "en": "print format",
+      "zh-TW": "版式"
+    },
+    "definition": "sheet format of the woodblock print",
+    "definition_ml": {
+      "en": "sheet format of the woodblock print"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ANB113",
+      "MDC_P004.en": "print format",
+      "MDC_P004.zh-TW": "版式",
+      "MDC_P006.en": "sheet format of the woodblock print",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ANA110",
+      "MDC_P022": "ENUM_STRING_TYPE(print_format_enum)"
+    },
+    "definition_class": "ANA110",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(print_format_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ANE006"
+  },
+  {
+    "irdi": "ANE001",
+    "code": "ANE001",
+    "preferred_name": "vessel form categories",
+    "preferred_name_ml": {
+      "en": "vessel form categories"
+    },
+    "definition": "enumeration of classical Chinese ritual vessel forms",
+    "definition_ml": {
+      "en": "enumeration of classical Chinese ritual vessel forms"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ANE001",
+      "MDC_P004.en": "vessel form categories",
+      "MDC_P006.en": "enumeration of classical Chinese ritual vessel forms",
+      "MDC_P044": "{Ding,Gui,Jue,Hu,Zun}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Ding",
+      "Gui",
+      "Jue",
+      "Hu",
+      "Zun"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ANE002",
+    "code": "ANE002",
+    "preferred_name": "jade stone categories",
+    "preferred_name_ml": {
+      "en": "jade stone categories"
+    },
+    "definition": "enumeration of the jade minerals",
+    "definition_ml": {
+      "en": "enumeration of the jade minerals"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ANE002",
+      "MDC_P004.en": "jade stone categories",
+      "MDC_P006.en": "enumeration of the jade minerals",
+      "MDC_P044": "{Nephrite,Jadeite}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Nephrite",
+      "Jadeite"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ANE003",
+    "code": "ANE003",
+    "preferred_name": "medium categories",
+    "preferred_name_ml": {
+      "en": "medium categories"
+    },
+    "definition": "enumeration of painting and calligraphy media",
+    "definition_ml": {
+      "en": "enumeration of painting and calligraphy media"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ANE003",
+      "MDC_P004.en": "medium categories",
+      "MDC_P006.en": "enumeration of painting and calligraphy media",
+      "MDC_P044": "{Ink_on_paper,Ink_on_silk,Ink_and_colour_on_paper,Ink_and_colour_on_silk}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Ink_on_paper",
+      "Ink_on_silk",
+      "Ink_and_colour_on_paper",
+      "Ink_and_colour_on_silk"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ANE004",
+    "code": "ANE004",
+    "preferred_name": "mounting format categories",
+    "preferred_name_ml": {
+      "en": "mounting format categories"
+    },
+    "definition": "enumeration of traditional East Asian mounting formats",
+    "definition_ml": {
+      "en": "enumeration of traditional East Asian mounting formats"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ANE004",
+      "MDC_P004.en": "mounting format categories",
+      "MDC_P006.en": "enumeration of traditional East Asian mounting formats",
+      "MDC_P044": "{Handscroll,Hanging_scroll,Album_leaf,Fan}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Handscroll",
+      "Hanging_scroll",
+      "Album_leaf",
+      "Fan"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ANE005",
+    "code": "ANE005",
+    "preferred_name": "sculpture material categories",
+    "preferred_name_ml": {
+      "en": "sculpture material categories"
+    },
+    "definition": "enumeration of sculptural materials of Buddhist images",
+    "definition_ml": {
+      "en": "enumeration of sculptural materials of Buddhist images"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ANE005",
+      "MDC_P004.en": "sculpture material categories",
+      "MDC_P006.en": "enumeration of sculptural materials of Buddhist images",
+      "MDC_P044": "{Wood,ANA102,Gilt_bronze,Stone}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Wood",
+      "ANA102",
+      "Gilt_bronze",
+      "Stone"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ANE006",
+    "code": "ANE006",
+    "preferred_name": "print format categories",
+    "preferred_name_ml": {
+      "en": "print format categories"
+    },
+    "definition": "enumeration of Japanese woodblock print sheet formats",
+    "definition_ml": {
+      "en": "enumeration of Japanese woodblock print sheet formats"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ANE006",
+      "MDC_P004.en": "print format categories",
+      "MDC_P006.en": "enumeration of Japanese woodblock print sheet formats",
+      "MDC_P044": "{Oban,Chuban,Aiban,Kakemono_e}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Oban",
+      "Chuban",
+      "Aiban",
+      "Kakemono_e"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ANE007",
+    "code": "ANE007",
+    "preferred_name": "condition grade categories",
+    "preferred_name_ml": {
+      "en": "condition grade categories"
+    },
+    "definition": "enumeration of preservation condition grades used in cataloguing",
+    "definition_ml": {
+      "en": "enumeration of preservation condition grades used in cataloguing"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ANE007",
+      "MDC_P004.en": "condition grade categories",
+      "MDC_P006.en": "enumeration of preservation condition grades used in cataloguing",
+      "MDC_P044": "{Excellent,Very_good,Good,Fair}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Excellent",
+      "Very_good",
+      "Good",
+      "Fair"
+    ],
+    "type": "value_list"
+  }
+]

@@ -1,0 +1,1763 @@
+# =============================================================================
+# East Asian Antiques 東方古董 — CDD worked example
+#
+# An auction-house-style reference dictionary for East Asian works of art,
+# authored by OpenCDD from standard art-historical vocabulary. Demonstrates:
+#
+#   * Three stacked classification dimensions as powertypes:
+#       AntiqueCategory (kind of object), Period (dynasty/era),
+#       Culture (country of origin)
+#   * Extended instances: each AntiqueCategory member is an instance
+#     selectable via the `category` property AND a class owning its own
+#     applicable_properties (e.g. Ceramics ⇒ kiln, glaze)
+#   * CONDITION_DET conditional property at the root: `reign_mark` applies
+#     only when category == Ceramics (the "Mark and Period" attribution
+#     of the auction world)
+#   * Configured subclasses via sub_class_selection:
+#       Ceramics × Ming   ⇒ MingBlueAndWhite
+#       Ceramics × Goryeo ⇒ GoryeoCeladon
+#     (instance-of-instance used as a class)
+#   * Registered individuals: well-known museum objects as leaf entities
+#     with native multilingual names (zh-Hant, ja, ko) and English
+#
+# Reference basis for the category vocabulary (kept in the private repo):
+# public department listings of international auction houses, used as
+# reference only. All names, definitions and structure are our own.
+#
+# Code allocation (OpenCDD house convention):
+#   <stem><T><NNN> — stem is unique per dictionary, T is the entity type:
+#   A class · B property · E value list · T value term · I individual · U unit
+#   AN = antiques: ANA classes (incl. powertype members and configured
+#   subclasses), ANB properties, ANE enumerations, ANI museum objects.
+#   Blocks: 0xx culture · 02x period · 1xx object categories · 15x
+#   configured subclasses.
+# =============================================================================
+
+import "https://cdd.opencdd.org/dictionaries/rec20-units.cddal"
+
+# -----------------------------------------------------------------------------
+# Aliases (re-declare built-ins for reader clarity)
+# -----------------------------------------------------------------------------
+
+alias code:                        MDC_P001_5
+alias preferred_name:              MDC_P004
+alias short_name:                  MDC_P005
+alias definition:                  MDC_P006
+alias note:                        MDC_P008
+alias remark:                      MDC_P009
+alias superclass:                  MDC_P010
+alias class_type:                  MDC_P011
+alias is_case_of:                  MDC_P013
+alias applicable_properties:       MDC_P014
+alias property_data_element_type:  MDC_P020
+alias definition_class:            MDC_P021
+alias data_type:                   MDC_P022
+alias unit:                        MDC_P041
+alias condition:                   MDC_P028
+alias sub_class_selection:         MDC_P016
+alias enumerated_values:           MDC_P044
+
+# -----------------------------------------------------------------------------
+# Meta-class schema
+# -----------------------------------------------------------------------------
+
+meta-class MDC_C002 {
+  code
+  preferred_name
+  short_name
+  definition
+  note
+  remark
+  synonym
+  superclass
+  class_type
+  is_case_of
+  applicable_properties
+  sub_class_selection
+  imported_properties
+}
+
+meta-class MDC_C003 {
+  code
+  preferred_name
+  short_name
+  definition
+  note
+  remark
+  property_data_element_type
+  definition_class
+  data_type
+  unit
+  condition
+}
+
+meta-class MDC_C005 {
+  code
+  preferred_name
+  definition
+  note
+  remark
+  enumerated_values
+}
+
+# =============================================================================
+# Core categorical class: Antique
+# =============================================================================
+
+instance Antique < MDC_C002 {
+  code: ANA001
+  preferred_name.en: "Antique"
+  preferred_name.zh-TW: "古董"
+  preferred_name.ja: "骨董"
+  preferred_name.ko: "골동품"
+  definition.en: "object of art or craftsmanship from a past period, valued for its age, beauty, rarity, or provenance"
+  superclass: UNIVERSE
+  class_type: ITEM_CLASS
+  applicable_properties: { category, culture, period, height, diameter, condition_grade }
+}
+
+# =============================================================================
+# Culture — plain instances (origin dimension)
+# =============================================================================
+
+instance Culture < MDC_C002 {
+  code: ANA010
+  preferred_name.en: "Culture"
+  preferred_name.zh-TW: "文化"
+  definition.en: "cultural sphere of origin of an antique"
+  superclass: Antique
+  class_type: CATEGORICAL_CLASS
+}
+
+instance China < MDC_C002 {
+  code: ANA011
+  preferred_name.en: "China"
+  preferred_name.zh-TW: "中國"
+  definition.en: "Chinese cultural sphere of origin"
+  superclass: Culture
+  class_type: ITEM_CLASS
+}
+
+instance Japan < MDC_C002 {
+  code: ANA012
+  preferred_name.en: "Japan"
+  preferred_name.ja: "日本"
+  definition.en: "Japanese cultural sphere of origin"
+  superclass: Culture
+  class_type: ITEM_CLASS
+}
+
+instance Korea < MDC_C002 {
+  code: ANA013
+  preferred_name.en: "Korea"
+  preferred_name.ko: "한국"
+  definition.en: "Korean cultural sphere of origin"
+  superclass: Culture
+  class_type: ITEM_CLASS
+}
+
+# =============================================================================
+# Powertype — Period (dynasty / era dimension)
+#
+# The second classification axis: the same object category exists in many
+# periods, and a period is a value of the `period` property, not a subclass
+# of the object tree.
+# =============================================================================
+
+instance Period < MDC_C002 {
+  code: ANA020
+  preferred_name.en: "Period"
+  preferred_name.zh-TW: "朝代時期"
+  definition.en: "categorical class whose members enumerate the dynasties and eras of East Asian art history"
+  superclass: Antique
+  class_type: CATEGORICAL_CLASS
+}
+
+instance Shang < MDC_C002 {
+  code: ANA021
+  preferred_name.en: "Shang"
+  preferred_name.zh-TW: "商"
+  definition.en: "Chinese dynasty of the Bronze Age, c. 1600–1046 BC"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Zhou < MDC_C002 {
+  code: ANA022
+  preferred_name.en: "Zhou"
+  preferred_name.zh-TW: "周"
+  definition.en: "Chinese dynasty, 1046–256 BC, including the Western and Eastern Zhou"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Han < MDC_C002 {
+  code: ANA023
+  preferred_name.en: "Han"
+  preferred_name.zh-TW: "漢"
+  definition.en: "Chinese dynasty, 206 BC–AD 220"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Tang < MDC_C002 {
+  code: ANA024
+  preferred_name.en: "Tang"
+  preferred_name.zh-TW: "唐"
+  definition.en: "Chinese dynasty, 618–907"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Song < MDC_C002 {
+  code: ANA025
+  preferred_name.en: "Song"
+  preferred_name.zh-TW: "宋"
+  definition.en: "Chinese dynasty, 960–1279, including Northern and Southern Song"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Yuan < MDC_C002 {
+  code: ANA026
+  preferred_name.en: "Yuan"
+  preferred_name.zh-TW: "元"
+  definition.en: "Chinese dynasty, 1271–1368"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Ming < MDC_C002 {
+  code: ANA027
+  preferred_name.en: "Ming"
+  preferred_name.zh-TW: "明"
+  definition.en: "Chinese dynasty, 1368–1644"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Qing < MDC_C002 {
+  code: ANA028
+  preferred_name.en: "Qing"
+  preferred_name.zh-TW: "清"
+  definition.en: "Chinese dynasty, 1644–1912"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Goryeo < MDC_C002 {
+  code: ANA029
+  preferred_name.en: "Goryeo"
+  preferred_name.ko: "고려"
+  definition.en: "Korean dynasty, 918–1392"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Joseon < MDC_C002 {
+  code: ANA030
+  preferred_name.en: "Joseon"
+  preferred_name.ko: "조선"
+  definition.en: "Korean dynasty, 1392–1897"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Edo < MDC_C002 {
+  code: ANA031
+  preferred_name.en: "Edo"
+  preferred_name.ja: "江戸"
+  definition.en: "Japanese era, 1603–1868"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+instance Meiji < MDC_C002 {
+  code: ANA032
+  preferred_name.en: "Meiji"
+  preferred_name.ja: "明治"
+  definition.en: "Japanese era, 1868–1912"
+  superclass: Period
+  class_type: ITEM_CLASS
+}
+
+# =============================================================================
+# Powertype — AntiqueCategory (kind-of-object dimension)
+#
+# Each member is an EXTENDED INSTANCE: selectable as the value of the
+# `category` CLASS_REFERENCE property AND a class in its own right that
+# owns the properties specific to that kind of object.
+#
+#   AntiqueCategory (CATEGORICAL_CLASS)
+#   ├── Ceramics            ⇒ kiln, glaze           (+ conditional reign_mark)
+#   ├── Bronze              ⇒ vessel_form, inscription_characters
+#   ├── Jade                ⇒ jade_stone
+#   ├── PaintingCalligraphy ⇒ medium, mounting_format
+#   ├── Furniture           ⇒ wood_type
+#   ├── Lacquer             ⇒ lacquer_technique
+#   ├── CloisonneEnamel     ⇒ cloisonne_technique
+#   ├── BuddhistSculpture   ⇒ sculpture_material
+#   ├── SnuffBottle         ⇒ bottle_material
+#   └── UkiyoEPrint         ⇒ print_format
+# =============================================================================
+
+instance AntiqueCategory < MDC_C002 {
+  code: ANA100
+  preferred_name.en: "Antique Category"
+  preferred_name.zh-TW: "品類"
+  definition.en: "categorical class whose members enumerate the kinds of East Asian works of art"
+  superclass: Antique
+  class_type: CATEGORICAL_CLASS
+}
+
+instance Ceramics < MDC_C002 {
+  code: ANA101
+  preferred_name.en: "Ceramics"
+  preferred_name.zh-TW: "陶瓷"
+  preferred_name.ja: "陶磁器"
+  definition.en: "objects of fired clay, including porcelain and stoneware vessels and wares"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { kiln, glaze }
+}
+
+instance Bronze < MDC_C002 {
+  code: ANA102
+  preferred_name.en: "Bronze"
+  preferred_name.zh-TW: "青銅器"
+  definition.en: "cast bronze ritual vessels, weapons and fittings"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { vessel_form, inscription_characters }
+}
+
+instance Jade < MDC_C002 {
+  code: ANA103
+  preferred_name.en: "Jade"
+  preferred_name.zh-TW: "玉器"
+  definition.en: "objects carved from jade stone, whether nephrite or jadeite"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { jade_stone }
+}
+
+instance PaintingCalligraphy < MDC_C002 {
+  code: ANA104
+  preferred_name.en: "Painting and Calligraphy"
+  preferred_name.zh-TW: "書畫"
+  preferred_name.ja: "書画"
+  definition.en: "paintings and works of calligraphy on paper or silk"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { medium, mounting_format }
+}
+
+instance Furniture < MDC_C002 {
+  code: ANA105
+  preferred_name.en: "Furniture"
+  preferred_name.zh-TW: "家具"
+  definition.en: "cabinetwork and household furniture of hardwood or softwood"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { wood_type }
+}
+
+instance Lacquer < MDC_C002 {
+  code: ANA106
+  preferred_name.en: "Lacquer"
+  preferred_name.zh-TW: "漆器"
+  preferred_name.ja: "漆工"
+  definition.en: "objects decorated or built in applied lacquer"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { lacquer_technique }
+}
+
+instance CloisonneEnamel < MDC_C002 {
+  code: ANA107
+  preferred_name.en: "Cloisonné Enamel"
+  preferred_name.zh-TW: "掐絲琺瑯"
+  definition.en: "objects decorated with cloisonné enamel, wire-outlined glass paste fired on a metal body"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { cloisonne_technique }
+}
+
+instance BuddhistSculpture < MDC_C002 {
+  code: ANA108
+  preferred_name.en: "Buddhist Sculpture"
+  preferred_name.zh-TW: "佛教造像"
+  definition.en: "sculptural images of Buddhist devotion"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { sculpture_material }
+}
+
+instance SnuffBottle < MDC_C002 {
+  code: ANA109
+  preferred_name.en: "Snuff Bottle"
+  preferred_name.zh-TW: "鼻煙壺"
+  definition.en: "small bottle for powdered tobacco, made in glass, porcelain, jade and other materials"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { bottle_material }
+}
+
+instance UkiyoEPrint < MDC_C002 {
+  code: ANA110
+  preferred_name.en: "Ukiyo-e Print"
+  preferred_name.zh-TW: "浮世繪"
+  preferred_name.ja: "浮世絵"
+  definition.en: "Japanese woodblock print of the floating-world genre"
+  superclass: AntiqueCategory
+  class_type: ITEM_CLASS
+  applicable_properties: { print_format }
+}
+
+# =============================================================================
+# Enumerations
+# =============================================================================
+
+instance vessel_form_enum < MDC_C005 {
+  code: ANE001
+  preferred_name.en: "vessel form categories"
+  definition.en: "enumeration of classical Chinese ritual vessel forms"
+  enumerated_values: { Ding, Gui, Jue, Hu, Zun }
+}
+
+instance jade_stone_enum < MDC_C005 {
+  code: ANE002
+  preferred_name.en: "jade stone categories"
+  definition.en: "enumeration of the jade minerals"
+  enumerated_values: { Nephrite, Jadeite }
+}
+
+instance medium_enum < MDC_C005 {
+  code: ANE003
+  preferred_name.en: "medium categories"
+  definition.en: "enumeration of painting and calligraphy media"
+  enumerated_values: { Ink_on_paper, Ink_on_silk, Ink_and_colour_on_paper, Ink_and_colour_on_silk }
+}
+
+instance mounting_enum < MDC_C005 {
+  code: ANE004
+  preferred_name.en: "mounting format categories"
+  definition.en: "enumeration of traditional East Asian mounting formats"
+  enumerated_values: { Handscroll, Hanging_scroll, Album_leaf, Fan }
+}
+
+instance sculpture_material_enum < MDC_C005 {
+  code: ANE005
+  preferred_name.en: "sculpture material categories"
+  definition.en: "enumeration of sculptural materials of Buddhist images"
+  enumerated_values: { Wood, Bronze, Gilt_bronze, Stone }
+}
+
+instance print_format_enum < MDC_C005 {
+  code: ANE006
+  preferred_name.en: "print format categories"
+  definition.en: "enumeration of Japanese woodblock print sheet formats"
+  enumerated_values: { Oban, Chuban, Aiban, Kakemono_e }
+}
+
+instance condition_enum < MDC_C005 {
+  code: ANE007
+  preferred_name.en: "condition grade categories"
+  definition.en: "enumeration of preservation condition grades used in cataloguing"
+  enumerated_values: { Excellent, Very_good, Good, Fair }
+}
+
+# =============================================================================
+# Core properties (defined on Antique)
+# =============================================================================
+
+instance category < MDC_C003 {
+  code: ANB001
+  preferred_name.en: "antique category"
+  preferred_name.zh-TW: "品類"
+  definition.en: "kind of object, selected from the antique category classification"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Antique
+  data_type: CLASS_REFERENCE(AntiqueCategory)
+}
+
+instance culture < MDC_C003 {
+  code: ANB002
+  preferred_name.en: "culture"
+  preferred_name.zh-TW: "文化"
+  definition.en: "cultural sphere of origin of the antique"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Antique
+  data_type: CLASS_REFERENCE(Culture)
+}
+
+instance period < MDC_C003 {
+  code: ANB003
+  preferred_name.en: "period"
+  preferred_name.zh-TW: "朝代時期"
+  definition.en: "dynasty or era of the antique"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Antique
+  data_type: CLASS_REFERENCE(Period)
+}
+
+instance height < MDC_C003 {
+  code: ANB004
+  preferred_name.en: "height"
+  preferred_name.zh-TW: "高度"
+  definition.en: "height of the object as catalogued"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Antique
+  data_type: REAL_TYPE
+  unit: centimetre
+}
+
+instance diameter < MDC_C003 {
+  code: ANB005
+  preferred_name.en: "diameter"
+  preferred_name.zh-TW: "口徑"
+  definition.en: "diameter of the widest body section, as catalogued"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Antique
+  data_type: REAL_TYPE
+  unit: centimetre
+}
+
+instance condition_grade < MDC_C003 {
+  code: ANB006
+  preferred_name.en: "condition grade"
+  preferred_name.zh-TW: "品相"
+  definition.en: "preservation condition of the object"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Antique
+  data_type: ENUM_STRING_TYPE(condition_enum)
+}
+
+# Conditional attribution — the "Mark and Period" pattern: a reign mark is
+# catalogued only for objects whose category selects Ceramics.
+instance reign_mark < MDC_C003 {
+  code: ANB007
+  preferred_name.en: "reign mark"
+  preferred_name.zh-TW: "年款"
+  definition.en: "imperial reign mark inscribed on the object"
+  property_data_element_type: CONDITION_DET
+  definition_class: Antique
+  data_type: STRING_TYPE
+  condition: category == Ceramics
+}
+
+# =============================================================================
+# Category-specific properties — defined ON the extended instances
+#
+# These properties exist only because their definition_class is an instance
+# of a CATEGORICAL_CLASS: an instance that owns class-level facts.
+# =============================================================================
+
+instance kiln < MDC_C003 {
+  code: ANB101
+  preferred_name.en: "kiln"
+  preferred_name.zh-TW: "窯口"
+  definition.en: "kiln complex or firing centre of origin"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Ceramics
+  data_type: STRING_TYPE
+}
+
+instance glaze < MDC_C003 {
+  code: ANB102
+  preferred_name.en: "glaze"
+  preferred_name.zh-TW: "釉彩"
+  definition.en: "glaze and dominant decorative palette of the ware"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Ceramics
+  data_type: STRING_TYPE
+}
+
+instance vessel_form < MDC_C003 {
+  code: ANB103
+  preferred_name.en: "vessel form"
+  preferred_name.zh-TW: "器形"
+  definition.en: "classical ritual vessel form of the bronze"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Bronze
+  data_type: ENUM_STRING_TYPE(vessel_form_enum)
+}
+
+instance inscription_characters < MDC_C003 {
+  code: ANB104
+  preferred_name.en: "inscription character count"
+  preferred_name.zh-TW: "銘文字數"
+  definition.en: "number of characters in the cast inscription"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Bronze
+  data_type: REAL_TYPE
+}
+
+instance jade_stone < MDC_C003 {
+  code: ANB105
+  preferred_name.en: "jade stone"
+  preferred_name.zh-TW: "玉料"
+  definition.en: "jade mineral of the carved stone"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Jade
+  data_type: ENUM_STRING_TYPE(jade_stone_enum)
+}
+
+instance medium < MDC_C003 {
+  code: ANB106
+  preferred_name.en: "medium"
+  preferred_name.zh-TW: "材質"
+  definition.en: "ink and colour medium on the paper or silk support"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: PaintingCalligraphy
+  data_type: ENUM_STRING_TYPE(medium_enum)
+}
+
+instance mounting_format < MDC_C003 {
+  code: ANB107
+  preferred_name.en: "mounting format"
+  preferred_name.zh-TW: "裝裱形式"
+  definition.en: "traditional mounting format of the work"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: PaintingCalligraphy
+  data_type: ENUM_STRING_TYPE(mounting_enum)
+}
+
+instance wood_type < MDC_C003 {
+  code: ANB108
+  preferred_name.en: "wood type"
+  preferred_name.zh-TW: "木料"
+  definition.en: "timber of the furniture"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Furniture
+  data_type: STRING_TYPE
+}
+
+instance lacquer_technique < MDC_C003 {
+  code: ANB109
+  preferred_name.en: "lacquer technique"
+  preferred_name.zh-TW: "漆藝"
+  definition.en: "decorative lacquer technique of the object"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: Lacquer
+  data_type: STRING_TYPE
+}
+
+instance cloisonne_technique < MDC_C003 {
+  code: ANB110
+  preferred_name.en: "cloisonné technique"
+  preferred_name.zh-TW: "琺瑯工藝"
+  definition.en: "enamel technique applied to the metal body"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: CloisonneEnamel
+  data_type: STRING_TYPE
+}
+
+instance sculpture_material < MDC_C003 {
+  code: ANB111
+  preferred_name.en: "sculpture material"
+  preferred_name.zh-TW: "造像材質"
+  definition.en: "material of the sculptural image"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: BuddhistSculpture
+  data_type: ENUM_STRING_TYPE(sculpture_material_enum)
+}
+
+instance bottle_material < MDC_C003 {
+  code: ANB112
+  preferred_name.en: "bottle material"
+  preferred_name.zh-TW: "壺身材質"
+  definition.en: "material of the snuff bottle body"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: SnuffBottle
+  data_type: STRING_TYPE
+}
+
+instance print_format < MDC_C003 {
+  code: ANB113
+  preferred_name.en: "print format"
+  preferred_name.zh-TW: "版式"
+  definition.en: "sheet format of the woodblock print"
+  property_data_element_type: NON_DEPENDENT_P_DET
+  definition_class: UkiyoEPrint
+  data_type: ENUM_STRING_TYPE(print_format_enum)
+}
+
+# =============================================================================
+# Configured subclasses — instance-of-instance used as a class
+#
+# A ceramics category × period selection yields a cataloguing class whose
+# instances inherit Antique's core properties, Ceramics' kiln and glaze,
+# and the conditional reign_mark.
+# =============================================================================
+
+instance MingBlueAndWhite < MDC_C002 {
+  code: ANA150
+  preferred_name.en: "Ming Blue-and-White Porcelain"
+  preferred_name.zh-TW: "明青花"
+  definition.en: "porcelain of the Ming dynasty decorated in underglaze cobalt blue"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  sub_class_selection: { Ming }
+}
+
+instance GoryeoCeladon < MDC_C002 {
+  code: ANA151
+  preferred_name.en: "Goryeo Celadon"
+  preferred_name.ko: "고려청자"
+  definition.en: "celadon-glazed stoneware of the Goryeo dynasty"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  sub_class_selection: { Goryeo }
+}
+
+# =============================================================================
+# Registered individuals — well-known museum objects (leaf entities)
+#
+# Each is a concrete object with a native-language name, an English
+# cataloguing name, and property values, classified through the power-type
+# chain: Antique ← AntiqueCategory member ← configured subclass.
+# =============================================================================
+
+instance MaoGongDing < MDC_C002 {
+  code: ANI001
+  preferred_name.zh-TW: "毛公鼎"
+  preferred_name.en: "Mao Gong Ding"
+  short_name.en: "MaoGongDing"
+  definition.en: "Western Zhou bronze tripod food vessel bearing one of the longest known Chinese bronze inscriptions, National Palace Museum, Taipei"
+  superclass: Bronze
+  class_type: ITEM_CLASS
+  category: Bronze
+  culture: China
+  period: Zhou
+  height: 53.8
+  diameter: 47.9
+  vessel_form: Ding
+  inscription_characters: 497
+  condition_grade: Excellent
+}
+
+instance JadeiteCabbage < MDC_C002 {
+  code: ANI002
+  preferred_name.zh-TW: "翠玉白菜"
+  preferred_name.en: "Jadeite Cabbage"
+  short_name.en: "JadeiteCabbage"
+  definition.en: "Qing dynasty jadeite carving of a Chinese cabbage with insects, National Palace Museum, Taipei"
+  superclass: Jade
+  class_type: ITEM_CLASS
+  category: Jade
+  culture: China
+  period: Qing
+  height: 18.7
+  jade_stone: Jadeite
+  condition_grade: Excellent
+}
+
+instance QingmingScroll < MDC_C002 {
+  code: ANI003
+  preferred_name.zh-TW: "清明上河圖"
+  preferred_name.en: "Along the River During the Qingming Festival"
+  short_name.en: "QingmingScroll"
+  definition.en: "attributed to Zhang Zeduan, Northern Song handscroll depicting the capital Bianjing, Palace Museum, Beijing"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Song
+  height: 24.8
+  medium: Ink_and_colour_on_silk
+  mounting_format: Handscroll
+  condition_grade: Good
+}
+
+instance GoryeoMaebyeongVase < MDC_C002 {
+  code: ANI004
+  preferred_name.ko: "고려청자 매병"
+  preferred_name.en: "Goryeo Celadon Maebyeong Vase"
+  short_name.en: "MaebyeongVase"
+  definition.en: "Goryeo dynasty celadon vase of plump maebyeong form, National Museum of Korea, Seoul"
+  superclass: GoryeoCeladon
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Goryeo
+  glaze: "celadon"
+  condition_grade: Very_good
+}
+
+instance GreatWavePrint < MDC_C002 {
+  code: ANI005
+  preferred_name.ja: "神奈川沖浪裏"
+  preferred_name.en: "The Great Wave off Kanagawa"
+  short_name.en: "GreatWave"
+  definition.en: "woodblock print by Katsushika Hokusai from the series Thirty-six Views of Mount Fuji"
+  superclass: UkiyoEPrint
+  class_type: ITEM_CLASS
+  category: UkiyoEPrint
+  culture: Japan
+  period: Edo
+  height: 25.4
+  print_format: Oban
+  condition_grade: Good
+}
+
+instance XuandeDragonJar < MDC_C002 {
+  code: ANI006
+  preferred_name.zh-TW: "明宣德青花穿花龍紋罐"
+  preferred_name.en: "Blue-and-white 'Interlocking Dragon' Jar, Xuande Mark and Period"
+  short_name.en: "XuandeJar"
+  definition.en: "Ming Xuande porcelain jar painted in underglaze blue with dragons among lotus scrolls, bearing the imperial reign mark"
+  superclass: MingBlueAndWhite
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+  period: Ming
+  kiln: "Jingdezhen"
+  glaze: "blue and white"
+  reign_mark: "Xuande (宣德)"
+  condition_grade: Very_good
+}
+
+instance JoseonMoonJar < MDC_C002 {
+  code: ANI007
+  preferred_name.ko: "달항아리"
+  preferred_name.en: "Joseon Moon Jar"
+  short_name.en: "MoonJar"
+  definition.en: "Joseon dynasty white-porcelain storage jar of large spherical 'moon' form"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Joseon
+  glaze: "white porcelain"
+  condition_grade: Very_good
+}
+
+instance TangGiltBronzeBuddha < MDC_C002 {
+  code: ANI008
+  preferred_name.zh-TW: "唐鎏金銅佛坐像"
+  preferred_name.en: "Tang Gilt-Bronze Seated Buddha"
+  short_name.en: "TangBuddha"
+  definition.en: "Tang dynasty gilt-bronze figure of the seated Buddha"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: China
+  period: Tang
+  sculpture_material: Gilt_bronze
+  condition_grade: Good
+}
+
+instance HuanghualiCabinet < MDC_C002 {
+  code: ANI009
+  preferred_name.zh-TW: "明黃花梨圓角櫃"
+  preferred_name.en: "Ming Huanghuali Rounded-Corner Cabinet"
+  short_name.en: "HuanghualiCabinet"
+  definition.en: "Ming dynasty rounded-corner cabinet of huanghuali hardwood with original mounts"
+  superclass: Furniture
+  class_type: ITEM_CLASS
+  category: Furniture
+  culture: China
+  period: Ming
+  wood_type: "huanghuali"
+  condition_grade: Good
+}
+
+instance InsidePaintedSnuffBottle < MDC_C002 {
+  code: ANI010
+  preferred_name.zh-TW: "玻璃內畫鼻煙壺"
+  preferred_name.en: "Inside-Painted Glass Snuff Bottle"
+  short_name.en: "SnuffBottle"
+  definition.en: "Qing dynasty snuff bottle of transparent glass painted on the interior surface"
+  superclass: SnuffBottle
+  class_type: ITEM_CLASS
+  category: SnuffBottle
+  culture: China
+  period: Qing
+  bottle_material: "glass"
+  condition_grade: Very_good
+}
+
+instance CloisonneCenser < MDC_C002 {
+  code: ANI011
+  preferred_name.zh-TW: "掐絲琺瑯香爐"
+  preferred_name.en: "Cloisonné Enamel Censer"
+  short_name.en: "CloisonneCenser"
+  definition.en: "censer of copper decorated with wire-outlined enamel, of the type made for the Ming court"
+  superclass: CloisonneEnamel
+  class_type: ITEM_CLASS
+  category: CloisonneEnamel
+  culture: China
+  period: Ming
+  cloisonne_technique: "cloisonné wire enamel"
+  condition_grade: Good
+}
+
+instance CarvedLacquerBox < MDC_C002 {
+  code: ANI012
+  preferred_name.zh-TW: "雕漆蓋盒"
+  preferred_name.en: "Carved Red Lacquer Box and Cover"
+  short_name.en: "LacquerBox"
+  definition.en: "box and cover deeply carved through thick red lacquer layers with floral scroll"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: China
+  period: Ming
+  lacquer_technique: "carved red lacquer"
+  condition_grade: Good
+}
+
+# ==== BEGIN MET MUSEUM BULK REGISTRY (generated - do not hand-edit) ====
+#
+# Registered individuals - The Metropolitan Museum of Art, Open Access (CC0)
+#
+# Highlighted objects from the Asian Art department, retrieved 2026-10-08.
+# Every field is taken verbatim from the Met Collection API (the
+# primary source): culture, period/objectDate, medium, and cm
+# measurements. Objects outside the corpus's cultural spheres or
+# vocabulary are excluded. Regenerate via `rake browser:harvest_met`.
+#
+# The Metropolitan Museum of Art: Open Access policy, CC0 1.0
+# (https://www.metmuseum.org/about-the-met/policies-and-documents/open-access).
+
+
+instance Met36029 < MDC_C002 {
+  code: ANI013
+  preferred_name.en: "Water-moon Avalokiteshvara"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1914"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met36457 < MDC_C002 {
+  code: ANI014
+  preferred_name.en: "Grapevine in the Wind"
+  definition.en: "Hanging scroll; Hanging scroll; ink on silk; 16th century; The Metropolitan Museum of Art, 1994"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met37145 < MDC_C002 {
+  code: ANI015
+  preferred_name.en: "Night Rain at the Double-Shelf Stand, from the series Eight Parlor Views (Zashiki hakkei)"
+  definition.en: "Print; Woodblock print (first edition); ink and colors on paper, medium-sized print (chuban); ca. 1766; The Metropolitan Museum of Art, 1911"
+  superclass: UkiyoEPrint
+  class_type: ITEM_CLASS
+  category: UkiyoEPrint
+  culture: Japan
+  period: Edo
+}
+
+instance Met39496 < MDC_C002 {
+  code: ANI016
+  preferred_name.en: "Bird-shaped vessel"
+  definition.en: "Vessel; Earthenware; 3rd century; The Metropolitan Museum of Art, 1997"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+}
+
+instance Met39637 < MDC_C002 {
+  code: ANI017
+  preferred_name.en: "Knotted dragon ring"
+  definition.en: "Ring; Jade (nephrite); 3rd century BCE; The Metropolitan Museum of Art, 1985"
+  superclass: Jade
+  class_type: ITEM_CLASS
+  category: Jade
+  culture: China
+  period: Zhou
+}
+
+instance Met39649 < MDC_C002 {
+  code: ANI018
+  preferred_name.en: "Bowl with dragons amid waves"
+  definition.en: "Bowl; Stoneware with carved and incised decoration under celadon glaze (Yue ware); 10th–11th century; The Metropolitan Museum of Art, 1918"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+  period: Song
+}
+
+instance Met39664 < MDC_C002 {
+  code: ANI019
+  preferred_name.en: "Irises at Yatsuhashi (Eight Bridges)"
+  definition.en: "Screen; Pair of six-panel folding screens; ink and color on gold leaf on paper; after 1709; The Metropolitan Museum of Art, 1953"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+  period: Edo
+}
+
+instance Met39666 < MDC_C002 {
+  code: ANI020
+  preferred_name.en: "Jar with dragon"
+  definition.en: "Jar; Porcelain painted with cobalt blue under transparent glaze (Jingdezhen ware); early 15th century; The Metropolitan Museum of Art, 1937"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+  period: Ming
+}
+
+instance Met39668 < MDC_C002 {
+  code: ANI021
+  preferred_name.en: "Old Trees, Level Distance"
+  definition.en: "Handscroll; Handscroll; ink and color on silk; ca. 1080; The Metropolitan Museum of Art, 1981"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Song
+}
+
+instance Met39707 < MDC_C002 {
+  code: ANI022
+  preferred_name.en: "Zaō Gongen"
+  definition.en: "Figure; Gilt bronze with incised decoration; 11th century; The Metropolitan Museum of Art, 1975"
+  superclass: Bronze
+  class_type: ITEM_CLASS
+  category: Bronze
+  culture: Japan
+}
+
+instance Met39799 < MDC_C002 {
+  code: ANI023
+  preferred_name.en: "Under the Wave off Kanagawa (Kanagawa oki nami ura), or The Great Wave, from the series Thirty-six V"
+  definition.en: "Woodblock print; Woodblock print; ink and color on paper; ca. 1830–32; The Metropolitan Museum of Art, 1936"
+  superclass: UkiyoEPrint
+  class_type: ITEM_CLASS
+  category: UkiyoEPrint
+  culture: Japan
+  period: Edo
+}
+
+instance Met39881 < MDC_C002 {
+  code: ANI024
+  preferred_name.en: "Amitabha and Kshitigarba"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; first half of the 14th century; The Metropolitan Museum of Art, 1913"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met39883 < MDC_C002 {
+  code: ANI025
+  preferred_name.en: "Kshitigarbha"
+  definition.en: "Hanging scroll; Hanging scroll; ink, color, and gold on silk; first half of the 14th century; The Metropolitan Museum of Art, 1929"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met39887 < MDC_C002 {
+  code: ANI026
+  preferred_name.en: "Brahma with Attendants and Musicians"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on hemp; late 16th century; The Metropolitan Museum of Art, 1921"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met39888 < MDC_C002 {
+  code: ANI027
+  preferred_name.en: "Wild geese descending to sandbar"
+  definition.en: "Hanging scroll; Hanging scroll; ink on silk; late 15th–early 16th century; The Metropolitan Museum of Art, 1992"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met39889 < MDC_C002 {
+  code: ANI028
+  preferred_name.en: "Portrait of the Great Master Seosan"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; late 17th–18th century; The Metropolitan Museum of Art, 1959"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met39901 < MDC_C002 {
+  code: ANI029
+  preferred_name.en: "Night-Shining White"
+  definition.en: "Handscroll; Handscroll; ink on paper; ca. 750; The Metropolitan Museum of Art, 1977"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Tang
+}
+
+instance Met39915 < MDC_C002 {
+  code: ANI030
+  preferred_name.en: "Summer Mountains"
+  definition.en: "Handscroll; Handscroll; ink and color on silk; ca. 1050; The Metropolitan Museum of Art, 1973"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Song
+}
+
+instance Met39918 < MDC_C002 {
+  code: ANI031
+  preferred_name.en: "Biographies of Lian Po and Lin Xiangru"
+  definition.en: "Handscroll; Handscroll; ink on paper; ca. 1095; The Metropolitan Museum of Art, 1989"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Song
+}
+
+instance Met39936 < MDC_C002 {
+  code: ANI032
+  preferred_name.en: "Finches and bamboo"
+  definition.en: "Handscroll; Handscroll; ink and color on silk; early 12th century; The Metropolitan Museum of Art, 1981"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Song
+}
+
+instance Met39957 < MDC_C002 {
+  code: ANI033
+  preferred_name.en: "Trefoil-shaped covered box with decoration of chrysanthemums"
+  definition.en: "Covered box; Lacquer inlaid with mother-of-pearl and tortoise shell over pigment and brass wire; ca.12th century; The Metropolitan Museum of Art, 1925"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met40055 < MDC_C002 {
+  code: ANI034
+  preferred_name.en: "Emperor Xuanzong's flight to Shu"
+  definition.en: "Hanging scroll; Hanging scroll; ink, color, and gold on silk; mid-12th century; The Metropolitan Museum of Art, 1941"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Song
+}
+
+instance Met40081 < MDC_C002 {
+  code: ANI035
+  preferred_name.en: "Wang Xizhi watching geese"
+  definition.en: "Handscroll; Handscroll; ink, color, and gold on paper; ca. 1295; The Metropolitan Museum of Art, 1973"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Yuan
+}
+
+instance Met40215 < MDC_C002 {
+  code: ANI036
+  preferred_name.en: "Tray with women and boys on a garden terrace"
+  definition.en: "Tray; Carved red lacquer; 14th century; The Metropolitan Museum of Art, 2015"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: China
+  period: Yuan
+}
+
+instance Met40447 < MDC_C002 {
+  code: ANI037
+  preferred_name.en: "Grapevine and Squirrels"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on paper; early 19th century; The Metropolitan Museum of Art, 1987"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met40524 < MDC_C002 {
+  code: ANI038
+  preferred_name.en: "Stationery box decorated with peony scrolls"
+  definition.en: "Stationery box; Lacquer inlaid with mother-of-pearl; brass fittings; 15th–16th century; The Metropolitan Museum of Art, 2015"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: Korea
+  period: Joseon
+}
+
+instance Met40527 < MDC_C002 {
+  code: ANI039
+  preferred_name.en: "Stationery box decorated with peony scrolls"
+  definition.en: "Stationery box; Lacquer inlaid with mother-of-pearl; 18th century; The Metropolitan Museum of Art, 2015"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: Korea
+  period: Joseon
+}
+
+instance Met40528 < MDC_C002 {
+  code: ANI040
+  preferred_name.en: "Clothing box decorated with dragons"
+  definition.en: "Clothing box; Lacquer inlaid with mother-of-pearl, tortoiseshell, and ray skin; 19th century; The Metropolitan Museum of Art, 2015"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: Korea
+  period: Joseon
+}
+
+instance Met42162 < MDC_C002 {
+  code: ANI041
+  preferred_name.en: "Buddha Maitreya (Mile) Altarpiece"
+  definition.en: "Altarpiece; Gilt bronze; dated 524 (5th year of Zhengguang reign); The Metropolitan Museum of Art, 1938"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: China
+}
+
+instance Met42163 < MDC_C002 {
+  code: ANI042
+  preferred_name.en: "Buddha, probably Amitabha"
+  definition.en: "Figure; Dry lacquer with polychrome pigment and gilding; early 7th century; The Metropolitan Museum of Art, 1919"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: China
+  period: Tang
+}
+
+instance Met42178 < MDC_C002 {
+  code: ANI043
+  preferred_name.en: "Female Dancer"
+  definition.en: "Figure; Earthenware with slip and pigment; 2nd century BCE; The Metropolitan Museum of Art, 1992"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+  period: Han
+}
+
+instance Met42229 < MDC_C002 {
+  code: ANI044
+  preferred_name.en: "Vase"
+  definition.en: "Vase; Porcelain with peach-bloom glaze (Jingdezhen ware); 1713–22; The Metropolitan Museum of Art, 1914"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+  period: Qing
+}
+
+instance Met42298 < MDC_C002 {
+  code: ANI045
+  preferred_name.en: "Covered box decorated with chrysanthemums and waterfowl among lotus"
+  definition.en: "Covered box; Stoneware with inlaid design under celadon glaze; 13th century; The Metropolitan Museum of Art, 1911"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met42301 < MDC_C002 {
+  code: ANI046
+  preferred_name.en: "Maebyeong (plum bottle) decorated with cranes and clouds"
+  definition.en: "Vase; Stoneware with inlaid decoration under celadon glaze; second half 12th century; The Metropolitan Museum of Art, 1911"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met42308 < MDC_C002 {
+  code: ANI047
+  preferred_name.en: "Flask-shaped bottle decorated with peonies"
+  definition.en: "Bottle; Buncheong ware with incised and sgraffito design; late 15th century; The Metropolitan Museum of Art, 1986"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Joseon
+}
+
+instance Met42716 < MDC_C002 {
+  code: ANI048
+  preferred_name.en: "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)"
+  definition.en: "Wall painting; Water-based pigment over foundation of clay mixed with straw; ca. 1319; The Metropolitan Museum of Art, 1965"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: China
+  period: Yuan
+}
+
+instance Met42733 < MDC_C002 {
+  code: ANI049
+  preferred_name.en: "Buddha Maitreya (Mile)"
+  definition.en: "Figure; Gilt bronze with traces of pigment; piece-mold cast; dated 486 (10th year of Taihe reign); The Metropolitan Museum of Art, 1926"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: China
+}
+
+instance Met44696 < MDC_C002 {
+  code: ANI050
+  preferred_name.en: "Gibbons in a Landscape"
+  definition.en: "Screen; Pair of six-panel screens; ink on paper; ca. 1570; The Metropolitan Museum of Art, 1992"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+}
+
+instance Met44799 < MDC_C002 {
+  code: ANI051
+  preferred_name.en: "Arhat (Luohan)"
+  definition.en: "Figure; Stoneware with three-color glaze; ca. 1000; The Metropolitan Museum of Art, 1921"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+}
+
+instance Met44859 < MDC_C002 {
+  code: ANI052
+  preferred_name.en: "Sake Ewer (Hisage) with Chrysanthemums and Paulownia Crests in Alternating Fields"
+  definition.en: "Wine ewer; Lacquered wood with gold hiramaki-e and e-nashiji (“pear-skin picture”) on black ground; early 17th century; The Metropolitan Museum of Art, 1980"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: Japan
+}
+
+instance Met44918 < MDC_C002 {
+  code: ANI053
+  preferred_name.en: "Rough Waves"
+  definition.en: "Screen; Two-panel folding screen; ink, color, and gold leaf on paper; ca. 1704–9; The Metropolitan Museum of Art, 1926"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+  period: Edo
+}
+
+instance Met44987 < MDC_C002 {
+  code: ANI054
+  preferred_name.en: "Box decorated with auspicious symbols"
+  definition.en: "Box; Lacquered wood inlaid with flattened and painted ox horn; 19th century; The Metropolitan Museum of Art, 2015"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: Korea
+  period: Joseon
+}
+
+instance Met45428 < MDC_C002 {
+  code: ANI055
+  preferred_name.en: "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)"
+  definition.en: "Handscrolls; Set of five handscrolls; ink, color, and cut gold leaf (kirikane) on paper; late 13th century; The Metropolitan Museum of Art, 1925"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+}
+
+instance Met45636 < MDC_C002 {
+  code: ANI056
+  preferred_name.en: "Woods and Valleys of Mount Yu"
+  definition.en: "Hanging scroll; Hanging scroll; ink on paper; dated 1372; The Metropolitan Museum of Art, 1973"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Yuan
+}
+
+instance Met48948 < MDC_C002 {
+  code: ANI057
+  preferred_name.en: "The Sixteen Luohans"
+  definition.en: "Handscroll; Handscroll; ink and color on paper; dated 1591; The Metropolitan Museum of Art, 1986"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Ming
+}
+
+instance Met49156 < MDC_C002 {
+  code: ANI058
+  preferred_name.en: "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai"
+  definition.en: "Handscroll; Handscroll; ink and color on silk; datable to 1698; The Metropolitan Museum of Art, 1979"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Qing
+}
+
+instance Met50325 < MDC_C002 {
+  code: ANI059
+  preferred_name.en: "Rafter finial in the shape of a dragon’s head and wind chime"
+  definition.en: "Finial and chime; Gilt bronze; 10th century; The Metropolitan Museum of Art, 1999"
+  superclass: Bronze
+  class_type: ITEM_CLASS
+  category: Bronze
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met50342 < MDC_C002 {
+  code: ANI060
+  preferred_name.en: "Small Dish (Kozara) with Three Jars"
+  definition.en: "Dish; Porcelain with cobalt blue under transparent glaze and polychrome enamels over the glaze (Hizen ware, Nabeshima type); 1680–90s; The Metropolitan Museum of Art, 1975"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Japan
+  period: Edo
+}
+
+instance Met50356 < MDC_C002 {
+  code: ANI061
+  preferred_name.en: "Wine Ewer with Chrysanthemums and Lotus Flowers"
+  definition.en: "Ewer; Stoneware with inlaid decoration under celadon glaze; first half of the 13th century; The Metropolitan Museum of Art, 1913"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met50360 < MDC_C002 {
+  code: ANI062
+  preferred_name.en: "Water-Moon Avalokiteshvara"
+  definition.en: "Hanging scroll; Hanging scroll; ink, color, and gold on silk; 14th century; The Metropolitan Museum of Art, 1929"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met50444 < MDC_C002 {
+  code: ANI063
+  preferred_name.en: "Mirror decorated with figures in a landscape"
+  definition.en: "Mirror; Bronze; The Metropolitan Museum of Art, 1925"
+  superclass: Bronze
+  class_type: ITEM_CLASS
+  category: Bronze
+  culture: Korea
+  period: Goryeo
+}
+
+instance Met50486 < MDC_C002 {
+  code: ANI064
+  preferred_name.en: "Bamboo in the Wind"
+  definition.en: "Hanging scroll; Hanging scroll; ink on silk with gold on colophon; early 17th century; The Metropolitan Museum of Art, 2015"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met50897 < MDC_C002 {
+  code: ANI065
+  preferred_name.en: "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)"
+  definition.en: "Hanging scrolls; Pair of hanging scrolls; ink on silk; ca. 1450–1500; The Metropolitan Museum of Art, 1987"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met53176 < MDC_C002 {
+  code: ANI066
+  preferred_name.en: "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)"
+  definition.en: "Figure; Japanese cypress with lacquer, color, gold, cut gold leaf (kirikane), and inlaid crystal eyes; early 13th century; The Metropolitan Museum of Art, 2015"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: Japan
+}
+
+instance Met59669 < MDC_C002 {
+  code: ANI067
+  preferred_name.en: "Portrait of Shun'oku Myōha"
+  definition.en: "Hanging scroll; Hanging scroll; ink, color, and gold on silk; ca. 1383; The Metropolitan Museum of Art, 2007"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+}
+
+instance Met60870 < MDC_C002 {
+  code: ANI068
+  preferred_name.en: "Sutra box with dragons amid clouds"
+  definition.en: "Sutra box; Red lacquer, incised decoration, gold inlay, damascened brass lock and key; The Metropolitan Museum of Art, 2001"
+  superclass: Lacquer
+  class_type: ITEM_CLASS
+  category: Lacquer
+  culture: China
+  period: Ming
+}
+
+instance Met65397 < MDC_C002 {
+  code: ANI069
+  preferred_name.en: "Pensive bodhisattva"
+  definition.en: "Figure; Gilt bronze; mid-7th century; The Metropolitan Museum of Art, 2003"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: Korea
+}
+
+instance Met72307 < MDC_C002 {
+  code: ANI070
+  preferred_name.en: "Bowl with inscription and chrysanthemums and tortoiseshell decoration"
+  definition.en: "Bowl; Buncheong ware with stamped design; mid-15th century; The Metropolitan Museum of Art, 2003"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Joseon
+}
+
+instance Met72485 < MDC_C002 {
+  code: ANI071
+  preferred_name.en: "Seated bodhisattva (left attendant of a triad)"
+  definition.en: "Statue; Gilt wood; ca. mid-17th century; The Metropolitan Museum of Art, 2015"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: Korea
+  period: Joseon
+}
+
+instance Met74448 < MDC_C002 {
+  code: ANI072
+  preferred_name.en: "Gathering of government officials"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1551; The Metropolitan Museum of Art, 2008"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met74813 < MDC_C002 {
+  code: ANI073
+  preferred_name.en: "Shakyamuni triad"
+  definition.en: "Hanging scroll; Hanging scroll; color and gold on silk; 1565; The Metropolitan Museum of Art, 2015"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met76084 < MDC_C002 {
+  code: ANI074
+  preferred_name.en: "The Bodhisattva Jizō"
+  definition.en: "Statue; Japanese cypress wood (hinoki) with polychrome pigments, gold paint (kindei), cut gold leaf (kirikane), and rock-crystal eyes; 1291; The Metropolitan Museum of Art, 2023"
+  superclass: BuddhistSculpture
+  class_type: ITEM_CLASS
+  category: BuddhistSculpture
+  culture: Japan
+}
+
+instance Met76114 < MDC_C002 {
+  code: ANI075
+  preferred_name.en: "Dragon jar"
+  definition.en: "Jar; Porcelain with underglaze cobalt-blue design; second half 18th century; The Metropolitan Museum of Art, 2010"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Joseon
+}
+
+instance Met76974 < MDC_C002 {
+  code: ANI076
+  preferred_name.en: "Ritual Altar Set"
+  definition.en: "Altar set; Bronze; late 11th century BCE; The Metropolitan Museum of Art, 1924"
+  superclass: Bronze
+  class_type: ITEM_CLASS
+  category: Bronze
+  culture: China
+  period: Shang
+}
+
+instance Met656430 < MDC_C002 {
+  code: ANI077
+  preferred_name.en: "Portrait of Yun Dongseom (1710–1795)"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; ca. 1790–1805; The Metropolitan Museum of Art, 2014"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met775525 < MDC_C002 {
+  code: ANI078
+  preferred_name.en: "Sitting boy"
+  definition.en: "Figure; Earthenware with slip; 12th century; The Metropolitan Museum of Art, 2024"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+  period: Song
+}
+
+instance Met816189 < MDC_C002 {
+  code: ANI079
+  preferred_name.en: "”Abiding nowhere, the awakened mind arises”"
+  definition.en: "Hanging scroll; Hanging scroll; ink on paper; early to mid-14th century; The Metropolitan Museum of Art, 2018"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+}
+
+instance Met828680 < MDC_C002 {
+  code: ANI080
+  preferred_name.en: "Cosmetic Box (Tebako) with Chrysanthemum Flowers"
+  definition.en: "Cosmetic box; Lacquered wood with gold, silver takamaki-e, hiramaki-e, gold, silver foil application on nashiji ground; gilt bronze fittings; first half of the 15th century; The Metropolitan Museum of Art, 2019"
+  superclass: Bronze
+  class_type: ITEM_CLASS
+  category: Bronze
+  culture: Japan
+}
+
+instance Met853194 < MDC_C002 {
+  code: ANI081
+  preferred_name.en: "Daoist Master Fei Zhangfang"
+  definition.en: "Hanging scroll; Hanging scroll; ink on paper; ca. 1555–61; The Metropolitan Museum of Art, 2022"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+}
+
+instance Met856282 < MDC_C002 {
+  code: ANI082
+  preferred_name.en: "Table screen with landscape"
+  definition.en: "Table screen; Cloisonné enamel on copper alloy, wood frame and stand; second half 15th century; The Metropolitan Museum of Art, 2022"
+  superclass: CloisonneEnamel
+  class_type: ITEM_CLASS
+  category: CloisonneEnamel
+  culture: China
+  period: Ming
+}
+
+instance Met857205 < MDC_C002 {
+  code: ANI083
+  preferred_name.en: "Streams and Mountains without End"
+  definition.en: "Handscroll; Handscroll; ink on paper; ca. 1710; The Metropolitan Museum of Art, 2022"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Qing
+}
+
+instance Met860960 < MDC_C002 {
+  code: ANI084
+  preferred_name.en: "Hawk at Sunrise"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; second half 18th century–first half 19th century; The Metropolitan Museum of Art, 2022"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Korea
+  period: Joseon
+}
+
+instance Met897883 < MDC_C002 {
+  code: ANI085
+  preferred_name.en: "Tripod incense burner with archaistic patterns"
+  definition.en: "Incense burner; Stoneware with molded decoration under celadon glaze (Yaozhou ware); 12th century; The Metropolitan Museum of Art, 2024"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: China
+}
+
+instance Met901857 < MDC_C002 {
+  code: ANI086
+  preferred_name.en: "Covered Vessel (Futamono) with Plum Tree"
+  definition.en: "Vessel; Stoneware with iron brown under transparent glaze and copper-green glaze (Mino ware, Oribe type); early 17th century; The Metropolitan Museum of Art, 2023"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Japan
+}
+
+instance Met903396 < MDC_C002 {
+  code: ANI087
+  preferred_name.en: "Sutra Box (Kyōbako) with Sun and Clouds"
+  definition.en: "Sutra box; Lacquered wood with gold hiramaki-e; gilt bronze fittings; late 14th–early 15th century; The Metropolitan Museum of Art, 2024"
+  superclass: Bronze
+  class_type: ITEM_CLASS
+  category: Bronze
+  culture: Japan
+}
+
+instance Met910524 < MDC_C002 {
+  code: ANI088
+  preferred_name.en: "Openwork jar with peonies"
+  definition.en: "Jar; Porcelain; late 18th–early 19th century; The Metropolitan Museum of Art, 2024"
+  superclass: Ceramics
+  class_type: ITEM_CLASS
+  category: Ceramics
+  culture: Korea
+  period: Joseon
+}
+
+instance Met910543 < MDC_C002 {
+  code: ANI089
+  preferred_name.en: "Woman at her dressing table"
+  definition.en: "Hanging scroll; Hanging scroll; ink and color on silk; early 18th century; The Metropolitan Museum of Art, 2024"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: China
+  period: Qing
+}
+
+instance Met910555 < MDC_C002 {
+  code: ANI090
+  preferred_name.en: "The Thirty-Six Poetic Immortals"
+  definition.en: "Folding screens; Pair of six-panel folding screens; ink, color, gold, and silver on paper; early 17th century; The Metropolitan Museum of Art, 2024"
+  superclass: PaintingCalligraphy
+  class_type: ITEM_CLASS
+  category: PaintingCalligraphy
+  culture: Japan
+}
+# ==== END MET MUSEUM BULK REGISTRY ====
